@@ -32,10 +32,21 @@ OUTPUT_FILE = ROOT / "data.json"
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0 Safari/537.36"
+        "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15"
     ),
-    "Accept": "text/html,application/xhtml+xml",
-    "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
+    "Accept": (
+        "text/html,application/xhtml+xml,application/xml;q=0.9,"
+        "image/avif,image/webp,*/*;q=0.8"
+    ),
+    "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
 }
 
 MONTHS_FR = {
@@ -58,15 +69,20 @@ TIME_PATTERN = re.compile(r"\b(\d{1,2}:\d{2})\b")
 
 def fetch(url: str, retries: int = 3) -> str | None:
     """Fetch URL with retries and exponential backoff."""
+    import random
     for attempt in range(retries):
         try:
             resp = requests.get(url, headers=HEADERS, timeout=20)
+            print(f"  HTTP {resp.status_code} ({len(resp.text)} chars)", file=sys.stderr)
             if resp.status_code == 200:
+                # Diagnostic: log first 200 chars to spot blocking pages
+                snippet = resp.text[:200].replace("\n", " ").strip()
+                print(f"  Début HTML: {snippet[:160]!r}", file=sys.stderr)
                 return resp.text
-            print(f"  HTTP {resp.status_code} on {url}", file=sys.stderr)
+            print(f"  ! HTTP {resp.status_code} on {url}", file=sys.stderr)
         except requests.RequestException as e:
             print(f"  Network error ({attempt + 1}/{retries}): {e}", file=sys.stderr)
-        time.sleep(2 ** attempt)
+        time.sleep(2 ** attempt + random.uniform(0, 1))
     return None
 
 
@@ -197,7 +213,7 @@ def main():
         meta["has_data"] = has_data
         cinemas_meta.append(meta)
         all_screenings.extend(screenings)
-        time.sleep(0.8)  # politesse envers offi.fr
+        import random; time.sleep(1.5 + random.uniform(0, 2.5))  # politesse + un peu aléatoire
 
     out = {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
