@@ -1,0 +1,26 @@
+{
+  "name": "Ciné&quartier · Latin",
+  "short_name": "Ciné&quartier",
+  "description": "Programme des cinémas indépendants du Quartier latin, mis à jour quotidiennement.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4ede0",
+  "theme_color": "#1a1410",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

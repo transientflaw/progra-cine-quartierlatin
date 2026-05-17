@@ -1,0 +1,1468 @@
+{
+  "generated_at": "2026-05-17",
+  "source": "L'Officiel des spectacles (offi.fr)",
+  "cinemas": [
+    {
+      "id": "champo",
+      "name": "Le Champo",
+      "short": "Champo",
+      "color": "#c8331b",
+      "lat": 48.8505,
+      "lng": 2.3441,
+      "address": "51 rue des Écoles, 75005",
+      "has_data": true
+    },
+    {
+      "id": "filmotheque",
+      "name": "Filmothèque du Q. Latin",
+      "short": "Filmothèque",
+      "color": "#b08838",
+      "lat": 48.8501,
+      "lng": 2.3437,
+      "address": "9 rue Champollion, 75005",
+      "has_data": true
+    },
+    {
+      "id": "reflet",
+      "name": "Reflet Médicis",
+      "short": "Reflet",
+      "color": "#3a5a40",
+      "lat": 48.8497,
+      "lng": 2.3434,
+      "address": "3 rue Champollion, 75005",
+      "has_data": true
+    },
+    {
+      "id": "troisLux",
+      "name": "Les 3 Luxembourg",
+      "short": "3 Lux",
+      "color": "#7a3d8f",
+      "lat": 48.8489,
+      "lng": 2.3393,
+      "address": "67 rue Monsieur-le-Prince, 75006",
+      "has_data": false
+    },
+    {
+      "id": "grandAction",
+      "name": "Grand Action",
+      "short": "Grand Action",
+      "color": "#1d4e7c",
+      "lat": 48.8484,
+      "lng": 2.3525,
+      "address": "5 rue des Écoles, 75005",
+      "has_data": false
+    },
+    {
+      "id": "galande",
+      "name": "Studio Galande",
+      "short": "Galande",
+      "color": "#456b48",
+      "lat": 48.8523,
+      "lng": 2.347,
+      "address": "42 rue Galande, 75005",
+      "has_data": false
+    },
+    {
+      "id": "laClef",
+      "name": "La Clef",
+      "short": "La Clef",
+      "color": "#9b2c4e",
+      "lat": 48.8413,
+      "lng": 2.3528,
+      "address": "34 rue Daubenton, 75005",
+      "has_data": false
+    },
+    {
+      "id": "nouvelOdeon",
+      "name": "Nouvel Odéon",
+      "short": "Nv. Odéon",
+      "color": "#2d5475",
+      "lat": 48.8513,
+      "lng": 2.3401,
+      "address": "6 rue de l'École de Médecine, 75006",
+      "has_data": false
+    },
+    {
+      "id": "ecoles",
+      "name": "Écoles Cinéma Club",
+      "short": "Écoles",
+      "color": "#c25a1f",
+      "lat": 48.8486,
+      "lng": 2.352,
+      "address": "23 rue des Écoles, 75005",
+      "has_data": false
+    },
+    {
+      "id": "pantheon",
+      "name": "Cinéma du Panthéon",
+      "short": "Panthéon",
+      "color": "#3d3d6b",
+      "lat": 48.8463,
+      "lng": 2.3434,
+      "address": "13 rue Victor-Cousin, 75005",
+      "has_data": false
+    },
+    {
+      "id": "christine",
+      "name": "Christine Cinéma Club",
+      "short": "Christine",
+      "color": "#9b6c4e",
+      "lat": 48.8541,
+      "lng": 2.3401,
+      "address": "4 rue Christine, 75006",
+      "has_data": false
+    },
+    {
+      "id": "standre",
+      "name": "Saint-André des Arts",
+      "short": "St-André",
+      "color": "#7a3d4c",
+      "lat": 48.8531,
+      "lng": 2.3413,
+      "address": "30 rue Saint-André des Arts, 75006",
+      "has_data": false
+    }
+  ],
+  "screenings": [
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-17",
+      "hour": 21,
+      "minute": 15,
+      "title": "Dancer in the Dark",
+      "genre": "Film musical",
+      "duration": "2h19",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-17",
+      "hour": 13,
+      "minute": 50,
+      "title": "Dune",
+      "genre": "Science-fiction",
+      "duration": "2h17",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-17",
+      "hour": 16,
+      "minute": 20,
+      "title": "Dune",
+      "genre": "Science-fiction",
+      "duration": "2h17",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-17",
+      "hour": 18,
+      "minute": 50,
+      "title": "Dune",
+      "genre": "Science-fiction",
+      "duration": "2h17",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-17",
+      "hour": 21,
+      "minute": 20,
+      "title": "Dune",
+      "genre": "Science-fiction",
+      "duration": "2h17",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-17",
+      "hour": 11,
+      "minute": 45,
+      "title": "Le Goût des autres",
+      "genre": "Comédie dramatique",
+      "duration": "1h52",
+      "lang": "VF"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-17",
+      "hour": 13,
+      "minute": 55,
+      "title": "La Planète sauvage",
+      "genre": "Animation",
+      "duration": "1h12",
+      "lang": "VF"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-17",
+      "hour": 11,
+      "minute": 50,
+      "title": "La ragazza di Bube",
+      "genre": "Drame",
+      "duration": "1h49",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-17",
+      "hour": 17,
+      "minute": 0,
+      "title": "La ragazza di Bube",
+      "genre": "Drame",
+      "duration": "1h49",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-17",
+      "hour": 19,
+      "minute": 10,
+      "title": "La ragazza di Bube",
+      "genre": "Drame",
+      "duration": "1h49",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-17",
+      "hour": 15,
+      "minute": 20,
+      "title": "Remparts d'argile",
+      "genre": "Drame",
+      "duration": "1h27",
+      "lang": "VF"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-18",
+      "hour": 21,
+      "minute": 10,
+      "title": "À tombeau ouvert",
+      "genre": "Comédie dramatique",
+      "duration": "2h01",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-18",
+      "hour": 13,
+      "minute": 50,
+      "title": "Dune",
+      "genre": "Science-fiction",
+      "duration": "2h17",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-18",
+      "hour": 16,
+      "minute": 20,
+      "title": "Dune",
+      "genre": "Science-fiction",
+      "duration": "2h17",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-18",
+      "hour": 18,
+      "minute": 50,
+      "title": "Dune",
+      "genre": "Science-fiction",
+      "duration": "2h17",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-18",
+      "hour": 21,
+      "minute": 20,
+      "title": "Dune",
+      "genre": "Science-fiction",
+      "duration": "2h17",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-18",
+      "hour": 11,
+      "minute": 45,
+      "title": "Fenêtre sur cour",
+      "genre": "Drame",
+      "duration": "1h50",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-18",
+      "hour": 15,
+      "minute": 20,
+      "title": "Ginza Cosmetics",
+      "genre": "Comédie dramatique",
+      "duration": "1h27",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-18",
+      "hour": 13,
+      "minute": 55,
+      "title": "Monte là-dessus !",
+      "genre": "Comédie",
+      "duration": "1h07",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-18",
+      "hour": 17,
+      "minute": 0,
+      "title": "La ragazza di Bube",
+      "genre": "Drame",
+      "duration": "1h49",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-18",
+      "hour": 19,
+      "minute": 10,
+      "title": "La ragazza di Bube",
+      "genre": "Drame",
+      "duration": "1h49",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-19",
+      "hour": 13,
+      "minute": 50,
+      "title": "Dune",
+      "genre": "Science-fiction",
+      "duration": "2h17",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-19",
+      "hour": 16,
+      "minute": 20,
+      "title": "Dune",
+      "genre": "Science-fiction",
+      "duration": "2h17",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-19",
+      "hour": 18,
+      "minute": 50,
+      "title": "Dune",
+      "genre": "Science-fiction",
+      "duration": "2h17",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-19",
+      "hour": 21,
+      "minute": 20,
+      "title": "Dune",
+      "genre": "Science-fiction",
+      "duration": "2h17",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-19",
+      "hour": 21,
+      "minute": 20,
+      "title": "L'État des choses",
+      "genre": "Comédie dramatique",
+      "duration": "2h01",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-19",
+      "hour": 15,
+      "minute": 30,
+      "title": "Ginza Cosmetics",
+      "genre": "Comédie dramatique",
+      "duration": "1h27",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-21",
+      "hour": 11,
+      "minute": 45,
+      "title": "Le Goût des autres",
+      "genre": "Comédie dramatique",
+      "duration": "1h52",
+      "lang": "VF"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-21",
+      "hour": 17,
+      "minute": 10,
+      "title": "La ragazza di Bube",
+      "genre": "Drame",
+      "duration": "1h49",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-21",
+      "hour": 19,
+      "minute": 15,
+      "title": "La ragazza di Bube",
+      "genre": "Drame",
+      "duration": "1h49",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-21",
+      "hour": 12,
+      "minute": 0,
+      "title": "Remparts d'argile",
+      "genre": "Drame",
+      "duration": "1h27",
+      "lang": "VF"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-21",
+      "hour": 14,
+      "minute": 0,
+      "title": "Vive le sport !",
+      "genre": "Comédie",
+      "duration": "1h17",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-21",
+      "hour": 20,
+      "minute": 0,
+      "title": "Les Goûteuses d'Hitler",
+      "genre": "Historique",
+      "duration": "2h03",
+      "lang": "VF"
+    },
+    {
+      "cinema_id": "champo",
+      "date": "2026-05-21",
+      "hour": 19,
+      "minute": 45,
+      "title": "Marvel : Le Consultant",
+      "genre": "Divers",
+      "duration": "",
+      "lang": "VF"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-17",
+      "hour": 16,
+      "minute": 0,
+      "title": "La Ballade de Narayama",
+      "genre": "Drame",
+      "duration": "2h10",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-17",
+      "hour": 12,
+      "minute": 30,
+      "title": "Dao",
+      "genre": "Drame",
+      "duration": "3h05",
+      "lang": ""
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-17",
+      "hour": 16,
+      "minute": 0,
+      "title": "L'Héritage",
+      "genre": "Drame",
+      "duration": "1h35",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-17",
+      "hour": 18,
+      "minute": 0,
+      "title": "L'Héritage",
+      "genre": "Drame",
+      "duration": "1h35",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-17",
+      "hour": 11,
+      "minute": 0,
+      "title": "L'Œuvre invisible",
+      "genre": "Documentaire",
+      "duration": "1h11",
+      "lang": ""
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-17",
+      "hour": 20,
+      "minute": 0,
+      "title": "La Persécution",
+      "genre": "Drame",
+      "duration": "1h29",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-17",
+      "hour": 21,
+      "minute": 15,
+      "title": "Pluie noire",
+      "genre": "Drame",
+      "duration": "2h03",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-17",
+      "hour": 21,
+      "minute": 10,
+      "title": "La Preuve d'un homme",
+      "genre": "Thriller",
+      "duration": "2h13",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-17",
+      "hour": 13,
+      "minute": 0,
+      "title": "Sailor Suit and Machine Gun",
+      "genre": "Action / Aventure",
+      "duration": "1h52",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-17",
+      "hour": 15,
+      "minute": 45,
+      "title": "Sailor Suit and Machine Gun",
+      "genre": "Action / Aventure",
+      "duration": "1h52",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-17",
+      "hour": 18,
+      "minute": 20,
+      "title": "Survie en pleine nature",
+      "genre": "Action / Aventure",
+      "duration": "2h23",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-17",
+      "hour": 11,
+      "minute": 20,
+      "title": "Le Vagabond de Tokyo",
+      "genre": "Action / Aventure",
+      "duration": "1h22",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-17",
+      "hour": 18,
+      "minute": 30,
+      "title": "La vengeance est à moi",
+      "genre": "Drame",
+      "duration": "2h20",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-17",
+      "hour": 14,
+      "minute": 0,
+      "title": "Le Viol (le cas Anders)",
+      "genre": "Drame",
+      "duration": "1h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-17",
+      "hour": 21,
+      "minute": 55,
+      "title": "Le Viol (le cas Anders)",
+      "genre": "Drame",
+      "duration": "1h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-17",
+      "hour": 11,
+      "minute": 0,
+      "title": "Wives 3, elles ont 50 ans !",
+      "genre": "Comédie dramatique",
+      "duration": "1h16",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-18",
+      "hour": 13,
+      "minute": 20,
+      "title": "La Ballade de Narayama",
+      "genre": "Drame",
+      "duration": "2h10",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-18",
+      "hour": 16,
+      "minute": 0,
+      "title": "Chasse à l'homme : La Rivière de rage",
+      "genre": "Action / Aventure",
+      "duration": "2h31",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-18",
+      "hour": 10,
+      "minute": 30,
+      "title": "Dao",
+      "genre": "Drame",
+      "duration": "3h05",
+      "lang": ""
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-18",
+      "hour": 21,
+      "minute": 0,
+      "title": "Les Guerriers de l'Apocalypse",
+      "genre": "Guerre",
+      "duration": "2h19",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-18",
+      "hour": 18,
+      "minute": 0,
+      "title": "L'Héritage",
+      "genre": "Drame",
+      "duration": "1h35",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-18",
+      "hour": 20,
+      "minute": 0,
+      "title": "L'Héritage",
+      "genre": "Drame",
+      "duration": "1h35",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-18",
+      "hour": 11,
+      "minute": 0,
+      "title": "Histoire d'une prostituée",
+      "genre": "Drame",
+      "duration": "1h36",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-18",
+      "hour": 14,
+      "minute": 0,
+      "title": "La Persécution",
+      "genre": "Drame",
+      "duration": "1h29",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-18",
+      "hour": 21,
+      "minute": 55,
+      "title": "La Persécution",
+      "genre": "Drame",
+      "duration": "1h29",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-18",
+      "hour": 21,
+      "minute": 15,
+      "title": "Pluie noire",
+      "genre": "Drame",
+      "duration": "2h03",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-18",
+      "hour": 13,
+      "minute": 30,
+      "title": "Sailor Suit and Machine Gun",
+      "genre": "Action / Aventure",
+      "duration": "1h52",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-18",
+      "hour": 18,
+      "minute": 45,
+      "title": "Sailor Suit and Machine Gun",
+      "genre": "Action / Aventure",
+      "duration": "1h52",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-18",
+      "hour": 10,
+      "minute": 45,
+      "title": "La vengeance est à moi",
+      "genre": "Drame",
+      "duration": "2h20",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-18",
+      "hour": 16,
+      "minute": 0,
+      "title": "La vengeance est à moi",
+      "genre": "Drame",
+      "duration": "2h20",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-18",
+      "hour": 16,
+      "minute": 0,
+      "title": "Le Viol (le cas Anders)",
+      "genre": "Drame",
+      "duration": "1h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-18",
+      "hour": 19,
+      "minute": 0,
+      "title": "Wives 3, elles ont 50 ans !",
+      "genre": "Comédie dramatique",
+      "duration": "1h16",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-19",
+      "hour": 11,
+      "minute": 0,
+      "title": "La Ballade de Narayama",
+      "genre": "Drame",
+      "duration": "2h10",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-19",
+      "hour": 17,
+      "minute": 0,
+      "title": "Dao",
+      "genre": "Drame",
+      "duration": "3h05",
+      "lang": ""
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-19",
+      "hour": 14,
+      "minute": 0,
+      "title": "L'Héritage",
+      "genre": "Drame",
+      "duration": "1h35",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-19",
+      "hour": 21,
+      "minute": 55,
+      "title": "L'Héritage",
+      "genre": "Drame",
+      "duration": "1h35",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-19",
+      "hour": 16,
+      "minute": 0,
+      "title": "La Persécution",
+      "genre": "Drame",
+      "duration": "1h29",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-19",
+      "hour": 14,
+      "minute": 0,
+      "title": "Pluie noire",
+      "genre": "Drame",
+      "duration": "2h03",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-19",
+      "hour": 13,
+      "minute": 10,
+      "title": "La Preuve d'un homme",
+      "genre": "Thriller",
+      "duration": "2h13",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-19",
+      "hour": 18,
+      "minute": 45,
+      "title": "Sailor Suit and Machine Gun",
+      "genre": "Action / Aventure",
+      "duration": "1h52",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-19",
+      "hour": 21,
+      "minute": 15,
+      "title": "Sailor Suit and Machine Gun",
+      "genre": "Action / Aventure",
+      "duration": "1h52",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-19",
+      "hour": 15,
+      "minute": 45,
+      "title": "Survie en pleine nature",
+      "genre": "Action / Aventure",
+      "duration": "2h23",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-19",
+      "hour": 20,
+      "minute": 30,
+      "title": "La vengeance est à moi",
+      "genre": "Drame",
+      "duration": "2h20",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-19",
+      "hour": 18,
+      "minute": 0,
+      "title": "Le Viol (le cas Anders)",
+      "genre": "Drame",
+      "duration": "1h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-19",
+      "hour": 20,
+      "minute": 0,
+      "title": "Le Viol (le cas Anders)",
+      "genre": "Drame",
+      "duration": "1h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-19",
+      "hour": 11,
+      "minute": 0,
+      "title": "Wives 2, dix ans après",
+      "genre": "Comédie dramatique",
+      "duration": "1h28",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "reflet",
+      "date": "2026-05-21",
+      "hour": 20,
+      "minute": 0,
+      "title": "Arrebato",
+      "genre": "Drame",
+      "duration": "1h45",
+      "lang": ""
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-17",
+      "hour": 13,
+      "minute": 30,
+      "title": "A Scene at the Sea",
+      "genre": "Comédie dramatique",
+      "duration": "1h41",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-17",
+      "hour": 13,
+      "minute": 30,
+      "title": "Au hasard Balthazar",
+      "genre": "Drame",
+      "duration": "1h35",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-17",
+      "hour": 22,
+      "minute": 15,
+      "title": "Belladonna",
+      "genre": "Animation",
+      "duration": "1h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-17",
+      "hour": 20,
+      "minute": 20,
+      "title": "Chungking Express",
+      "genre": "Comédie dramatique",
+      "duration": "1h38",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-17",
+      "hour": 17,
+      "minute": 20,
+      "title": "Cruising",
+      "genre": "Thriller",
+      "duration": "1h40",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-17",
+      "hour": 19,
+      "minute": 30,
+      "title": "Eléna et les hommes",
+      "genre": "Comédie dramatique",
+      "duration": "1h35",
+      "lang": ""
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-17",
+      "hour": 21,
+      "minute": 30,
+      "title": "Husbands",
+      "genre": "Comédie dramatique",
+      "duration": "2h11",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-17",
+      "hour": 19,
+      "minute": 0,
+      "title": "Little Feet",
+      "genre": "Drame",
+      "duration": "1h04",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-17",
+      "hour": 17,
+      "minute": 15,
+      "title": "Sweet Thing",
+      "genre": "Comédie dramatique",
+      "duration": "1h31",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-17",
+      "hour": 15,
+      "minute": 20,
+      "title": "Too late blues",
+      "genre": "Drame",
+      "duration": "1h43",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-17",
+      "hour": 13,
+      "minute": 30,
+      "title": "Uniformes et jupon court",
+      "genre": "Comédie",
+      "duration": "1h40",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-18",
+      "hour": 13,
+      "minute": 30,
+      "title": "Accattone",
+      "genre": "Drame",
+      "duration": "1h57",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-18",
+      "hour": 22,
+      "minute": 10,
+      "title": "Eternal Sunshine of the Spotless Mind",
+      "genre": "Comédie dramatique",
+      "duration": "1h48",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-18",
+      "hour": 19,
+      "minute": 30,
+      "title": "Lilith",
+      "genre": "Drame",
+      "duration": "1h54",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-18",
+      "hour": 15,
+      "minute": 35,
+      "title": "Little Feet",
+      "genre": "Drame",
+      "duration": "1h04",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-18",
+      "hour": 22,
+      "minute": 0,
+      "title": "Lost in Translation",
+      "genre": "Comédie dramatique",
+      "duration": "1h42",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-18",
+      "hour": 19,
+      "minute": 30,
+      "title": "Le Loup-garou de Londres",
+      "genre": "Fantastique",
+      "duration": "1h37",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-18",
+      "hour": 15,
+      "minute": 40,
+      "title": "Sabrina",
+      "genre": "Comédie",
+      "duration": "1h53",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-18",
+      "hour": 16,
+      "minute": 50,
+      "title": "Soy Cuba",
+      "genre": "Drame",
+      "duration": "2h21",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-18",
+      "hour": 17,
+      "minute": 45,
+      "title": "Sweet Thing",
+      "genre": "Comédie dramatique",
+      "duration": "1h31",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-18",
+      "hour": 13,
+      "minute": 30,
+      "title": "Témoin à charge",
+      "genre": "Drame",
+      "duration": "1h54",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-19",
+      "hour": 15,
+      "minute": 0,
+      "title": "Hana-bi",
+      "genre": "Drame",
+      "duration": "1h39",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-19",
+      "hour": 13,
+      "minute": 30,
+      "title": "L'Invasion des profanateurs de sépultures",
+      "genre": "Fantastique",
+      "duration": "1h20",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-19",
+      "hour": 18,
+      "minute": 35,
+      "title": "Little Feet",
+      "genre": "Drame",
+      "duration": "1h04",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-19",
+      "hour": 17,
+      "minute": 30,
+      "title": "Médée",
+      "genre": "Drame",
+      "duration": "1h58",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-19",
+      "hour": 13,
+      "minute": 30,
+      "title": "Mouchette",
+      "genre": "Drame",
+      "duration": "1h21",
+      "lang": ""
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-19",
+      "hour": 21,
+      "minute": 30,
+      "title": "Shutter Island",
+      "genre": "Thriller",
+      "duration": "2h17",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-19",
+      "hour": 16,
+      "minute": 50,
+      "title": "Sweet Thing",
+      "genre": "Comédie dramatique",
+      "duration": "1h31",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-19",
+      "hour": 15,
+      "minute": 0,
+      "title": "Vol au-dessus d'un nid de coucou",
+      "genre": "Drame",
+      "duration": "2h13",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-19",
+      "hour": 19,
+      "minute": 50,
+      "title": "Vol au-dessus d'un nid de coucou",
+      "genre": "Drame",
+      "duration": "2h13",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-19",
+      "hour": 22,
+      "minute": 10,
+      "title": "Whiplash",
+      "genre": "Drame",
+      "duration": "1h45",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-20",
+      "hour": 13,
+      "minute": 30,
+      "title": "L'Année dernière à Marienbad",
+      "genre": "Drame",
+      "duration": "1h34",
+      "lang": ""
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-20",
+      "hour": 13,
+      "minute": 30,
+      "title": "Les Dames du bois de Boulogne",
+      "genre": "Drame",
+      "duration": "1h21",
+      "lang": ""
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-20",
+      "hour": 21,
+      "minute": 20,
+      "title": "Eyes Wide Shut",
+      "genre": "Comédie dramatique",
+      "duration": "2h39",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-20",
+      "hour": 15,
+      "minute": 10,
+      "title": "L'Homme des hautes plaines",
+      "genre": "Western",
+      "duration": "1h45",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-20",
+      "hour": 17,
+      "minute": 40,
+      "title": "In the Mood for Love",
+      "genre": "Drame",
+      "duration": "1h34",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-20",
+      "hour": 22,
+      "minute": 30,
+      "title": "Irréversible",
+      "genre": "Drame",
+      "duration": "1h37",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-20",
+      "hour": 17,
+      "minute": 10,
+      "title": "Little Feet",
+      "genre": "Drame",
+      "duration": "1h04",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-20",
+      "hour": 19,
+      "minute": 30,
+      "title": "Svastika",
+      "genre": "Drame",
+      "duration": "1h30",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-20",
+      "hour": 18,
+      "minute": 25,
+      "title": "Sweet Thing",
+      "genre": "Comédie dramatique",
+      "duration": "1h31",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-20",
+      "hour": 15,
+      "minute": 15,
+      "title": "Vol au-dessus d'un nid de coucou",
+      "genre": "Drame",
+      "duration": "2h13",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-20",
+      "hour": 20,
+      "minute": 10,
+      "title": "Vol au-dessus d'un nid de coucou",
+      "genre": "Drame",
+      "duration": "2h13",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-21",
+      "hour": 17,
+      "minute": 40,
+      "title": "Les Anges déchus",
+      "genre": "Drame",
+      "duration": "1h36",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-21",
+      "hour": 15,
+      "minute": 0,
+      "title": "Barry Lyndon",
+      "genre": "Drame",
+      "duration": "3h05",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-21",
+      "hour": 22,
+      "minute": 20,
+      "title": "Crash",
+      "genre": "Drame",
+      "duration": "1h37",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-21",
+      "hour": 19,
+      "minute": 30,
+      "title": "Et la vie continue",
+      "genre": "Drame",
+      "duration": "1h35",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-21",
+      "hour": 13,
+      "minute": 30,
+      "title": "La Jetée",
+      "genre": "Court-métrage",
+      "duration": "0h27",
+      "lang": ""
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-21",
+      "hour": 14,
+      "minute": 10,
+      "title": "Little Feet",
+      "genre": "Drame",
+      "duration": "1h04",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-21",
+      "hour": 13,
+      "minute": 30,
+      "title": "Pickpocket",
+      "genre": "Drame",
+      "duration": "1h15",
+      "lang": ""
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-21",
+      "hour": 18,
+      "minute": 15,
+      "title": "Sweet Thing",
+      "genre": "Comédie dramatique",
+      "duration": "1h31",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-21",
+      "hour": 15,
+      "minute": 15,
+      "title": "Vol au-dessus d'un nid de coucou",
+      "genre": "Drame",
+      "duration": "2h13",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-21",
+      "hour": 20,
+      "minute": 0,
+      "title": "Vol au-dessus d'un nid de coucou",
+      "genre": "Drame",
+      "duration": "2h13",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "filmotheque",
+      "date": "2026-05-21",
+      "hour": 21,
+      "minute": 20,
+      "title": "Zodiac",
+      "genre": "Thriller",
+      "duration": "2h36",
+      "lang": "VO"
+    }
+  ]
+}

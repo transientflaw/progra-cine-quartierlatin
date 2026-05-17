@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Ciné&Quartier">
+<meta name="theme-color" content="#1a1410">
+<meta name="description" content="Programme des cinémas indépendants du Quartier latin à Paris, mis à jour quotidiennement.">
+<link rel="manifest" href="./manifest.json">
+<link rel="apple-touch-icon" href="./icon-192.png">
+<title>Ciné&quartier · Latin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f4ede0; --bg-deep: #e8dfc9; --ink: #1a1410; --ink-soft: #5a4c3f;
+    --accent: #c8331b; --accent-soft: #f0c5b5; --gold: #b08838;
+    --paper: #fbf6eb; --line: rgba(26, 20, 16, 0.12); --muted: rgba(26, 20, 16, 0.5);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body {
+    background: var(--bg); color: var(--ink);
+    font-family: 'Fraunces', Georgia, serif;
+    overscroll-behavior: none; -webkit-font-smoothing: antialiased;
+  }
+  body {
+    min-height: 100vh; min-height: 100dvh;
+    background-image:
+      radial-gradient(circle at 20% 0%, rgba(176, 136, 56, 0.08), transparent 50%),
+      radial-gradient(circle at 80% 100%, rgba(200, 51, 27, 0.06), transparent 50%);
+    background-attachment: fixed;
+    padding-bottom: 100px;
+  }
+  body::before {
+    content: ''; position: fixed; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    pointer-events: none; z-index: 1; mix-blend-mode: multiply;
+  }
+  header { position: relative; padding: 24px 20px 0; z-index: 2; }
+  .masthead {
+    display: flex; align-items: baseline; justify-content: space-between;
+    border-bottom: 2px solid var(--ink); padding-bottom: 8px;
+  }
+  .logo {
+    font-family: 'Fraunces', serif; font-weight: 800; font-size: 28px;
+    letter-spacing: -0.02em; line-height: 1; font-style: italic;
+  }
+  .logo .amp { color: var(--accent); font-style: italic; font-weight: 400; margin: 0 -2px; }
+  .edition {
+    font-family: 'JetBrains Mono', monospace; font-size: 9px;
+    text-transform: uppercase; letter-spacing: 0.15em; color: var(--ink-soft); text-align: right;
+  }
+  .subtitle {
+    font-family: 'JetBrains Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.2em; color: var(--ink-soft);
+    margin-top: 6px; display: flex; justify-content: space-between;
+  }
+  .source-line {
+    font-family: 'JetBrains Mono', monospace; font-size: 9px;
+    text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted);
+    text-align: center; padding: 6px 20px 0; position: relative; z-index: 2;
+  }
+  .day-rail {
+    margin: 18px 0 14px; overflow-x: auto; scrollbar-width: none;
+    -webkit-overflow-scrolling: touch; position: relative; z-index: 2;
+  }
+  .day-rail::-webkit-scrollbar { display: none; }
+  .day-track { display: flex; gap: 8px; padding: 0 20px; width: max-content; }
+  .day-chip {
+    background: transparent; border: 1.5px solid var(--ink);
+    padding: 10px 14px; border-radius: 0; cursor: pointer;
+    font-family: 'JetBrains Mono', monospace; text-align: left;
+    min-width: 78px; transition: all 0.2s; position: relative;
+  }
+  .day-chip .dow {
+    display: block; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--ink-soft); margin-bottom: 4px;
+  }
+  .day-chip .dom {
+    display: block; font-family: 'Fraunces', serif;
+    font-size: 22px; font-weight: 600; line-height: 1;
+  }
+  .day-chip.has-data::after {
+    content: ''; position: absolute; bottom: 4px; right: 4px;
+    width: 5px; height: 5px; border-radius: 50%; background: var(--accent);
+  }
+  .day-chip.active { background: var(--ink); color: var(--paper); }
+  .day-chip.active .dow { color: var(--accent-soft); }
+  .filters {
+    padding: 0 20px; display: flex; gap: 8px; align-items: center;
+    flex-wrap: wrap; position: relative; z-index: 2; margin-bottom: 16px;
+  }
+  .filter-chip {
+    background: var(--paper); border: 1px solid var(--line);
+    padding: 7px 12px; font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; text-transform: uppercase; letter-spacing: 0.12em;
+    cursor: pointer; border-radius: 999px;
+    display: inline-flex; align-items: center; gap: 6px; transition: all 0.15s;
+  }
+  .filter-chip:active { transform: scale(0.96); }
+  .filter-chip.active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .filter-chip .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+  .filter-chip.active .dot { background: var(--accent-soft); }
+  .stamp {
+    margin: 14px 20px 20px; display: flex; align-items: center; gap: 12px;
+    font-family: 'JetBrains Mono', monospace; font-size: 9px;
+    letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--ink-soft); position: relative; z-index: 2;
+  }
+  .stamp::before, .stamp::after {
+    content: ''; flex: 1; height: 1px; background: var(--ink); opacity: 0.4;
+  }
+  .timeline-wrap { padding: 0 20px; position: relative; z-index: 2; }
+  .hour-block {
+    display: grid; grid-template-columns: 56px 1fr; gap: 14px;
+    padding: 16px 0; border-top: 1px solid var(--line); position: relative;
+  }
+  .hour-block:first-child { border-top: 2px solid var(--ink); }
+  .hour-label {
+    font-family: 'Fraunces', serif; font-size: 32px; font-weight: 300;
+    line-height: 0.85; letter-spacing: -0.03em; color: var(--ink);
+  }
+  .hour-label .min {
+    font-size: 12px; color: var(--ink-soft); font-family: 'JetBrains Mono', monospace;
+    letter-spacing: 0; vertical-align: top; margin-left: 2px;
+  }
+  .hour-label .meta {
+    display: block; font-family: 'JetBrains Mono', monospace;
+    font-size: 8px; letter-spacing: 0.15em; text-transform: uppercase;
+    color: var(--ink-soft); margin-top: 6px; font-weight: 400;
+  }
+  .screenings { display: flex; flex-direction: column; gap: 10px; }
+  .screening {
+    background: var(--paper); border: 1px solid var(--line);
+    padding: 14px; border-radius: 2px; position: relative;
+    cursor: pointer; transition: transform 0.15s, box-shadow 0.15s; overflow: hidden;
+  }
+  .screening:active {
+    transform: scale(0.985);
+    box-shadow: 0 4px 16px rgba(26, 20, 16, 0.12);
+  }
+  .screening::before {
+    content: ''; position: absolute; left: 0; top: 0; bottom: 0;
+    width: 3px; background: var(--cinema-color, var(--accent));
+  }
+  .screening .head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    gap: 10px; margin-bottom: 6px;
+  }
+  .screening .title {
+    font-family: 'Fraunces', serif; font-size: 17px; font-weight: 600;
+    line-height: 1.2; letter-spacing: -0.01em; flex: 1;
+  }
+  .screening .time-badge {
+    font-family: 'JetBrains Mono', monospace; font-size: 13px;
+    font-weight: 500; color: var(--accent); flex-shrink: 0;
+  }
+  .screening .meta-row {
+    display: flex; gap: 8px; align-items: center; margin-top: 8px;
+    font-family: 'JetBrains Mono', monospace; font-size: 9px;
+    text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--ink-soft); flex-wrap: wrap;
+  }
+  .screening .meta-row .cinema { color: var(--ink); font-weight: 500; }
+  .screening .meta-row .sep { opacity: 0.4; }
+  .screening .meta-row .lang {
+    background: var(--ink); color: var(--paper);
+    padding: 2px 6px; border-radius: 1px; letter-spacing: 0.1em;
+  }
+  .screening .meta-row .dist { color: var(--gold); font-weight: 500; }
+  .empty {
+    padding: 40px 20px; text-align: center; font-family: 'Fraunces', serif;
+    font-style: italic; color: var(--ink-soft); font-size: 14px;
+  }
+  .pending-notice {
+    margin: 20px 20px 0; padding: 14px 16px;
+    border: 1px dashed var(--ink-soft); background: rgba(176, 136, 56, 0.06);
+    font-family: 'JetBrains Mono', monospace; font-size: 10px;
+    line-height: 1.5; color: var(--ink-soft);
+    text-transform: none; letter-spacing: 0.02em;
+    position: relative; z-index: 2;
+  }
+  .pending-notice strong {
+    display: block; font-weight: 500; color: var(--ink);
+    text-transform: uppercase; letter-spacing: 0.15em;
+    font-size: 9px; margin-bottom: 6px;
+  }
+  .geo-fab {
+    position: fixed; bottom: 24px; right: 20px;
+    width: 52px; height: 52px; border-radius: 50%;
+    background: var(--ink); color: var(--paper); border: none;
+    z-index: 10; box-shadow: 0 4px 20px rgba(26, 20, 16, 0.25);
+    cursor: pointer; display: flex; align-items: center; justify-content: center;
+    transition: transform 0.2s;
+  }
+  .geo-fab:active { transform: scale(0.92); }
+  .geo-fab.active { background: var(--accent); }
+  .geo-fab svg { width: 22px; height: 22px; }
+  .geo-banner {
+    margin: 0 20px 16px; padding: 12px 14px;
+    background: var(--ink); color: var(--paper);
+    font-family: 'JetBrains Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.15em;
+    display: none; align-items: center; justify-content: space-between;
+    position: relative; z-index: 2;
+  }
+  .geo-banner.visible { display: flex; }
+  .geo-banner button {
+    background: transparent; border: 1px solid var(--paper); color: var(--paper);
+    padding: 4px 8px; font-family: inherit; font-size: 9px;
+    letter-spacing: 0.15em; text-transform: uppercase; cursor: pointer;
+  }
+  .modal-backdrop {
+    position: fixed; inset: 0; background: rgba(26, 20, 16, 0.55);
+    z-index: 20; display: none; align-items: flex-end; justify-content: center;
+  }
+  .modal-backdrop.visible { display: flex; }
+  .modal {
+    background: var(--paper); width: 100%; max-width: 480px;
+    max-height: 80vh; overflow-y: auto; padding: 24px 22px 30px;
+    border-radius: 8px 8px 0 0; position: relative;
+    animation: slideUp 0.25s ease-out;
+  }
+  @keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+  .modal .close {
+    position: absolute; top: 14px; right: 14px;
+    background: none; border: none; font-size: 22px;
+    cursor: pointer; color: var(--ink);
+  }
+  .modal h2 {
+    font-family: 'Fraunces', serif; font-weight: 600;
+    font-size: 24px; line-height: 1.2; margin-bottom: 4px;
+  }
+  .modal .modal-meta {
+    font-family: 'JetBrains Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.15em;
+    color: var(--ink-soft); margin-bottom: 16px;
+  }
+  .modal-row {
+    padding: 10px 0; border-top: 1px solid var(--line);
+    display: flex; justify-content: space-between;
+    font-family: 'JetBrains Mono', monospace; font-size: 11px;
+  }
+  .modal-row span:first-child {
+    text-transform: uppercase; letter-spacing: 0.12em; color: var(--ink-soft);
+  }
+  .pulse { animation: pulse 1.6s ease-in-out infinite; }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+  footer {
+    margin: 40px 20px 0; padding: 16px 0; border-top: 1px solid var(--line);
+    font-family: 'JetBrains Mono', monospace; font-size: 9px;
+    text-transform: uppercase; letter-spacing: 0.15em;
+    color: var(--muted); text-align: center; position: relative; z-index: 2;
+  }
+  .loading {
+    text-align: center; padding: 80px 20px; font-family: 'Fraunces', serif;
+    font-style: italic; color: var(--ink-soft); font-size: 16px;
+    position: relative; z-index: 2;
+  }
+  .error {
+    margin: 40px 20px; padding: 20px;
+    border: 1px solid var(--accent); background: rgba(200, 51, 27, 0.08);
+    font-family: 'JetBrains Mono', monospace; font-size: 11px;
+    line-height: 1.6; position: relative; z-index: 2;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="masthead">
+    <div class="logo">Ciné<span class="amp">&amp;</span>quartier</div>
+    <div class="edition">Édition № 001<br>Quartier Latin · 75005/06</div>
+  </div>
+  <div class="subtitle">
+    <span id="todayLabel">— · —</span>
+    <span id="countLabel">chargement…</span>
+  </div>
+</header>
+
+<div class="source-line" id="sourceLine">Chargement des séances…</div>
+
+<div id="loading" class="loading">Chargement des séances…</div>
+<div id="errorBox" class="error" style="display:none"></div>
+
+<div id="app" style="display:none">
+  <nav class="day-rail" aria-label="Sélecteur de jour">
+    <div class="day-track" id="dayTrack"></div>
+  </nav>
+
+  <div class="filters" id="cinemaFilters"></div>
+
+  <div class="geo-banner" id="geoBanner">
+    <span>Tri par proximité · <span id="geoLoc">localisation</span></span>
+    <button id="geoOff">Désactiver</button>
+  </div>
+
+  <div class="stamp">Programme du jour</div>
+
+  <main class="timeline-wrap" id="timeline"></main>
+
+  <div class="pending-notice" id="pendingNotice" style="display:none"></div>
+
+  <footer>
+    Données · L'Officiel des spectacles<br>
+    Mise à jour quotidienne · <span id="genAt">—</span>
+  </footer>
+</div>
+
+<button class="geo-fab" id="geoBtn" aria-label="Activer la proximité" style="display:none">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="10" r="3"></circle>
+    <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 7 8 11.7z"></path>
+  </svg>
+</button>
+
+<div class="modal-backdrop" id="modalBackdrop">
+  <div class="modal" id="modal">
+    <button class="close" id="modalClose" aria-label="Fermer">×</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<script>
+// =====================================================================
+// DATA LOADING
+// =====================================================================
+let DATA = null;
+let cinemaMap = {};
+let datesAvecData = [];
+let TODAY = null;
+
+const state = {
+  dayOffset: 0,
+  activeCinemas: new Set(),
+  userLoc: null,
+  proximityMode: false,
+};
+
+const DAYS_FR = ['DIM', 'LUN', 'MAR', 'MER', 'JEU', 'VEN', 'SAM'];
+const MONTHS_FR = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+const DAYS_LONG = ['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
+
+async function loadData() {
+  try {
+    // Cache busting via timestamp ; sur GitHub Pages le JSON est servi
+    // avec un Cache-Control assez court mais ce paramètre garantit la fraîcheur.
+    const resp = await fetch(`./data.json?t=${Date.now()}`);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    DATA = await resp.json();
+    cinemaMap = Object.fromEntries(DATA.cinemas.map(c => [c.id, c]));
+    datesAvecData = [...new Set(DATA.screenings.map(s => s.date))].sort();
+
+    // Démarrage : si aujourd'hui a des séances, on commence là.
+    // Sinon, on commence à la première date couverte.
+    const todayStr = new Date().toISOString().slice(0, 10);
+    if (datesAvecData.includes(todayStr)) {
+      TODAY = new Date();
+    } else if (datesAvecData.length > 0) {
+      TODAY = new Date(datesAvecData[0]);
+    } else {
+      TODAY = new Date();
+    }
+    // Normalise minuit local
+    TODAY.setHours(0, 0, 0, 0);
+
+    state.activeCinemas = new Set(DATA.cinemas.filter(c => c.has_data).map(c => c.id));
+
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('app').style.display = 'block';
+    document.getElementById('geoBtn').style.display = 'flex';
+    document.getElementById('sourceLine').textContent =
+      `Source · L'Officiel des spectacles · ${DATA.screenings.length} séances`;
+    document.getElementById('genAt').textContent =
+      DATA.generated_at ? DATA.generated_at.slice(0, 16).replace('T', ' ') : '—';
+
+    render();
+  } catch (err) {
+    document.getElementById('loading').style.display = 'none';
+    const errBox = document.getElementById('errorBox');
+    errBox.style.display = 'block';
+    errBox.innerHTML = `
+      <strong>Impossible de charger les séances.</strong><br><br>
+      Erreur : ${err.message}<br><br>
+      Vérifie que le fichier <code>data.json</code> existe et a été généré par
+      la GitHub Action. Tu peux la lancer manuellement depuis l'onglet
+      <strong>Actions</strong> du repo.
+    `;
+  }
+}
+
+function fmtDate(d) { return d.toISOString().slice(0, 10); }
+function getDate(offset) { const d = new Date(TODAY); d.setDate(d.getDate() + offset); return d; }
+function distanceKm(lat1, lng1, lat2, lng2) {
+  const R = 6371;
+  const toRad = x => x * Math.PI / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLng = toRad(lng2 - lng1);
+  const a = Math.sin(dLat/2)**2 + Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLng/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+
+function renderDays() {
+  const track = document.getElementById('dayTrack');
+  track.innerHTML = '';
+  for (let i = 0; i < 14; i++) {
+    const d = getDate(i);
+    const dateStr = fmtDate(d);
+    const hasData = datesAvecData.includes(dateStr);
+    const btn = document.createElement('button');
+    btn.className = 'day-chip' + (i === state.dayOffset ? ' active' : '') + (hasData ? ' has-data' : '');
+    const label = i === 0 ? 'AUJ' : i === 1 ? 'DEM' : DAYS_FR[d.getDay()];
+    btn.innerHTML = `<span class="dow">${label}</span><span class="dom">${d.getDate()}</span>`;
+    btn.onclick = () => { state.dayOffset = i; render(); window.scrollTo({top: 0, behavior:'smooth'}); };
+    track.appendChild(btn);
+  }
+}
+
+function renderFilters() {
+  const wrap = document.getElementById('cinemaFilters');
+  wrap.innerHTML = '';
+  const cinemasWithData = DATA.cinemas.filter(c => c.has_data);
+  if (cinemasWithData.length === 0) return;
+  const allActive = state.activeCinemas.size === cinemasWithData.length;
+  const allBtn = document.createElement('button');
+  allBtn.className = 'filter-chip' + (allActive ? ' active' : '');
+  allBtn.innerHTML = `<span class="dot"></span>Tous`;
+  allBtn.onclick = () => {
+    if (allActive) state.activeCinemas.clear();
+    else cinemasWithData.forEach(c => state.activeCinemas.add(c.id));
+    render();
+  };
+  wrap.appendChild(allBtn);
+  cinemasWithData.forEach(c => {
+    const btn = document.createElement('button');
+    const active = state.activeCinemas.has(c.id);
+    btn.className = 'filter-chip' + (active ? ' active' : '');
+    btn.innerHTML = `<span class="dot" style="background:${c.color}"></span>${c.short}`;
+    btn.onclick = () => {
+      if (active) state.activeCinemas.delete(c.id);
+      else state.activeCinemas.add(c.id);
+      render();
+    };
+    wrap.appendChild(btn);
+  });
+}
+
+function renderHeader(filteredScreenings) {
+  const d = getDate(state.dayOffset);
+  document.getElementById('todayLabel').textContent =
+    `${DAYS_LONG[d.getDay()].toUpperCase()} ${d.getDate()} ${MONTHS_FR[d.getMonth()].toUpperCase()}`;
+  document.getElementById('countLabel').textContent = `${filteredScreenings.length} séances`;
+}
+
+function renderPending() {
+  const notice = document.getElementById('pendingNotice');
+  const pending = DATA.cinemas.filter(c => !c.has_data);
+  if (pending.length === 0) { notice.style.display = 'none'; return; }
+  notice.style.display = 'block';
+  notice.innerHTML = `
+    <strong>Cinémas sans données aujourd'hui</strong>
+    Le scraping n'a pas trouvé de séances à venir pour :
+    <em>${pending.map(c => c.short).join(' · ')}</em>.
+    Possible que offi.fr n'ait pas encore actualisé leur programme.
+  `;
+}
+
+function escapeHtml(s) {
+  return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function renderTimeline(screenings) {
+  const timeline = document.getElementById('timeline');
+  timeline.innerHTML = '';
+  if (screenings.length === 0) {
+    timeline.innerHTML = `
+      <div class="empty">
+        Aucune séance pour ce jour ${state.activeCinemas.size === 0 ? '(aucun cinéma sélectionné)' : ''}.<br>
+        <small>Essaie un autre jour ou ajoute des cinémas dans les filtres.</small>
+      </div>`;
+    return;
+  }
+  if (state.proximityMode && state.userLoc) {
+    screenings.forEach(s => {
+      const c = cinemaMap[s.cinema_id];
+      s._dist = distanceKm(state.userLoc.lat, state.userLoc.lng, c.lat, c.lng);
+    });
+    screenings.sort((a, b) => {
+      const tA = a.hour * 60 + a.minute;
+      const tB = b.hour * 60 + b.minute;
+      if (tA !== tB) return tA - tB;
+      return a._dist - b._dist;
+    });
+  } else {
+    screenings.sort((a, b) => (a.hour * 60 + a.minute) - (b.hour * 60 + b.minute));
+  }
+  const byHour = {};
+  screenings.forEach(s => {
+    if (!byHour[s.hour]) byHour[s.hour] = [];
+    byHour[s.hour].push(s);
+  });
+  Object.keys(byHour).sort((a, b) => +a - +b).forEach(hour => {
+    const block = document.createElement('div');
+    block.className = 'hour-block';
+    const period = +hour < 12 ? 'Matin' : +hour < 18 ? 'Après-midi' : 'Soirée';
+    block.innerHTML = `
+      <div class="hour-label">
+        ${hour}<span class="min">h</span>
+        <span class="meta">${period}</span>
+      </div>
+      <div class="screenings"></div>`;
+    const sc = block.querySelector('.screenings');
+    byHour[hour].forEach(s => {
+      const cinema = cinemaMap[s.cinema_id];
+      const screening = document.createElement('div');
+      screening.className = 'screening';
+      screening.style.setProperty('--cinema-color', cinema.color);
+      const distStr = (state.proximityMode && s._dist != null)
+        ? `<span class="sep">·</span><span class="dist">${s._dist < 1 ? Math.round(s._dist*1000) + ' m' : s._dist.toFixed(1) + ' km'}</span>`
+        : '';
+      const durStr = s.duration ? `<span class="sep">·</span><span>${s.duration}</span>` : '';
+      const langStr = s.lang ? `<span class="sep">·</span><span class="lang">${s.lang}</span>` : '';
+      screening.innerHTML = `
+        <div class="head">
+          <div class="title">${escapeHtml(s.title)}</div>
+          <div class="time-badge">${String(s.hour).padStart(2,'0')}:${String(s.minute).padStart(2,'0')}</div>
+        </div>
+        <div class="meta-row">
+          <span class="cinema">${cinema.short}</span>
+          ${langStr}
+          ${s.genre ? `<span class="sep">·</span><span>${s.genre}</span>` : ''}
+          ${durStr}
+          ${distStr}
+        </div>`;
+      screening.onclick = () => openModal(s, cinema);
+      sc.appendChild(screening);
+    });
+    timeline.appendChild(block);
+  });
+}
+
+function openModal(s, cinema) {
+  document.getElementById('modalContent').innerHTML = `
+    <h2>${escapeHtml(s.title)}</h2>
+    <div class="modal-meta">${s.genre || ''}${s.duration ? ' · ' + s.duration : ''}</div>
+    <div class="modal-row"><span>Salle</span><span>${cinema.name}</span></div>
+    <div class="modal-row"><span>Adresse</span><span style="text-align:right">${cinema.address}</span></div>
+    <div class="modal-row"><span>Séance</span><span>${String(s.hour).padStart(2,'0')}:${String(s.minute).padStart(2,'0')}</span></div>
+    ${s.lang ? `<div class="modal-row"><span>Version</span><span>${s.lang}</span></div>` : ''}
+    ${s._dist != null ? `<div class="modal-row"><span>Distance</span><span>${s._dist < 1 ? Math.round(s._dist*1000) + ' m' : s._dist.toFixed(2) + ' km'}</span></div>` : ''}
+    <div class="modal-row"><span>Source</span><span>offi.fr</span></div>`;
+  document.getElementById('modalBackdrop').classList.add('visible');
+}
+document.getElementById('modalClose').onclick = () =>
+  document.getElementById('modalBackdrop').classList.remove('visible');
+document.getElementById('modalBackdrop').onclick = (e) => {
+  if (e.target.id === 'modalBackdrop')
+    document.getElementById('modalBackdrop').classList.remove('visible');
+};
+
+document.getElementById('geoBtn').onclick = () => {
+  if (state.proximityMode) {
+    state.proximityMode = false;
+    document.getElementById('geoBtn').classList.remove('active');
+    document.getElementById('geoBanner').classList.remove('visible');
+    render(); return;
+  }
+  if (!navigator.geolocation) {
+    alert('Géolocalisation non disponible sur ce navigateur.'); return;
+  }
+  const btn = document.getElementById('geoBtn');
+  btn.classList.add('pulse');
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      state.userLoc = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+      state.proximityMode = true;
+      btn.classList.remove('pulse'); btn.classList.add('active');
+      document.getElementById('geoBanner').classList.add('visible');
+      document.getElementById('geoLoc').textContent =
+        `${pos.coords.latitude.toFixed(3)}, ${pos.coords.longitude.toFixed(3)}`;
+      render();
+    },
+    (err) => {
+      btn.classList.remove('pulse');
+      alert('Impossible d\'obtenir votre position : ' + err.message);
+    },
+    { enableHighAccuracy: true, timeout: 10000 }
+  );
+};
+document.getElementById('geoOff').onclick = () => {
+  state.proximityMode = false;
+  document.getElementById('geoBtn').classList.remove('active');
+  document.getElementById('geoBanner').classList.remove('visible');
+  render();
+};
+
+function render() {
+  renderDays();
+  renderFilters();
+  renderPending();
+  const d = getDate(state.dayOffset);
+  const dateStr = fmtDate(d);
+  const filtered = DATA.screenings.filter(s =>
+    s.date === dateStr && state.activeCinemas.has(s.cinema_id)
+  );
+  renderHeader(filtered);
+  renderTimeline(filtered);
+}
+
+loadData();
+</script>
+</body>
+</html>
