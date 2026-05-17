@@ -117,8 +117,10 @@ def parse_day_tabs(soup: BeautifulSoup) -> list[dict]:
 def parse_section(section, day_date: date, cinema_id: str) -> list[dict]:
     """Extract screenings from one day-section."""
     screenings = []
+    h5_list = section.find_all("h5")
+    print(f"    [{day_date}] {len(h5_list)} <h5> trouvés dans la section", file=sys.stderr)
     # Each film starts with an h5 element containing the title
-    for h5 in section.find_all("h5"):
+    for h5 in h5_list:
         title_link = h5.find("a")
         title = (title_link.get_text(strip=True) if title_link
                  else h5.get_text(strip=True))
