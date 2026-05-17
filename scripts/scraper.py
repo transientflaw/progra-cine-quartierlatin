@@ -27,7 +27,7 @@ from bs4 import BeautifulSoup
 # ─── Config ──────────────────────────────────────────────────────────
 ROOT = Path(__file__).resolve().parent.parent
 CINEMAS_FILE = ROOT / "scripts" / "cinemas.json"
-OUTPUT_FILE = ROOT / "public" / "data.json"
+OUTPUT_FILE = ROOT / "data.json"
 
 HEADERS = {
     "User-Agent": (
