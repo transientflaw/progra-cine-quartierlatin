@@ -92,13 +92,16 @@ def parse_day_tabs(soup: BeautifulSoup) -> list[dict]:
     today = date.today()
     current_year = today.year
     for tab in soup.find_all("a", href=re.compile(r"^#t_\d+$")):
-        txt = tab.get_text(" ", strip=True)
-        # e.g. "Dimanche 17 Mai"
-        m = re.search(r"(\d{1,2})\s+([A-Za-zÀ-ÿ]+)", txt)
-        if not m:
+        # The tab may contain <br>, <b>, etc. — flatten all text first
+        txt = " ".join(tab.stripped_strings)
+        # e.g. "Lundi 18 Mai" or "Lundi <br> 18 <br> Mai" → "Lundi 18 Mai"
+        # Look separately for the day number and the month name
+        day_match = re.search(r"\b(\d{1,2})\b", txt)
+        month_match = re.search(r"\b([A-Za-zÀ-ÿ]{3,})\b", txt[day_match.end():] if day_match else txt)
+        if not day_match or not month_match:
             continue
-        day_num = int(m.group(1))
-        month_name = m.group(2).lower()
+        day_num = int(day_match.group(1))
+        month_name = month_match.group(1).lower()
         month_num = MONTHS_FR.get(month_name)
         if not month_num:
             continue
