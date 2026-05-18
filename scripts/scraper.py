@@ -117,28 +117,21 @@ def parse_day_tabs(soup: BeautifulSoup) -> list[dict]:
 def parse_section(section, day_date: date, cinema_id: str) -> list[dict]:
     """Extract screenings from one day-section."""
     screenings = []
-    h5_list = section.find_all("h5")
-    print(f"    [{day_date}] {len(h5_list)} <h5> trouvés dans la section", file=sys.stderr)
-    # Each film starts with an h5 element containing the title
-    for h5 in h5_list:
+    # Chaque film est dans un <div id="minifiche_XXX">
+    fiches = section.find_all("div", id=re.compile(r"^minifiche_\d+$"))
+    print(f"    [{day_date}] {len(fiches)} fiches film trouvées", file=sys.stderr)
+    for fiche in fiches:
+        h5 = fiche.find("h5")
+        if not h5:
+            continue
         title_link = h5.find("a")
         title = (title_link.get_text(strip=True) if title_link
                  else h5.get_text(strip=True))
         if not title:
             continue
 
-        # The metadata (genre/duration/language/times) lives in the
-        # next sibling elements until the next h5. We collect text up
-        # to and including the times line.
-        text_chunks = []
-        sib = h5.next_sibling
-        while sib and sib.name != "h5":
-            if hasattr(sib, "get_text"):
-                text_chunks.append(sib.get_text(" ", strip=True))
-            sib = sib.next_sibling
-            if len(text_chunks) > 12:
-                break
-        blob = " ".join(filter(None, text_chunks))
+        # Tout le texte de la fiche, balises aplaties
+        blob = " ".join(fiche.stripped_strings)
 
         genre_match = GENRE_PATTERN.search(blob)
         genre = genre_match.group(1).title() if genre_match else ""
