@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T06:32:51",
+  "generated_at": "2026-05-20T21:21:53",
   "source": "L'Officiel des spectacles (offi.fr)",
   "cinemas": [
     {
@@ -90,7 +90,7 @@
       "lat": 48.8486,
       "lng": 2.352,
       "address": "23 rue des Écoles, 75005",
-      "has_data": false
+      "has_data": true
     },
     {
       "id": "pantheon",
@@ -110,7 +110,7 @@
       "lat": 48.8541,
       "lng": 2.3401,
       "address": "4 rue Christine, 75006",
-      "has_data": false
+      "has_data": true
     },
     {
       "id": "standre",
@@ -120,7 +120,7 @@
       "lat": 48.8531,
       "lng": 2.3413,
       "address": "30 rue Saint-André des Arts, 75006",
-      "has_data": false
+      "has_data": true
     }
   ],
   "screenings": [
@@ -5195,6 +5195,666 @@
       "lang": "VO"
     },
     {
+      "cinema_id": "ecoles",
+      "date": "2026-05-20",
+      "hour": 19,
+      "minute": 30,
+      "title": "Cris et chuchotements",
+      "genre": "Drame",
+      "duration": "1h30",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-20",
+      "hour": 17,
+      "minute": 40,
+      "title": "Docteur Folamour",
+      "genre": "Comédie",
+      "duration": "1h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-20",
+      "hour": 19,
+      "minute": 15,
+      "title": "Enquête sur une passion",
+      "genre": "Thriller",
+      "duration": "2h03",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-20",
+      "hour": 15,
+      "minute": 55,
+      "title": "Les Fraises sauvages",
+      "genre": "Drame",
+      "duration": "1h31",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-20",
+      "hour": 16,
+      "minute": 30,
+      "title": "Into the Wild",
+      "genre": "Divers",
+      "duration": "2h27",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-20",
+      "hour": 14,
+      "minute": 0,
+      "title": "Matrix",
+      "genre": "Science-Fiction",
+      "duration": "2h15",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-20",
+      "hour": 21,
+      "minute": 30,
+      "title": "Memories of Murder",
+      "genre": "Thriller",
+      "duration": "2h10",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-20",
+      "hour": 21,
+      "minute": 20,
+      "title": "Orange mécanique",
+      "genre": "Drame",
+      "duration": "2h15",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-20",
+      "hour": 14,
+      "minute": 0,
+      "title": "La Tarentule au ventre noir",
+      "genre": "Horreur",
+      "duration": "1h38",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-21",
+      "hour": 15,
+      "minute": 0,
+      "title": "Barry Lyndon",
+      "genre": "Drame",
+      "duration": "3h05",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-21",
+      "hour": 13,
+      "minute": 20,
+      "title": "Le Cercle des poètes disparus",
+      "genre": "Comédie Dramatique",
+      "duration": "2h09",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-21",
+      "hour": 20,
+      "minute": 15,
+      "title": "Fargo",
+      "genre": "Drame",
+      "duration": "1h37",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-21",
+      "hour": 18,
+      "minute": 20,
+      "title": "Jeux d'été",
+      "genre": "Comédie Dramatique",
+      "duration": "1h36",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-21",
+      "hour": 15,
+      "minute": 40,
+      "title": "Once Upon a Time... in Hollywood",
+      "genre": "Thriller",
+      "duration": "2h42",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-21",
+      "hour": 13,
+      "minute": 20,
+      "title": "Paprika",
+      "genre": "Animation",
+      "duration": "1h30",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-21",
+      "hour": 22,
+      "minute": 15,
+      "title": "Persona",
+      "genre": "Drame",
+      "duration": "1h25",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-21",
+      "hour": 22,
+      "minute": 5,
+      "title": "Le Point de non-retour",
+      "genre": "Thriller",
+      "duration": "1h32",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-21",
+      "hour": 18,
+      "minute": 35,
+      "title": "Règlement de comptes",
+      "genre": "Thriller",
+      "duration": "1h30",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-22",
+      "hour": 17,
+      "minute": 20,
+      "title": "Blade Runner",
+      "genre": "Science-Fiction",
+      "duration": "1h56",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-22",
+      "hour": 21,
+      "minute": 35,
+      "title": "Entretien avec un vampire",
+      "genre": "Horreur",
+      "duration": "2h00",
+      "lang": ""
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-22",
+      "hour": 19,
+      "minute": 30,
+      "title": "Les Fils de l'homme",
+      "genre": "Science-Fiction",
+      "duration": "1h50",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-22",
+      "hour": 17,
+      "minute": 50,
+      "title": "Monika et le désir",
+      "genre": "Drame",
+      "duration": "1h35",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-22",
+      "hour": 15,
+      "minute": 10,
+      "title": "Mulholland Drive",
+      "genre": "Thriller",
+      "duration": "2h26",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-22",
+      "hour": 13,
+      "minute": 30,
+      "title": "Les Sentiers de la gloire",
+      "genre": "Drame",
+      "duration": "1h28",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-22",
+      "hour": 14,
+      "minute": 0,
+      "title": "Soleil vert",
+      "genre": "Science-Fiction",
+      "duration": "1h37",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-22",
+      "hour": 15,
+      "minute": 50,
+      "title": "The Cruise",
+      "genre": "Documentaire",
+      "duration": "1h16",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-22",
+      "hour": 22,
+      "minute": 0,
+      "title": "Tokyo Godfathers",
+      "genre": "Animation",
+      "duration": "1h30",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-22",
+      "hour": 19,
+      "minute": 40,
+      "title": "Un après-midi de chien",
+      "genre": "Thriller",
+      "duration": "2h10",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-23",
+      "hour": 18,
+      "minute": 25,
+      "title": "Le 7e sceau",
+      "genre": "Drame",
+      "duration": "1h36",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-23",
+      "hour": 14,
+      "minute": 0,
+      "title": "À bout de course",
+      "genre": "Comédie Dramatique",
+      "duration": "1h55",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-23",
+      "hour": 18,
+      "minute": 10,
+      "title": "Aftersun",
+      "genre": "Comédie Dramatique",
+      "duration": "1h42",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-23",
+      "hour": 16,
+      "minute": 10,
+      "title": "Blue Velvet",
+      "genre": "Thriller",
+      "duration": "2h00",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-23",
+      "hour": 20,
+      "minute": 5,
+      "title": "Le Lauréat",
+      "genre": "Comédie Dramatique",
+      "duration": "1h46",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-23",
+      "hour": 14,
+      "minute": 55,
+      "title": "Magnolia",
+      "genre": "Comédie Dramatique",
+      "duration": "3h04",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-23",
+      "hour": 22,
+      "minute": 5,
+      "title": "Mélodie pour un tueur",
+      "genre": "Drame",
+      "duration": "1h30",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-23",
+      "hour": 20,
+      "minute": 15,
+      "title": "Millennium Actress",
+      "genre": "Animation",
+      "duration": "1h27",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-23",
+      "hour": 22,
+      "minute": 0,
+      "title": "La Randonnée",
+      "genre": "Action / Aventure",
+      "duration": "1h29",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-23",
+      "hour": 13,
+      "minute": 30,
+      "title": "The Cruise",
+      "genre": "Documentaire",
+      "duration": "1h16",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-24",
+      "hour": 13,
+      "minute": 30,
+      "title": "Cinema Paradiso",
+      "genre": "Comédie Dramatique",
+      "duration": "2h03",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-24",
+      "hour": 13,
+      "minute": 30,
+      "title": "Douze Hommes en colère",
+      "genre": "Drame",
+      "duration": "1h36",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-24",
+      "hour": 21,
+      "minute": 40,
+      "title": "M.A.S.H",
+      "genre": "Comédie",
+      "duration": "1h50",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-24",
+      "hour": 19,
+      "minute": 30,
+      "title": "Mulholland Drive",
+      "genre": "Thriller",
+      "duration": "2h26",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-24",
+      "hour": 17,
+      "minute": 55,
+      "title": "Persona",
+      "genre": "Drame",
+      "duration": "1h25",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-24",
+      "hour": 15,
+      "minute": 45,
+      "title": "Phantom Thread",
+      "genre": "Drame",
+      "duration": "2h10",
+      "lang": ""
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-24",
+      "hour": 15,
+      "minute": 20,
+      "title": "Shining",
+      "genre": "Horreur",
+      "duration": "1h55",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-24",
+      "hour": 20,
+      "minute": 10,
+      "title": "The Cruise",
+      "genre": "Documentaire",
+      "duration": "1h16",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-24",
+      "hour": 22,
+      "minute": 10,
+      "title": "Torso",
+      "genre": "Thriller",
+      "duration": "1h35",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-24",
+      "hour": 18,
+      "minute": 10,
+      "title": "Usual suspects",
+      "genre": "Thriller",
+      "duration": "1h48",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-25",
+      "hour": 19,
+      "minute": 30,
+      "title": "2001: L'Odyssée de l'espace",
+      "genre": "Science-Fiction",
+      "duration": "2h21",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-25",
+      "hour": 21,
+      "minute": 50,
+      "title": "Assurance sur la mort",
+      "genre": "Drame",
+      "duration": "1h47",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-25",
+      "hour": 15,
+      "minute": 20,
+      "title": "Daniel",
+      "genre": "Drame",
+      "duration": "2h11",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-25",
+      "hour": 19,
+      "minute": 50,
+      "title": "Eternal Sunshine of the Spotless Mind",
+      "genre": "Comédie Dramatique",
+      "duration": "1h48",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-25",
+      "hour": 13,
+      "minute": 30,
+      "title": "Minuit dans le jardin du bien et du mal",
+      "genre": "Comédie Dramatique",
+      "duration": "2h35",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-25",
+      "hour": 16,
+      "minute": 15,
+      "title": "My Own Private Idaho",
+      "genre": "Comédie Dramatique",
+      "duration": "1h45",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-25",
+      "hour": 22,
+      "minute": 10,
+      "title": "Paprika",
+      "genre": "Animation",
+      "duration": "1h30",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-25",
+      "hour": 13,
+      "minute": 30,
+      "title": "La Randonnée",
+      "genre": "Action / Aventure",
+      "duration": "1h29",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-25",
+      "hour": 18,
+      "minute": 10,
+      "title": "Règlement de comptes",
+      "genre": "Thriller",
+      "duration": "1h30",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-25",
+      "hour": 17,
+      "minute": 45,
+      "title": "Sonate d'automne",
+      "genre": "Drame",
+      "duration": "1h39",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-26",
+      "hour": 16,
+      "minute": 20,
+      "title": "Eyes Wide Shut",
+      "genre": "Comédie Dramatique",
+      "duration": "2h39",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-26",
+      "hour": 16,
+      "minute": 35,
+      "title": "La La Land",
+      "genre": "Film Musical",
+      "duration": "2h08",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-26",
+      "hour": 21,
+      "minute": 15,
+      "title": "Manchester by the Sea",
+      "genre": "Drame",
+      "duration": "2h17",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-26",
+      "hour": 19,
+      "minute": 0,
+      "title": "Old Boy",
+      "genre": "Thriller",
+      "duration": "2h00",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-26",
+      "hour": 14,
+      "minute": 0,
+      "title": "La Poursuite impitoyable",
+      "genre": "Drame",
+      "duration": "2h15",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-26",
+      "hour": 20,
+      "minute": 50,
+      "title": "Scènes de la vie conjugale",
+      "genre": "Drame",
+      "duration": "2h49",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-26",
+      "hour": 19,
+      "minute": 10,
+      "title": "Les Sentiers de la gloire",
+      "genre": "Drame",
+      "duration": "1h28",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "ecoles",
+      "date": "2026-05-26",
+      "hour": 14,
+      "minute": 0,
+      "title": "Un après-midi de chien",
+      "genre": "Thriller",
+      "duration": "2h10",
+      "lang": "VO"
+    },
+    {
       "cinema_id": "pantheon",
       "date": "2026-05-20",
       "hour": 18,
@@ -5463,6 +6123,1476 @@
       "genre": "Documentaire",
       "duration": "1h25",
       "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-20",
+      "hour": 19,
+      "minute": 50,
+      "title": "Les Anges déchus",
+      "genre": "Drame",
+      "duration": "1h36",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-20",
+      "hour": 21,
+      "minute": 50,
+      "title": "Black Swan",
+      "genre": "Thriller",
+      "duration": "1h53",
+      "lang": ""
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-20",
+      "hour": 16,
+      "minute": 30,
+      "title": "Gilda",
+      "genre": "Thriller",
+      "duration": "1h50",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-20",
+      "hour": 14,
+      "minute": 0,
+      "title": "Happy Together",
+      "genre": "Drame",
+      "duration": "1h36",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-20",
+      "hour": 14,
+      "minute": 30,
+      "title": "Little Miss Sunshine",
+      "genre": "Comédie",
+      "duration": "1h40",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-20",
+      "hour": 16,
+      "minute": 0,
+      "title": "Phantom of the Paradise",
+      "genre": "Fantastique",
+      "duration": "1h32",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-20",
+      "hour": 21,
+      "minute": 10,
+      "title": "Pulp Fiction",
+      "genre": "Comédie",
+      "duration": "2h29",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-21",
+      "hour": 21,
+      "minute": 15,
+      "title": "A.I. Intelligence artificielle",
+      "genre": "Science-Fiction",
+      "duration": "2h26",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-21",
+      "hour": 14,
+      "minute": 0,
+      "title": "L'Exorciste",
+      "genre": "Horreur",
+      "duration": "2h12",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-21",
+      "hour": 16,
+      "minute": 30,
+      "title": "Le Portrait de Dorian Gray",
+      "genre": "Drame",
+      "duration": "1h50",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-21",
+      "hour": 18,
+      "minute": 45,
+      "title": "Un homme dans la foule",
+      "genre": "Drame",
+      "duration": "2h05",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-22",
+      "hour": 19,
+      "minute": 30,
+      "title": "A Ghost Story",
+      "genre": "Fantastique",
+      "duration": "1h32",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-22",
+      "hour": 14,
+      "minute": 0,
+      "title": "Bonnie and Clyde",
+      "genre": "Drame",
+      "duration": "1h50",
+      "lang": ""
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-22",
+      "hour": 14,
+      "minute": 0,
+      "title": "Le Loup de Wall Street",
+      "genre": "Drame",
+      "duration": "2h59",
+      "lang": ""
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-22",
+      "hour": 17,
+      "minute": 10,
+      "title": "Raging Bull",
+      "genre": "Drame",
+      "duration": "2h09",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-22",
+      "hour": 21,
+      "minute": 45,
+      "title": "Requiem for a Dream",
+      "genre": "Drame",
+      "duration": "1h42",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-22",
+      "hour": 16,
+      "minute": 10,
+      "title": "Sang pour sang",
+      "genre": "Drame",
+      "duration": "1h36",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-22",
+      "hour": 21,
+      "minute": 25,
+      "title": "Sueurs froides",
+      "genre": "Drame",
+      "duration": "2h07",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-22",
+      "hour": 18,
+      "minute": 5,
+      "title": "Voyage au bout de l'enfer",
+      "genre": "Drame",
+      "duration": "3h03",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-23",
+      "hour": 20,
+      "minute": 30,
+      "title": "Apocalypse Now Final Cut",
+      "genre": "Guerre",
+      "duration": "3h03",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-23",
+      "hour": 21,
+      "minute": 30,
+      "title": "L'Armée des 12 singes",
+      "genre": "Science-Fiction",
+      "duration": "2h10",
+      "lang": ""
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-23",
+      "hour": 19,
+      "minute": 10,
+      "title": "Le Fabuleux Destin d'Amélie Poulain",
+      "genre": "Comédie Dramatique",
+      "duration": "1h56",
+      "lang": ""
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-23",
+      "hour": 14,
+      "minute": 15,
+      "title": "Le Secret magnifique",
+      "genre": "",
+      "duration": "1h52",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-23",
+      "hour": 18,
+      "minute": 0,
+      "title": "Pulsions",
+      "genre": "Thriller",
+      "duration": "1h45",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-23",
+      "hour": 16,
+      "minute": 30,
+      "title": "Seven",
+      "genre": "Thriller",
+      "duration": "2h10",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-24",
+      "hour": 19,
+      "minute": 40,
+      "title": "After Hours",
+      "genre": "Comédie Dramatique",
+      "duration": "1h38",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-24",
+      "hour": 15,
+      "minute": 30,
+      "title": "Blow Out",
+      "genre": "Thriller",
+      "duration": "1h47",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-24",
+      "hour": 17,
+      "minute": 20,
+      "title": "Casablanca",
+      "genre": "Action / Aventure",
+      "duration": "1h42",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-24",
+      "hour": 21,
+      "minute": 40,
+      "title": "Kramer contre Kramer",
+      "genre": "Drame",
+      "duration": "1h45",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-24",
+      "hour": 13,
+      "minute": 45,
+      "title": "Les Moissons du ciel",
+      "genre": "Drame",
+      "duration": "1h35",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-24",
+      "hour": 15,
+      "minute": 35,
+      "title": "La Nuit du chasseur",
+      "genre": "Drame",
+      "duration": "1h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-24",
+      "hour": 17,
+      "minute": 40,
+      "title": "Obsession",
+      "genre": "Thriller",
+      "duration": "1h38",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-24",
+      "hour": 19,
+      "minute": 15,
+      "title": "Taipei Story",
+      "genre": "Drame",
+      "duration": "1h55",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-24",
+      "hour": 21,
+      "minute": 30,
+      "title": "Thelma et Louise",
+      "genre": "Drame",
+      "duration": "2h10",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-25",
+      "hour": 21,
+      "minute": 10,
+      "title": "Les Affranchis",
+      "genre": "Thriller",
+      "duration": "2h21",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-25",
+      "hour": 14,
+      "minute": 0,
+      "title": "As Tears Go By",
+      "genre": "Drame",
+      "duration": "1h42",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-25",
+      "hour": 15,
+      "minute": 50,
+      "title": "Citizen Kane",
+      "genre": "Drame",
+      "duration": "1h59",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-25",
+      "hour": 19,
+      "minute": 10,
+      "title": "In the Mood for Love",
+      "genre": "Drame",
+      "duration": "1h34",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-25",
+      "hour": 19,
+      "minute": 50,
+      "title": "Quand passent les cigognes",
+      "genre": "Drame",
+      "duration": "1h35",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-25",
+      "hour": 14,
+      "minute": 0,
+      "title": "Sang pour sang",
+      "genre": "Drame",
+      "duration": "1h36",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-25",
+      "hour": 16,
+      "minute": 0,
+      "title": "Scarface",
+      "genre": "Drame",
+      "duration": "1h45",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-25",
+      "hour": 21,
+      "minute": 40,
+      "title": "Le Silence des agneaux",
+      "genre": "Thriller",
+      "duration": "1h58",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-25",
+      "hour": 18,
+      "minute": 0,
+      "title": "Le Violent",
+      "genre": "Thriller",
+      "duration": "1h34",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-26",
+      "hour": 14,
+      "minute": 0,
+      "title": "Chungking Express",
+      "genre": "Comédie Dramatique",
+      "duration": "1h38",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-26",
+      "hour": 19,
+      "minute": 20,
+      "title": "Donnie Darko",
+      "genre": "Fantastique",
+      "duration": "1h47",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-26",
+      "hour": 13,
+      "minute": 35,
+      "title": "Les Guerriers de la nuit",
+      "genre": "Action / Aventure",
+      "duration": "1h30",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-26",
+      "hour": 15,
+      "minute": 50,
+      "title": "L'Impasse",
+      "genre": "Thriller",
+      "duration": "2h18",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-26",
+      "hour": 21,
+      "minute": 40,
+      "title": "Les Incorruptibles",
+      "genre": "Thriller",
+      "duration": "2h04",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-26",
+      "hour": 15,
+      "minute": 35,
+      "title": "Les Parapluies de Cherbourg",
+      "genre": "Film Musical",
+      "duration": "1h31",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-26",
+      "hour": 18,
+      "minute": 30,
+      "title": "Le Parrain",
+      "genre": "Drame",
+      "duration": "2h55",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-26",
+      "hour": 17,
+      "minute": 20,
+      "title": "Les Passagers de la nuit",
+      "genre": "Thriller",
+      "duration": "1h46",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "christine",
+      "date": "2026-05-26",
+      "hour": 21,
+      "minute": 30,
+      "title": "Seven",
+      "genre": "Thriller",
+      "duration": "2h10",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-20",
+      "hour": 15,
+      "minute": 15,
+      "title": "La Captive du désert",
+      "genre": "Comédie Dramatique",
+      "duration": "1h36",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-20",
+      "hour": 14,
+      "minute": 55,
+      "title": "Cosmos",
+      "genre": "Drame",
+      "duration": "2h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-20",
+      "hour": 20,
+      "minute": 10,
+      "title": "Cosmos",
+      "genre": "Drame",
+      "duration": "2h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-20",
+      "hour": 12,
+      "minute": 55,
+      "title": "Le Cri des gardes",
+      "genre": "Drame",
+      "duration": "1h49",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-20",
+      "hour": 17,
+      "minute": 10,
+      "title": "Dao",
+      "genre": "Drame",
+      "duration": "3h05",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-20",
+      "hour": 15,
+      "minute": 0,
+      "title": "The Drama",
+      "genre": "Drame",
+      "duration": "1h46",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-20",
+      "hour": 11,
+      "minute": 55,
+      "title": "La Femme de",
+      "genre": "Drame",
+      "duration": "1h33",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-20",
+      "hour": 13,
+      "minute": 45,
+      "title": "La Fille du konbini",
+      "genre": "Drame",
+      "duration": "1h16",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-20",
+      "hour": 17,
+      "minute": 0,
+      "title": "Hamnet",
+      "genre": "Drame",
+      "duration": "2h05",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-20",
+      "hour": 12,
+      "minute": 30,
+      "title": "Mon grand frère et moi",
+      "genre": "Comédie Dramatique",
+      "duration": "2h07",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-20",
+      "hour": 17,
+      "minute": 45,
+      "title": "Mon grand frère et moi",
+      "genre": "Comédie Dramatique",
+      "duration": "2h07",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-20",
+      "hour": 20,
+      "minute": 30,
+      "title": "Plus fort que moi",
+      "genre": "Drame",
+      "duration": "2h00",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-20",
+      "hour": 19,
+      "minute": 20,
+      "title": "Les Rayons et les Ombres",
+      "genre": "Drame",
+      "duration": "3h15",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-20",
+      "hour": 11,
+      "minute": 15,
+      "title": "Sauvons les meubles",
+      "genre": "Drame",
+      "duration": "1h26",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-21",
+      "hour": 11,
+      "minute": 55,
+      "title": "Cosmos",
+      "genre": "Drame",
+      "duration": "2h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-21",
+      "hour": 17,
+      "minute": 5,
+      "title": "Cosmos",
+      "genre": "Drame",
+      "duration": "2h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-21",
+      "hour": 15,
+      "minute": 40,
+      "title": "Dao",
+      "genre": "Drame",
+      "duration": "3h05",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-21",
+      "hour": 11,
+      "minute": 30,
+      "title": "Le Dernier pour la route",
+      "genre": "Drame",
+      "duration": "1h38",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-21",
+      "hour": 19,
+      "minute": 0,
+      "title": "The Drama",
+      "genre": "Drame",
+      "duration": "1h46",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-21",
+      "hour": 20,
+      "minute": 0,
+      "title": "L'Été en pente douce",
+      "genre": "Drame",
+      "duration": "1h42",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-21",
+      "hour": 21,
+      "minute": 15,
+      "title": "La Fille du konbini",
+      "genre": "Drame",
+      "duration": "1h16",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-21",
+      "hour": 14,
+      "minute": 45,
+      "title": "Mon grand frère et moi",
+      "genre": "Comédie Dramatique",
+      "duration": "2h07",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-21",
+      "hour": 13,
+      "minute": 20,
+      "title": "Nuestra Tierra",
+      "genre": "Documentaire",
+      "duration": "1h59",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-21",
+      "hour": 19,
+      "minute": 0,
+      "title": "Plus fort que moi",
+      "genre": "Drame",
+      "duration": "2h00",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-21",
+      "hour": 15,
+      "minute": 25,
+      "title": "Les Rayons et les Ombres",
+      "genre": "Drame",
+      "duration": "3h15",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-21",
+      "hour": 21,
+      "minute": 0,
+      "title": "Sauvons les meubles",
+      "genre": "Drame",
+      "duration": "1h26",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-21",
+      "hour": 11,
+      "minute": 25,
+      "title": "Truly Naked",
+      "genre": "Drame",
+      "duration": "1h42",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-21",
+      "hour": 13,
+      "minute": 25,
+      "title": "Un homme sans l'Occident",
+      "genre": "Divers",
+      "duration": "1h44",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-22",
+      "hour": 12,
+      "minute": 30,
+      "title": "Cosmos",
+      "genre": "Drame",
+      "duration": "2h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-22",
+      "hour": 17,
+      "minute": 40,
+      "title": "Cosmos",
+      "genre": "Drame",
+      "duration": "2h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-22",
+      "hour": 20,
+      "minute": 50,
+      "title": "Le Cri des gardes",
+      "genre": "Drame",
+      "duration": "1h49",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-22",
+      "hour": 14,
+      "minute": 20,
+      "title": "Dao",
+      "genre": "Drame",
+      "duration": "3h05",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-22",
+      "hour": 16,
+      "minute": 30,
+      "title": "The Drama",
+      "genre": "Drame",
+      "duration": "1h46",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-22",
+      "hour": 18,
+      "minute": 30,
+      "title": "Hamnet",
+      "genre": "Drame",
+      "duration": "2h05",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-22",
+      "hour": 20,
+      "minute": 0,
+      "title": "Marty Supreme",
+      "genre": "Biopic",
+      "duration": "2h29",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-22",
+      "hour": 15,
+      "minute": 20,
+      "title": "Mon grand frère et moi",
+      "genre": "Comédie Dramatique",
+      "duration": "2h07",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-22",
+      "hour": 20,
+      "minute": 30,
+      "title": "Mon grand frère et moi",
+      "genre": "Comédie Dramatique",
+      "duration": "2h07",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-22",
+      "hour": 17,
+      "minute": 40,
+      "title": "Nuestra Tierra",
+      "genre": "Documentaire",
+      "duration": "1h59",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-22",
+      "hour": 12,
+      "minute": 5,
+      "title": "Plus fort que moi",
+      "genre": "Drame",
+      "duration": "2h00",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-22",
+      "hour": 12,
+      "minute": 55,
+      "title": "Les Rayons et les Ombres",
+      "genre": "Drame",
+      "duration": "3h15",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-22",
+      "hour": 11,
+      "minute": 15,
+      "title": "Sauvons les meubles",
+      "genre": "Drame",
+      "duration": "1h26",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-23",
+      "hour": 14,
+      "minute": 0,
+      "title": "Ce qu'il reste de nous",
+      "genre": "Drame",
+      "duration": "2h25",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-23",
+      "hour": 20,
+      "minute": 10,
+      "title": "Cosmos",
+      "genre": "Drame",
+      "duration": "2h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-23",
+      "hour": 11,
+      "minute": 5,
+      "title": "Le Cri des gardes",
+      "genre": "Drame",
+      "duration": "1h49",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-23",
+      "hour": 19,
+      "minute": 20,
+      "title": "Dao",
+      "genre": "Drame",
+      "duration": "3h05",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-23",
+      "hour": 17,
+      "minute": 15,
+      "title": "The Drama",
+      "genre": "Drame",
+      "duration": "1h46",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-23",
+      "hour": 13,
+      "minute": 10,
+      "title": "Hamnet",
+      "genre": "Drame",
+      "duration": "2h05",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-23",
+      "hour": 16,
+      "minute": 35,
+      "title": "Marty Supreme",
+      "genre": "Biopic",
+      "duration": "2h29",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-23",
+      "hour": 12,
+      "minute": 0,
+      "title": "Mon grand frère et moi",
+      "genre": "Comédie Dramatique",
+      "duration": "2h07",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-23",
+      "hour": 17,
+      "minute": 0,
+      "title": "L'Oranais",
+      "genre": "Drame",
+      "duration": "2h08",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-23",
+      "hour": 14,
+      "minute": 20,
+      "title": "Plus fort que moi",
+      "genre": "Drame",
+      "duration": "2h00",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-23",
+      "hour": 19,
+      "minute": 15,
+      "title": "Les Rayons et les Ombres",
+      "genre": "Drame",
+      "duration": "3h15",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-23",
+      "hour": 15,
+      "minute": 30,
+      "title": "Sauvons les meubles",
+      "genre": "Drame",
+      "duration": "1h26",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-24",
+      "hour": 12,
+      "minute": 30,
+      "title": "Cosmos",
+      "genre": "Drame",
+      "duration": "2h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-24",
+      "hour": 17,
+      "minute": 40,
+      "title": "Cosmos",
+      "genre": "Drame",
+      "duration": "2h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-24",
+      "hour": 17,
+      "minute": 15,
+      "title": "Dao",
+      "genre": "Drame",
+      "duration": "3h05",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-24",
+      "hour": 12,
+      "minute": 35,
+      "title": "Le Dernier pour la route",
+      "genre": "Drame",
+      "duration": "1h38",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-24",
+      "hour": 20,
+      "minute": 30,
+      "title": "The Drama",
+      "genre": "Drame",
+      "duration": "1h46",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-24",
+      "hour": 13,
+      "minute": 30,
+      "title": "La Fille du konbini",
+      "genre": "Drame",
+      "duration": "1h16",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-24",
+      "hour": 14,
+      "minute": 35,
+      "title": "Hamnet",
+      "genre": "Drame",
+      "duration": "2h05",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-24",
+      "hour": 15,
+      "minute": 20,
+      "title": "Mon grand frère et moi",
+      "genre": "Comédie Dramatique",
+      "duration": "2h07",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-24",
+      "hour": 20,
+      "minute": 30,
+      "title": "Mon grand frère et moi",
+      "genre": "Comédie Dramatique",
+      "duration": "2h07",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-24",
+      "hour": 15,
+      "minute": 0,
+      "title": "Plus fort que moi",
+      "genre": "Drame",
+      "duration": "2h00",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-24",
+      "hour": 20,
+      "minute": 35,
+      "title": "Plus fort que moi",
+      "genre": "Drame",
+      "duration": "2h00",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-24",
+      "hour": 17,
+      "minute": 0,
+      "title": "Les Rayons et les Ombres",
+      "genre": "Drame",
+      "duration": "3h15",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-24",
+      "hour": 10,
+      "minute": 55,
+      "title": "Sauvons les meubles",
+      "genre": "Drame",
+      "duration": "1h26",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-24",
+      "hour": 11,
+      "minute": 35,
+      "title": "Truly Naked",
+      "genre": "Drame",
+      "duration": "1h42",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-25",
+      "hour": 14,
+      "minute": 55,
+      "title": "Cosmos",
+      "genre": "Drame",
+      "duration": "2h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-25",
+      "hour": 20,
+      "minute": 5,
+      "title": "Cosmos",
+      "genre": "Drame",
+      "duration": "2h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-25",
+      "hour": 15,
+      "minute": 10,
+      "title": "Le Cri des gardes",
+      "genre": "Drame",
+      "duration": "1h49",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-25",
+      "hour": 15,
+      "minute": 15,
+      "title": "Dao",
+      "genre": "Drame",
+      "duration": "3h05",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-25",
+      "hour": 17,
+      "minute": 15,
+      "title": "The Drama",
+      "genre": "Drame",
+      "duration": "1h46",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-25",
+      "hour": 11,
+      "minute": 10,
+      "title": "La Femme de",
+      "genre": "Drame",
+      "duration": "1h33",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-25",
+      "hour": 18,
+      "minute": 35,
+      "title": "La Fille du konbini",
+      "genre": "Drame",
+      "duration": "1h16",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-25",
+      "hour": 11,
+      "minute": 10,
+      "title": "Hamnet",
+      "genre": "Drame",
+      "duration": "2h05",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-25",
+      "hour": 20,
+      "minute": 5,
+      "title": "Marty Supreme",
+      "genre": "Biopic",
+      "duration": "2h29",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-25",
+      "hour": 12,
+      "minute": 30,
+      "title": "Mon grand frère et moi",
+      "genre": "Comédie Dramatique",
+      "duration": "2h07",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-25",
+      "hour": 17,
+      "minute": 45,
+      "title": "Mon grand frère et moi",
+      "genre": "Comédie Dramatique",
+      "duration": "2h07",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-25",
+      "hour": 13,
+      "minute": 0,
+      "title": "Plus fort que moi",
+      "genre": "Drame",
+      "duration": "2h00",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-25",
+      "hour": 19,
+      "minute": 15,
+      "title": "Les Rayons et les Ombres",
+      "genre": "Drame",
+      "duration": "3h15",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-25",
+      "hour": 13,
+      "minute": 30,
+      "title": "Sauvons les meubles",
+      "genre": "Drame",
+      "duration": "1h26",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-26",
+      "hour": 12,
+      "minute": 40,
+      "title": "Afriques : comment ça va avec la douleur ?",
+      "genre": "Documentaire",
+      "duration": "2h45",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-26",
+      "hour": 12,
+      "minute": 30,
+      "title": "Cosmos",
+      "genre": "Drame",
+      "duration": "2h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-26",
+      "hour": 17,
+      "minute": 40,
+      "title": "Cosmos",
+      "genre": "Drame",
+      "duration": "2h33",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-26",
+      "hour": 17,
+      "minute": 0,
+      "title": "Le Cri des gardes",
+      "genre": "Drame",
+      "duration": "1h49",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-26",
+      "hour": 19,
+      "minute": 30,
+      "title": "Dao",
+      "genre": "Drame",
+      "duration": "3h05",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-26",
+      "hour": 20,
+      "minute": 45,
+      "title": "The Drama",
+      "genre": "Drame",
+      "duration": "1h46",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-26",
+      "hour": 11,
+      "minute": 45,
+      "title": "Empty Quarter, une femme en Afrique",
+      "genre": "Comédie Dramatique",
+      "duration": "1h25",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-26",
+      "hour": 15,
+      "minute": 45,
+      "title": "La Fille du konbini",
+      "genre": "Drame",
+      "duration": "1h16",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-26",
+      "hour": 15,
+      "minute": 20,
+      "title": "Mon grand frère et moi",
+      "genre": "Comédie Dramatique",
+      "duration": "2h07",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-26",
+      "hour": 20,
+      "minute": 30,
+      "title": "Mon grand frère et moi",
+      "genre": "Comédie Dramatique",
+      "duration": "2h07",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-26",
+      "hour": 10,
+      "minute": 25,
+      "title": "Plus fort que moi",
+      "genre": "Drame",
+      "duration": "2h00",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-26",
+      "hour": 17,
+      "minute": 15,
+      "title": "Plus fort que moi",
+      "genre": "Drame",
+      "duration": "2h00",
+      "lang": "VO"
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-26",
+      "hour": 13,
+      "minute": 25,
+      "title": "Les Rayons et les Ombres",
+      "genre": "Drame",
+      "duration": "3h15",
+      "lang": ""
+    },
+    {
+      "cinema_id": "standre",
+      "date": "2026-05-26",
+      "hour": 19,
+      "minute": 5,
+      "title": "Sauvons les meubles",
+      "genre": "Drame",
+      "duration": "1h26",
+      "lang": ""
     }
   ]
 }
