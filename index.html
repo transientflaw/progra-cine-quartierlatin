@@ -266,6 +266,68 @@
     font-family: 'JetBrains Mono', monospace; font-size: 11px;
     line-height: 1.6; position: relative; z-index: 2;
   }
+
+  .screening .title .credits {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-soft);
+    margin-top: 3px;
+  }
+  /* Vue groupée par film (un seul cinéma sélectionné) */
+  .film-card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--cinema-color, var(--accent));
+    padding: 14px 16px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .film-card:active {
+    transform: scale(0.985);
+    box-shadow: 0 4px 16px rgba(26, 20, 16, 0.12);
+  }
+  .film-card .film-title {
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+  }
+  .film-card .film-credits {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-soft);
+    margin-top: 4px;
+  }
+  .film-card .film-times {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  .film-card .film-time {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--accent);
+    background: rgba(200, 51, 27, 0.07);
+    padding: 4px 9px;
+    border-radius: 2px;
+  }
+  .modal-poster {
+    width: 100%;
+    max-width: 180px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    display: block;
+  }
 </style>
 </head>
 <body>
@@ -490,6 +552,11 @@ function renderTimeline(screenings) {
       </div>`;
     return;
   }
+  // Vue groupée par film si UN SEUL cinéma est sélectionné
+  if (state.activeCinemas.size === 1) {
+    renderGroupedByFilm(screenings, timeline);
+    return;
+  }
   if (state.proximityMode && state.userLoc) {
     screenings.forEach(s => {
       const c = cinemaMap[s.cinema_id];
@@ -530,9 +597,11 @@ function renderTimeline(screenings) {
         : '';
       const durStr = s.duration ? `<span class="sep">·</span><span>${s.duration}</span>` : '';
       const langStr = s.lang ? `<span class="sep">·</span><span class="lang">${s.lang}</span>` : '';
+      const credits = [s.director, s.year].filter(Boolean).join(', ');
+      const creditsStr = credits ? `<div class="credits">${escapeHtml(credits)}</div>` : '';
       screening.innerHTML = `
         <div class="head">
-          <div class="title">${escapeHtml(s.title)}</div>
+          <div class="title">${escapeHtml(s.title)}${creditsStr}</div>
           <div class="time-badge">${String(s.hour).padStart(2,'0')}:${String(s.minute).padStart(2,'0')}</div>
         </div>
         <div class="meta-row">
@@ -549,10 +618,55 @@ function renderTimeline(screenings) {
   });
 }
 
+function renderGroupedByFilm(screenings, timeline) {
+  // Regrouper par titre de film
+  const films = {};
+  screenings.forEach(s => {
+    const key = s.title + '|' + (s.year || '');
+    if (!films[key]) {
+      films[key] = { title: s.title, director: s.director, year: s.year,
+                     genre: s.genre, duration: s.duration, lang: s.lang,
+                     cinema_id: s.cinema_id, poster: s.poster, times: [], samples: [] };
+    }
+    films[key].times.push({ h: s.hour, m: s.minute });
+    films[key].samples.push(s);
+  });
+
+  // Trier les films par leur première séance de la journée
+  const list = Object.values(films).map(f => {
+    f.times.sort((a, b) => (a.h*60+a.m) - (b.h*60+b.m));
+    f.first = f.times[0].h * 60 + f.times[0].m;
+    return f;
+  }).sort((a, b) => a.first - b.first);
+
+  list.forEach(f => {
+    const cinema = cinemaMap[f.cinema_id];
+    const card = document.createElement('div');
+    card.className = 'film-card';
+    card.style.setProperty('--cinema-color', cinema.color);
+    const credits = [f.director, f.year].filter(Boolean).join(', ');
+    const metaBits = [f.lang, f.genre, f.duration].filter(Boolean).join(' · ');
+    const timesHtml = f.times.map(t =>
+      `<span class="film-time">${String(t.h).padStart(2,'0')}:${String(t.m).padStart(2,'0')}</span>`
+    ).join('');
+    card.innerHTML = `
+      <div class="film-title">${escapeHtml(f.title)}</div>
+      ${credits ? `<div class="film-credits">${escapeHtml(credits)}${metaBits ? ' · ' + metaBits : ''}</div>` : (metaBits ? `<div class="film-credits">${metaBits}</div>` : '')}
+      <div class="film-times">${timesHtml}</div>`;
+    // Au clic, ouvrir la modale sur la première séance
+    card.onclick = () => openModal(f.samples[0], cinema);
+    timeline.appendChild(card);
+  });
+}
+
 function openModal(s, cinema) {
+  const posterHtml = s.poster ? `<img class="modal-poster" src="${s.poster}" alt="Affiche">` : '';
   document.getElementById('modalContent').innerHTML = `
+    ${posterHtml}
     <h2>${escapeHtml(s.title)}</h2>
     <div class="modal-meta">${s.genre || ''}${s.duration ? ' · ' + s.duration : ''}</div>
+    ${s.director ? `<div class="modal-row"><span>Réalisateur</span><span>${escapeHtml(s.director)}</span></div>` : ''}
+    ${s.year ? `<div class="modal-row"><span>Année</span><span>${escapeHtml(s.year)}</span></div>` : ''}
     <div class="modal-row"><span>Salle</span><span>${cinema.name}</span></div>
     <div class="modal-row"><span>Adresse</span><span style="text-align:right">${cinema.address}</span></div>
     <div class="modal-row"><span>Séance</span><span>${String(s.hour).padStart(2,'0')}:${String(s.minute).padStart(2,'0')}</span></div>
