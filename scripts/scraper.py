@@ -130,6 +130,12 @@ def parse_section(section, day_date: date, cinema_id: str) -> list[dict]:
         if not title:
             continue
 
+        # URL de la fiche détaillée du film (pour réalisateur/année/affiche)
+        film_url = ""
+        if title_link and title_link.get("href"):
+            href = title_link["href"]
+            film_url = href if href.startswith("http") else "https://www.offi.fr" + href
+
         # Tout le texte de la fiche, balises aplaties
         blob = " ".join(fiche.stripped_strings)
 
@@ -150,6 +156,9 @@ def parse_section(section, day_date: date, cinema_id: str) -> list[dict]:
                 seen.add(t)
                 valid_times.append(t)
 
+        # Récupérer les détails enrichis (mis en cache par URL)
+        info = fetch_film_details(film_url)
+
         for t in valid_times:
             h, mn = t.split(":")
             screenings.append({
@@ -161,8 +170,66 @@ def parse_section(section, day_date: date, cinema_id: str) -> list[dict]:
                 "genre": genre,
                 "duration": duration,
                 "lang": lang,
+                "director": info["director"],
+                "year": info["year"],
+                "poster": info["poster"],
             })
     return screenings
+
+
+
+# Cache des détails de film (clé = URL fiche), pour ne télécharger qu'une fois par film
+_FILM_DETAILS_CACHE = {}
+
+def fetch_film_details(url):
+    """Récupère réalisateur, année et affiche depuis la fiche détaillée d'un film."""
+    if not url:
+        return {"director": "", "year": "", "poster": ""}
+    if url in _FILM_DETAILS_CACHE:
+        return _FILM_DETAILS_CACHE[url]
+
+    details = {"director": "", "year": "", "poster": ""}
+    html = fetch(url)
+    if not html:
+        _FILM_DETAILS_CACHE[url] = details
+        return details
+
+    fsoup = BeautifulSoup(html, "lxml")
+
+    # Réalisateur via schema.org
+    d = fsoup.find(attrs={"itemprop": "director"})
+    if d:
+        details["director"] = " ".join(d.stripped_strings).strip()
+    if not details["director"]:
+        for b in fsoup.find_all("b"):
+            if "Réalisation" in b.get_text():
+                nxt = b.find_next_sibling()
+                if nxt and nxt.name == "a":
+                    details["director"] = nxt.get_text(strip=True)
+                break
+
+    # Année de production
+    for b in fsoup.find_all("b"):
+        if "Année de production" in b.get_text():
+            nxt = b.next_sibling
+            while nxt is not None:
+                txt = nxt.get_text(strip=True) if hasattr(nxt, "get_text") else str(nxt).strip()
+                m = re.search(r"\b(19[0-9]{2}|20[0-2][0-9])\b", txt)
+                if m:
+                    details["year"] = m.group(1)
+                    break
+                nxt = nxt.next_sibling if hasattr(nxt, "next_sibling") else None
+            break
+
+    # Affiche
+    for img in fsoup.find_all("img"):
+        src = img.get("src", "")
+        if "files.offi.fr/evenement/" in src and "photo_vide" not in src:
+            details["poster"] = src
+            break
+
+    _FILM_DETAILS_CACHE[url] = details
+    return details
 
 
 def scrape_cinema(cinema: dict) -> list[dict]:
