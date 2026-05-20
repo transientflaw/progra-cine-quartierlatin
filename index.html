@@ -356,7 +356,8 @@ async function loadData() {
 
     // Démarrage : si aujourd'hui a des séances, on commence là.
     // Sinon, on commence à la première date couverte.
-    const todayStr = new Date().toISOString().slice(0, 10);
+    const _now = new Date();
+    const todayStr = `${_now.getFullYear()}-${String(_now.getMonth()+1).padStart(2,'0')}-${String(_now.getDate()).padStart(2,'0')}`;
     if (datesAvecData.includes(todayStr)) {
       TODAY = new Date();
     } else if (datesAvecData.length > 0) {
@@ -392,7 +393,13 @@ async function loadData() {
   }
 }
 
-function fmtDate(d) { return d.toISOString().slice(0, 10); }
+function fmtDate(d) {
+  // Formatage en heure LOCALE (pas UTC) pour éviter le décalage de timezone
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${y}-${m}-${day}`;
+}
 function getDate(offset) { const d = new Date(TODAY); d.setDate(d.getDate() + offset); return d; }
 function distanceKm(lat1, lng1, lat2, lng2) {
   const R = 6371;
