@@ -1,14 +1,122 @@
 [
-  { "id": "champo",      "name": "Le Champo",                "short": "Champo",      "color": "#c8331b", "lat": 48.8505, "lng": 2.3441, "address": "51 rue des Écoles, 75005",          "slug": "champo-1755" },
-  { "id": "filmotheque", "name": "Filmothèque du Q. Latin",  "short": "Filmothèque", "color": "#b08838", "lat": 48.8501, "lng": 2.3437, "address": "9 rue Champollion, 75005",          "slug": "filmotheque-quartier-latin-2323" },
-  { "id": "reflet",      "name": "Reflet Médicis",           "short": "Reflet",      "color": "#3a5a40", "lat": 48.8497, "lng": 2.3434, "address": "3 rue Champollion, 75005",          "slug": "reflet-medicis-3059" },
-  { "id": "troisLux",    "name": "Les 3 Luxembourg",         "short": "3 Lux",       "color": "#7a3d8f", "lat": 48.8489, "lng": 2.3393, "address": "67 rue Monsieur-le-Prince, 75006",  "slug": "3-luxembourg-3308" },
-  { "id": "grandAction", "name": "Grand Action",             "short": "Grand Action","color": "#1d4e7c", "lat": 48.8484, "lng": 2.3525, "address": "5 rue des Écoles, 75005",           "slug": "grand-action-2403" },
-  { "id": "galande",     "name": "Studio Galande",           "short": "Galande",     "color": "#456b48", "lat": 48.8523, "lng": 2.3470, "address": "42 rue Galande, 75005",             "slug": "studio-galande-3211" },
-  { "id": "laClef",      "name": "La Clef",                  "short": "La Clef",     "color": "#9b2c4e", "lat": 48.8413, "lng": 2.3528, "address": "34 rue Daubenton, 75005",           "slug": "la-clef-2495" },
-  { "id": "nouvelOdeon", "name": "Nouvel Odéon",             "short": "Nv. Odéon",   "color": "#2d5475", "lat": 48.8513, "lng": 2.3401, "address": "6 rue de l'École de Médecine, 75006","slug": "nouvel-odeon-3051" },
-  { "id": "ecoles",      "name": "Écoles Cinéma Club",       "short": "Écoles",      "color": "#c25a1f", "lat": 48.8486, "lng": 2.3520, "address": "23 rue des Écoles, 75005",          "slug": "ecoles-cinema-club-2233" },
-  { "id": "pantheon",    "name": "Cinéma du Panthéon",       "short": "Panthéon",    "color": "#3d3d6b", "lat": 48.8463, "lng": 2.3434, "address": "13 rue Victor-Cousin, 75005",       "slug": "cinema-du-pantheon-1829" },
-  { "id": "christine",   "name": "Christine Cinéma Club",    "short": "Christine",   "color": "#9b6c4e", "lat": 48.8541, "lng": 2.3401, "address": "4 rue Christine, 75006",            "slug": "christine-cinema-club-2017" },
-  { "id": "standre",     "name": "Saint-André des Arts",     "short": "St-André",    "color": "#7a3d4c", "lat": 48.8531, "lng": 2.3413, "address": "30 rue Saint-André des Arts, 75006","slug": "saint-andre-des-arts-3138" }
+  {
+    "id": "champo",
+    "name": "Le Champo",
+    "short": "Champo",
+    "color": "#c8331b",
+    "lat": 48.8505,
+    "lng": 2.3441,
+    "address": "51 rue des Écoles, 75005",
+    "slug": "champo-1755"
+  },
+  {
+    "id": "filmotheque",
+    "name": "Filmothèque du Q. Latin",
+    "short": "Filmothèque",
+    "color": "#b08838",
+    "lat": 48.8501,
+    "lng": 2.3437,
+    "address": "9 rue Champollion, 75005",
+    "slug": "filmotheque-quartier-latin-2323"
+  },
+  {
+    "id": "reflet",
+    "name": "Reflet Médicis",
+    "short": "Reflet",
+    "color": "#3a5a40",
+    "lat": 48.8497,
+    "lng": 2.3434,
+    "address": "3 rue Champollion, 75005",
+    "slug": "reflet-medicis-3059"
+  },
+  {
+    "id": "troisLux",
+    "name": "Les 3 Luxembourg",
+    "short": "3 Lux",
+    "color": "#7a3d8f",
+    "lat": 48.8489,
+    "lng": 2.3393,
+    "address": "67 rue Monsieur-le-Prince, 75006",
+    "slug": "3-luxembourg-3308"
+  },
+  {
+    "id": "grandAction",
+    "name": "Grand Action",
+    "short": "Grand Action",
+    "color": "#1d4e7c",
+    "lat": 48.8484,
+    "lng": 2.3525,
+    "address": "5 rue des Écoles, 75005",
+    "slug": "grand-action-2403"
+  },
+  {
+    "id": "galande",
+    "name": "Studio Galande",
+    "short": "Galande",
+    "color": "#456b48",
+    "lat": 48.8523,
+    "lng": 2.347,
+    "address": "42 rue Galande, 75005",
+    "slug": "studio-galande-3211"
+  },
+  {
+    "id": "laClef",
+    "name": "La Clef",
+    "short": "La Clef",
+    "color": "#9b2c4e",
+    "lat": 48.8413,
+    "lng": 2.3528,
+    "address": "34 rue Daubenton, 75005",
+    "slug": "la-clef-2495"
+  },
+  {
+    "id": "nouvelOdeon",
+    "name": "Nouvel Odéon",
+    "short": "Nv. Odéon",
+    "color": "#2d5475",
+    "lat": 48.8513,
+    "lng": 2.3401,
+    "address": "6 rue de l'École de Médecine, 75006",
+    "slug": "nouvel-odeon-3051"
+  },
+  {
+    "id": "ecoles",
+    "name": "Écoles Cinéma Club",
+    "short": "Écoles",
+    "color": "#c25a1f",
+    "lat": 48.8486,
+    "lng": 2.352,
+    "address": "23 rue des Écoles, 75005",
+    "slug": "ecoles-cinema-club-1362"
+  },
+  {
+    "id": "pantheon",
+    "name": "Cinéma du Panthéon",
+    "short": "Panthéon",
+    "color": "#3d3d6b",
+    "lat": 48.8463,
+    "lng": 2.3434,
+    "address": "13 rue Victor-Cousin, 75005",
+    "slug": "cinema-du-pantheon-1829"
+  },
+  {
+    "id": "christine",
+    "name": "Christine Cinéma Club",
+    "short": "Christine",
+    "color": "#9b6c4e",
+    "lat": 48.8541,
+    "lng": 2.3401,
+    "address": "4 rue Christine, 75006",
+    "slug": "christine-cinema-club-1361"
+  },
+  {
+    "id": "standre",
+    "name": "Saint-André des Arts",
+    "short": "St-André",
+    "color": "#7a3d4c",
+    "lat": 48.8531,
+    "lng": 2.3413,
+    "address": "30 rue Saint-André des Arts, 75006",
+    "slug": "saint-andre-des-arts-3105"
+  }
 ]
