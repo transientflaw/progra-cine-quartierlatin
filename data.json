@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T05:54:38",
+  "generated_at": "2026-05-23T22:50:10",
   "source": "L'Officiel des spectacles (offi.fr)",
   "cinemas": [
     {
@@ -200,7 +200,7 @@
       "lang": "VO",
       "director": "Alfred Hitchcock",
       "year": "1954",
-      "poster": "https://files.offi.fr/evenement/10763/images/200/899848929211d68ff3ae6edc5b5c3ca8.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "champo",
@@ -317,7 +317,7 @@
       "lang": "VO",
       "director": "Alfred Hitchcock",
       "year": "1954",
-      "poster": "https://files.offi.fr/evenement/10763/images/200/899848929211d68ff3ae6edc5b5c3ca8.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "champo",
@@ -486,7 +486,7 @@
       "lang": "VO",
       "director": "Alfred Hitchcock",
       "year": "1954",
-      "poster": "https://files.offi.fr/evenement/10763/images/200/899848929211d68ff3ae6edc5b5c3ca8.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "champo",
@@ -538,7 +538,7 @@
       "lang": "VO",
       "director": "Fred Newmeyer , Sam Taylor",
       "year": "1925",
-      "poster": "https://files.offi.fr/evenement/105726/images/200/ddbdb65e07c054c863e3b6f0743f7941.jpg"
+      "poster": "https://files.offi.fr/evenement/105726/images/200/76d8a76758eda15e4e941358dc9a0a7b.jpg"
     },
     {
       "cinema_id": "champo",
@@ -551,7 +551,7 @@
       "lang": "VO",
       "director": "Martin Scorsese",
       "year": "1999",
-      "poster": "https://files.offi.fr/evenement/51424/images/120/28299e229fac676b0329bb0e1369277b.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "champo",
@@ -616,7 +616,7 @@
       "lang": "VO",
       "director": "Alfred Hitchcock",
       "year": "1954",
-      "poster": "https://files.offi.fr/evenement/10763/images/200/899848929211d68ff3ae6edc5b5c3ca8.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "champo",
@@ -642,7 +642,7 @@
       "lang": "VO",
       "director": "JA Howe , Ted Wilde",
       "year": "1927",
-      "poster": "https://files.offi.fr/evenement/105725/images/200/ddbdb65e07c054c863e3b6f0743f7941.jpg"
+      "poster": "https://files.offi.fr/evenement/105725/images/200/56028672c190f5487c1cfbe27a69283d.jpg"
     },
     {
       "cinema_id": "champo",
@@ -837,7 +837,7 @@
       "lang": "VO",
       "director": "Alfred Hitchcock",
       "year": "1954",
-      "poster": "https://files.offi.fr/evenement/10763/images/200/899848929211d68ff3ae6edc5b5c3ca8.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "champo",
@@ -1136,7 +1136,7 @@
       "lang": "",
       "director": "Marguerite Duras",
       "year": "1975",
-      "poster": "https://files.offi.fr/evenement/13949/images/200/78cf4eaa180fc4ba61e91b7c5481cf1c.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "champo",
@@ -1175,7 +1175,7 @@
       "lang": "VO",
       "director": "Walter Hill",
       "year": "1982",
-      "poster": "https://files.offi.fr/evenement/106435/images/120/6ff5c38f79a9a36050e13b4bef883317.png"
+      "poster": ""
     },
     {
       "cinema_id": "filmotheque",
@@ -1188,7 +1188,7 @@
       "lang": "VO",
       "director": "Blake Edwards",
       "year": "1961",
-      "poster": "https://files.offi.fr/evenement/106435/images/120/6ff5c38f79a9a36050e13b4bef883317.png"
+      "poster": ""
     },
     {
       "cinema_id": "filmotheque",
@@ -1266,7 +1266,7 @@
       "lang": "VO",
       "director": "John Frankenheimer",
       "year": "1962",
-      "poster": "https://files.offi.fr/evenement/106435/images/120/6ff5c38f79a9a36050e13b4bef883317.png"
+      "poster": ""
     },
     {
       "cinema_id": "filmotheque",
@@ -1331,7 +1331,7 @@
       "lang": "VO",
       "director": "Pier Paolo Pasolini",
       "year": "1966",
-      "poster": "https://files.offi.fr/evenement/23592/images/120/2ac96c5f62978ad74e4947ee37bcf0b8.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "filmotheque",
@@ -1344,7 +1344,7 @@
       "lang": "VO",
       "director": "Pier Paolo Pasolini , Susanna Pasolini",
       "year": "1964",
-      "poster": "https://files.offi.fr/evenement/10129/images/200/168a6ebbb4d319d6dc5910c9aa374c04.jpg"
+      "poster": "https://files.offi.fr/evenement/10129/images/200/b4371640ce495175b60a386d72799f65.jpg"
     },
     {
       "cinema_id": "filmotheque",
@@ -1422,7 +1422,7 @@
       "lang": "VO",
       "director": "Ridley Scott",
       "year": "1991",
-      "poster": "https://files.offi.fr/evenement/25967/images/200/80f47d109a310893948fabfc53db0390.jpg"
+      "poster": "https://files.offi.fr/evenement/25967/images/200/d52720c8329a962fc414ec78ea8cd2a2.jpg"
     },
     {
       "cinema_id": "filmotheque",
@@ -1474,7 +1474,7 @@
       "lang": "VO",
       "director": "Francis Ford Coppola",
       "year": "1974",
-      "poster": "https://files.offi.fr/evenement/6628/images/120/bf0f28182cff6428fc920e2426b5cbd8.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "filmotheque",
@@ -1487,7 +1487,7 @@
       "lang": "VO",
       "director": "John Stahl",
       "year": "1945",
-      "poster": "https://files.offi.fr/evenement/105800/images/120/171a20922592a9237f7c964881655644.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "filmotheque",
@@ -1552,7 +1552,7 @@
       "lang": "VO",
       "director": "Samuel Fuller",
       "year": "1982",
-      "poster": "https://files.offi.fr/evenement/8829/images/200/12d33e6eef81cf5732e00c7dcca02a7a.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "filmotheque",
@@ -1630,7 +1630,7 @@
       "lang": "VO",
       "director": "Pier Paolo Pasolini",
       "year": "1967",
-      "poster": "https://files.offi.fr/evenement/19244/images/200/168a6ebbb4d319d6dc5910c9aa374c04.jpg"
+      "poster": "https://files.offi.fr/evenement/19244/images/200/d8cf746c6638a661f451c01270a07ac9.jpg"
     },
     {
       "cinema_id": "filmotheque",
@@ -1643,7 +1643,7 @@
       "lang": "VO",
       "director": "Francis Ford Coppola",
       "year": "1990",
-      "poster": "https://files.offi.fr/evenement/6628/images/120/bf0f28182cff6428fc920e2426b5cbd8.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "filmotheque",
@@ -1656,7 +1656,7 @@
       "lang": "VO",
       "director": "Joseph Sargent",
       "year": "1974",
-      "poster": "https://files.offi.fr/evenement/106435/images/120/6ff5c38f79a9a36050e13b4bef883317.png"
+      "poster": ""
     },
     {
       "cinema_id": "filmotheque",
@@ -1708,7 +1708,7 @@
       "lang": "VO",
       "director": "Eric Rohmer",
       "year": "1966",
-      "poster": "https://files.offi.fr/evenement/105800/images/120/171a20922592a9237f7c964881655644.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "filmotheque",
@@ -1721,7 +1721,7 @@
       "lang": "VO",
       "director": "Richard Fleischer",
       "year": "1969",
-      "poster": "https://files.offi.fr/evenement/24777/images/120/c809b6fd4bcfb2263af20a6dd0147e7e.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "filmotheque",
@@ -1786,7 +1786,7 @@
       "lang": "VO",
       "director": "Pier Paolo Pasolini",
       "year": "1969",
-      "poster": "https://files.offi.fr/evenement/17194/images/200/168a6ebbb4d319d6dc5910c9aa374c04.jpg"
+      "poster": "https://files.offi.fr/evenement/17194/images/200/1b8344c89c8e5607ad0b3691af2c58c1.jpg"
     },
     {
       "cinema_id": "filmotheque",
@@ -1838,7 +1838,7 @@
       "lang": "VO",
       "director": "Na Hong-Jin",
       "year": "2007",
-      "poster": "https://files.offi.fr/evenement/32088/images/200/1236765785652.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "filmotheque",
@@ -1851,7 +1851,7 @@
       "lang": "VO",
       "director": "Peter Bogdanovich",
       "year": "1968",
-      "poster": "https://files.offi.fr/evenement/105960/images/120/18f40aa938de756f038dc56148e504a4.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "filmotheque",
@@ -1929,7 +1929,7 @@
       "lang": "VO",
       "director": "Michael Winner",
       "year": "1974",
-      "poster": "https://files.offi.fr/evenement/106435/images/120/6ff5c38f79a9a36050e13b4bef883317.png"
+      "poster": ""
     },
     {
       "cinema_id": "filmotheque",
@@ -1981,7 +1981,7 @@
       "lang": "VO",
       "director": "Pier Paolo Pasolini",
       "year": "1964",
-      "poster": "https://files.offi.fr/evenement/9635/images/200/168a6ebbb4d319d6dc5910c9aa374c04.jpg"
+      "poster": "https://files.offi.fr/evenement/9635/images/200/5596866ead8e22f3cc1e87767304fd5a.jpg"
     },
     {
       "cinema_id": "filmotheque",
@@ -2033,7 +2033,7 @@
       "lang": "VO",
       "director": "Richard Fleischer",
       "year": "1974",
-      "poster": "https://files.offi.fr/evenement/24777/images/120/c809b6fd4bcfb2263af20a6dd0147e7e.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "filmotheque",
@@ -2059,7 +2059,7 @@
       "lang": "VO",
       "director": "Peter Yates",
       "year": "1968",
-      "poster": "https://files.offi.fr/evenement/4217/images/200/96506a9238106a07c325d669fac29112.png"
+      "poster": ""
     },
     {
       "cinema_id": "filmotheque",
@@ -2111,7 +2111,7 @@
       "lang": "VO",
       "director": "Tamra Davis",
       "year": "1992",
-      "poster": "https://files.offi.fr/evenement/106435/images/120/6ff5c38f79a9a36050e13b4bef883317.png"
+      "poster": ""
     },
     {
       "cinema_id": "filmotheque",
@@ -2163,7 +2163,7 @@
       "lang": "VO",
       "director": "Joseph L. Mankiewicz",
       "year": "1959",
-      "poster": "https://files.offi.fr/evenement/24889/images/200/7aae81487a426ede35ceeaaab28a7330.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "filmotheque",
@@ -2228,7 +2228,7 @@
       "lang": "VO",
       "director": "Kosei Saito",
       "year": "1979",
-      "poster": "https://files.offi.fr/evenement/105961/images/200/228d78ef5d93e5e710d8b1e87bd2ab79.jpg"
+      "poster": "https://files.offi.fr/evenement/105961/images/200/8f8749892cddba5525ce891c63d6a8a4.jpg"
     },
     {
       "cinema_id": "reflet",
@@ -2345,7 +2345,7 @@
       "lang": "VO",
       "director": "Shinji Somai",
       "year": "1981",
-      "poster": "https://files.offi.fr/evenement/106034/images/200/6586131740879f3abf43c424053ba0c0.png"
+      "poster": "https://files.offi.fr/evenement/106034/images/200/a1cf6ba3a22f663a3f59d28cdfc4363b.jpg"
     },
     {
       "cinema_id": "reflet",
@@ -2358,7 +2358,7 @@
       "lang": "VO",
       "director": "Shinji Somai",
       "year": "1981",
-      "poster": "https://files.offi.fr/evenement/106034/images/200/6586131740879f3abf43c424053ba0c0.png"
+      "poster": "https://files.offi.fr/evenement/106034/images/200/a1cf6ba3a22f663a3f59d28cdfc4363b.jpg"
     },
     {
       "cinema_id": "reflet",
@@ -2371,7 +2371,7 @@
       "lang": "VO",
       "director": "Anja Breien",
       "year": "1971",
-      "poster": "https://files.offi.fr/evenement/105880/images/200/dc90bbaea8b252d7153f51d528bd0103.jpg"
+      "poster": "https://files.offi.fr/evenement/105880/images/200/f3b79e330f28e0cf27862d7dc30e6322.jpg"
     },
     {
       "cinema_id": "reflet",
@@ -2527,7 +2527,7 @@
       "lang": "VO",
       "director": "Shinji Somai",
       "year": "1981",
-      "poster": "https://files.offi.fr/evenement/106034/images/200/6586131740879f3abf43c424053ba0c0.png"
+      "poster": "https://files.offi.fr/evenement/106034/images/200/a1cf6ba3a22f663a3f59d28cdfc4363b.jpg"
     },
     {
       "cinema_id": "reflet",
@@ -2566,7 +2566,7 @@
       "lang": "VO",
       "director": "Anja Breien",
       "year": "1971",
-      "poster": "https://files.offi.fr/evenement/105880/images/200/dc90bbaea8b252d7153f51d528bd0103.jpg"
+      "poster": "https://files.offi.fr/evenement/105880/images/200/f3b79e330f28e0cf27862d7dc30e6322.jpg"
     },
     {
       "cinema_id": "reflet",
@@ -2579,7 +2579,7 @@
       "lang": "VO",
       "director": "Anja Breien",
       "year": "1971",
-      "poster": "https://files.offi.fr/evenement/105880/images/200/dc90bbaea8b252d7153f51d528bd0103.jpg"
+      "poster": "https://files.offi.fr/evenement/105880/images/200/f3b79e330f28e0cf27862d7dc30e6322.jpg"
     },
     {
       "cinema_id": "reflet",
@@ -2618,7 +2618,7 @@
       "lang": "VO",
       "director": "Kosei Saito",
       "year": "1979",
-      "poster": "https://files.offi.fr/evenement/105961/images/200/228d78ef5d93e5e710d8b1e87bd2ab79.jpg"
+      "poster": "https://files.offi.fr/evenement/105961/images/200/8f8749892cddba5525ce891c63d6a8a4.jpg"
     },
     {
       "cinema_id": "reflet",
@@ -2761,7 +2761,7 @@
       "lang": "VO",
       "director": "Shinji Somai",
       "year": "1981",
-      "poster": "https://files.offi.fr/evenement/106034/images/200/6586131740879f3abf43c424053ba0c0.png"
+      "poster": "https://files.offi.fr/evenement/106034/images/200/a1cf6ba3a22f663a3f59d28cdfc4363b.jpg"
     },
     {
       "cinema_id": "reflet",
@@ -2787,7 +2787,7 @@
       "lang": "VO",
       "director": "Anja Breien",
       "year": "1971",
-      "poster": "https://files.offi.fr/evenement/105880/images/200/dc90bbaea8b252d7153f51d528bd0103.jpg"
+      "poster": "https://files.offi.fr/evenement/105880/images/200/f3b79e330f28e0cf27862d7dc30e6322.jpg"
     },
     {
       "cinema_id": "reflet",
@@ -2839,7 +2839,7 @@
       "lang": "VO",
       "director": "Kosei Saito",
       "year": "1979",
-      "poster": "https://files.offi.fr/evenement/105961/images/200/228d78ef5d93e5e710d8b1e87bd2ab79.jpg"
+      "poster": "https://files.offi.fr/evenement/105961/images/200/8f8749892cddba5525ce891c63d6a8a4.jpg"
     },
     {
       "cinema_id": "reflet",
@@ -2969,7 +2969,7 @@
       "lang": "VO",
       "director": "Shinji Somai",
       "year": "1981",
-      "poster": "https://files.offi.fr/evenement/106034/images/200/6586131740879f3abf43c424053ba0c0.png"
+      "poster": "https://files.offi.fr/evenement/106034/images/200/a1cf6ba3a22f663a3f59d28cdfc4363b.jpg"
     },
     {
       "cinema_id": "reflet",
@@ -2982,7 +2982,7 @@
       "lang": "VO",
       "director": "Anja Breien",
       "year": "1971",
-      "poster": "https://files.offi.fr/evenement/105880/images/200/dc90bbaea8b252d7153f51d528bd0103.jpg"
+      "poster": "https://files.offi.fr/evenement/105880/images/200/f3b79e330f28e0cf27862d7dc30e6322.jpg"
     },
     {
       "cinema_id": "reflet",
@@ -3060,7 +3060,7 @@
       "lang": "VO",
       "director": "Kosei Saito",
       "year": "1979",
-      "poster": "https://files.offi.fr/evenement/105961/images/200/228d78ef5d93e5e710d8b1e87bd2ab79.jpg"
+      "poster": "https://files.offi.fr/evenement/105961/images/200/8f8749892cddba5525ce891c63d6a8a4.jpg"
     },
     {
       "cinema_id": "reflet",
@@ -3151,7 +3151,7 @@
       "lang": "VO",
       "director": "Shinji Somai",
       "year": "1981",
-      "poster": "https://files.offi.fr/evenement/106034/images/200/6586131740879f3abf43c424053ba0c0.png"
+      "poster": "https://files.offi.fr/evenement/106034/images/200/a1cf6ba3a22f663a3f59d28cdfc4363b.jpg"
     },
     {
       "cinema_id": "reflet",
@@ -3164,7 +3164,7 @@
       "lang": "VO",
       "director": "Anja Breien",
       "year": "1971",
-      "poster": "https://files.offi.fr/evenement/105880/images/200/dc90bbaea8b252d7153f51d528bd0103.jpg"
+      "poster": "https://files.offi.fr/evenement/105880/images/200/f3b79e330f28e0cf27862d7dc30e6322.jpg"
     },
     {
       "cinema_id": "reflet",
@@ -3372,7 +3372,7 @@
       "lang": "VO",
       "director": "Shinji Somai",
       "year": "1981",
-      "poster": "https://files.offi.fr/evenement/106034/images/200/6586131740879f3abf43c424053ba0c0.png"
+      "poster": "https://files.offi.fr/evenement/106034/images/200/a1cf6ba3a22f663a3f59d28cdfc4363b.jpg"
     },
     {
       "cinema_id": "reflet",
@@ -3398,7 +3398,7 @@
       "lang": "VO",
       "director": "Anja Breien",
       "year": "1971",
-      "poster": "https://files.offi.fr/evenement/105880/images/200/dc90bbaea8b252d7153f51d528bd0103.jpg"
+      "poster": "https://files.offi.fr/evenement/105880/images/200/f3b79e330f28e0cf27862d7dc30e6322.jpg"
     },
     {
       "cinema_id": "reflet",
@@ -3515,7 +3515,7 @@
       "lang": "VO",
       "director": "Anja Breien",
       "year": "1971",
-      "poster": "https://files.offi.fr/evenement/105880/images/200/dc90bbaea8b252d7153f51d528bd0103.jpg"
+      "poster": "https://files.offi.fr/evenement/105880/images/200/f3b79e330f28e0cf27862d7dc30e6322.jpg"
     },
     {
       "cinema_id": "reflet",
@@ -3580,7 +3580,7 @@
       "lang": "VO",
       "director": "Kosei Saito",
       "year": "1979",
-      "poster": "https://files.offi.fr/evenement/105961/images/200/228d78ef5d93e5e710d8b1e87bd2ab79.jpg"
+      "poster": "https://files.offi.fr/evenement/105961/images/200/8f8749892cddba5525ce891c63d6a8a4.jpg"
     },
     {
       "cinema_id": "reflet",
@@ -3593,7 +3593,7 @@
       "lang": "VO",
       "director": "Nicolas Graux , Truong Minh Quy",
       "year": "2025",
-      "poster": "https://files.offi.fr/evenement/106434/images/200/dd36d132b9687279bec86be499751a6d.png"
+      "poster": ""
     },
     {
       "cinema_id": "reflet",
@@ -3697,7 +3697,7 @@
       "lang": "VO",
       "director": "Shinji Somai",
       "year": "1981",
-      "poster": "https://files.offi.fr/evenement/106034/images/200/6586131740879f3abf43c424053ba0c0.png"
+      "poster": "https://files.offi.fr/evenement/106034/images/200/a1cf6ba3a22f663a3f59d28cdfc4363b.jpg"
     },
     {
       "cinema_id": "troisLux",
@@ -5231,7 +5231,7 @@
       "lang": "VO",
       "director": "James L. Brooks",
       "year": "1997",
-      "poster": "https://files.offi.fr/evenement/40055/images/120/1295537481501.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "grandAction",
@@ -5322,7 +5322,7 @@
       "lang": "VO",
       "director": "Werner Herzog",
       "year": "1979",
-      "poster": "https://files.offi.fr/evenement/105729/images/200/310065c41ce8415c22956d037eda692b.jpg"
+      "poster": "https://files.offi.fr/evenement/105729/images/200/5cdf96423157bda02af6bf860e92a499.jpg"
     },
     {
       "cinema_id": "grandAction",
@@ -5361,7 +5361,7 @@
       "lang": "VO",
       "director": "Werner Herzog",
       "year": "1993",
-      "poster": "https://files.offi.fr/evenement/105730/images/200/310065c41ce8415c22956d037eda692b.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "grandAction",
@@ -5569,7 +5569,7 @@
       "lang": "VO",
       "director": "Werner Herzog",
       "year": "1971",
-      "poster": "https://files.offi.fr/evenement/105793/images/200/310065c41ce8415c22956d037eda692b.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "grandAction",
@@ -5582,7 +5582,7 @@
       "lang": "VO",
       "director": "Werner Herzog",
       "year": "1993",
-      "poster": "https://files.offi.fr/evenement/105730/images/200/310065c41ce8415c22956d037eda692b.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "grandAction",
@@ -5634,7 +5634,7 @@
       "lang": "VO",
       "director": "Satyajit Ray",
       "year": "1965",
-      "poster": "https://files.offi.fr/evenement/105800/images/120/171a20922592a9237f7c964881655644.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "grandAction",
@@ -5894,7 +5894,7 @@
       "lang": "VO",
       "director": "John Woo",
       "year": "2008",
-      "poster": "https://files.offi.fr/evenement/32105/images/200/1237368940918.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "grandAction",
@@ -5972,7 +5972,7 @@
       "lang": "VO",
       "director": "Werner Herzog",
       "year": "1971",
-      "poster": "https://files.offi.fr/evenement/105793/images/200/310065c41ce8415c22956d037eda692b.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "grandAction",
@@ -5998,7 +5998,7 @@
       "lang": "VO",
       "director": "Werner Herzog",
       "year": "1976",
-      "poster": "https://files.offi.fr/evenement/105794/images/200/310065c41ce8415c22956d037eda692b.jpg"
+      "poster": "https://files.offi.fr/evenement/105794/images/200/e703e23bb521c4b1fadf01e45feea4e3.jpg"
     },
     {
       "cinema_id": "grandAction",
@@ -6154,7 +6154,7 @@
       "lang": "VO",
       "director": "Jack Arnold",
       "year": "1957",
-      "poster": "https://files.offi.fr/evenement/13323/images/200/d07a88c63336878eee165cae8fbaa2da.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "grandAction",
@@ -6219,7 +6219,7 @@
       "lang": "VO",
       "director": "Steven Spielberg",
       "year": "1977",
-      "poster": "https://files.offi.fr/evenement/554/images/120/1231432356178.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "grandAction",
@@ -6232,7 +6232,7 @@
       "lang": "VO",
       "director": "Werner Herzog",
       "year": "1968",
-      "poster": "https://files.offi.fr/evenement/105728/images/200/310065c41ce8415c22956d037eda692b.jpg"
+      "poster": "https://files.offi.fr/evenement/105728/images/200/1e8d407537c37b34542f07ca52b44997.jpg"
     },
     {
       "cinema_id": "grandAction",
@@ -6271,7 +6271,7 @@
       "lang": "VO",
       "director": "Werner Herzog",
       "year": "1979",
-      "poster": "https://files.offi.fr/evenement/105729/images/200/310065c41ce8415c22956d037eda692b.jpg"
+      "poster": "https://files.offi.fr/evenement/105729/images/200/5cdf96423157bda02af6bf860e92a499.jpg"
     },
     {
       "cinema_id": "grandAction",
@@ -6284,7 +6284,7 @@
       "lang": "VO",
       "director": "Werner Herzog",
       "year": "1971",
-      "poster": "https://files.offi.fr/evenement/105793/images/200/310065c41ce8415c22956d037eda692b.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "grandAction",
@@ -6297,7 +6297,7 @@
       "lang": "VO",
       "director": "Werner Herzog",
       "year": "1993",
-      "poster": "https://files.offi.fr/evenement/105730/images/200/310065c41ce8415c22956d037eda692b.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "grandAction",
@@ -6323,7 +6323,7 @@
       "lang": "VO",
       "director": "Blitz Bazawule",
       "year": "2023",
-      "poster": "https://files.offi.fr/evenement/95545/images/200/0a5e6b266976cb069b2ebbb7fce48784.jpg"
+      "poster": "https://files.offi.fr/evenement/95545/images/200/68976db43fe13c968c23322f1d5966c6.jpg"
     },
     {
       "cinema_id": "grandAction",
@@ -6336,7 +6336,7 @@
       "lang": "VO",
       "director": "Steven Spielberg",
       "year": "1975",
-      "poster": "https://files.offi.fr/evenement/554/images/120/1231432356178.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "grandAction",
@@ -6492,7 +6492,7 @@
       "lang": "VO",
       "director": "Steven Spielberg",
       "year": "1997",
-      "poster": "https://files.offi.fr/evenement/554/images/120/1231432356178.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "grandAction",
@@ -6596,7 +6596,7 @@
       "lang": "VO",
       "director": "Jean-Pierre Jeunet",
       "year": "2004",
-      "poster": "https://files.offi.fr/evenement/27381/images/200/1231432365633.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "galande",
@@ -6609,7 +6609,7 @@
       "lang": "VO",
       "director": "Pedro Almodóvar",
       "year": "1989",
-      "poster": "https://files.offi.fr/evenement/106040/images/120/22a477536df24736c1453cee6c4047bf.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "galande",
@@ -6726,7 +6726,7 @@
       "lang": "VO",
       "director": "Luis Buñuel",
       "year": "1962",
-      "poster": "https://files.offi.fr/evenement/3232/images/120/3e135e73ab791c8892b89f75ca9c79eb.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "galande",
@@ -6765,7 +6765,7 @@
       "lang": "VO",
       "director": "Pier Paolo Pasolini",
       "year": "1975",
-      "poster": "https://files.offi.fr/evenement/23592/images/200/2ac96c5f62978ad74e4947ee37bcf0b8.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "galande",
@@ -6778,7 +6778,7 @@
       "lang": "VO",
       "director": "Pier Paolo Pasolini",
       "year": "1971",
-      "poster": "https://files.offi.fr/evenement/23592/images/120/2ac96c5f62978ad74e4947ee37bcf0b8.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "galande",
@@ -6817,7 +6817,7 @@
       "lang": "VO",
       "director": "Luis Buñuel",
       "year": "1962",
-      "poster": "https://files.offi.fr/evenement/3232/images/120/3e135e73ab791c8892b89f75ca9c79eb.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "galande",
@@ -6843,7 +6843,7 @@
       "lang": "VO",
       "director": "Luis Buñuel",
       "year": "1974",
-      "poster": "https://files.offi.fr/evenement/10425/images/200/3c9ea51b473ea5dd47d924b21b0b9abd.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "galande",
@@ -6869,7 +6869,7 @@
       "lang": "VO",
       "director": "Pier Paolo Pasolini",
       "year": "1975",
-      "poster": "https://files.offi.fr/evenement/23592/images/200/2ac96c5f62978ad74e4947ee37bcf0b8.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "galande",
@@ -6934,7 +6934,7 @@
       "lang": "VO",
       "director": "Pedro Almodóvar",
       "year": "1989",
-      "poster": "https://files.offi.fr/evenement/106040/images/120/22a477536df24736c1453cee6c4047bf.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "galande",
@@ -7324,7 +7324,7 @@
       "lang": "",
       "director": "Arnaud Desplechin",
       "year": "1991",
-      "poster": "https://files.offi.fr/evenement/106435/images/120/6ff5c38f79a9a36050e13b4bef883317.png"
+      "poster": ""
     },
     {
       "cinema_id": "nouvelOdeon",
@@ -7428,7 +7428,7 @@
       "lang": "VO",
       "director": "Ingmar Bergman",
       "year": "1957",
-      "poster": "https://files.offi.fr/evenement/317/images/200/875e4ab4d5817304aab633600affc433.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -7441,7 +7441,7 @@
       "lang": "VO",
       "director": "Sidney Lumet",
       "year": "1988",
-      "poster": "https://files.offi.fr/evenement/27072/images/120/5d49ddaa1dcb8b0418f2ca8dca636056.png"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -7493,7 +7493,7 @@
       "lang": "VO",
       "director": "Paul Thomas Anderson",
       "year": "1999",
-      "poster": "https://files.offi.fr/evenement/102817/images/120/dc9fef687b982cf7d7cbce49aa6a1873.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -7558,7 +7558,7 @@
       "lang": "VO",
       "director": "Giuseppe Tornatore",
       "year": "1988",
-      "poster": "https://files.offi.fr/evenement/105800/images/120/171a20922592a9237f7c964881655644.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -7571,7 +7571,7 @@
       "lang": "VO",
       "director": "Sidney Lumet",
       "year": "1957",
-      "poster": "https://files.offi.fr/evenement/27072/images/120/5d49ddaa1dcb8b0418f2ca8dca636056.png"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -7584,7 +7584,7 @@
       "lang": "VO",
       "director": "Robert Altman",
       "year": "1970",
-      "poster": "https://files.offi.fr/evenement/105959/images/120/3a9bdb498853b03fe6e98e5b0c7c1112.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -7662,7 +7662,7 @@
       "lang": "VO",
       "director": "Sergio Martino",
       "year": "1973",
-      "poster": "https://files.offi.fr/evenement/106435/images/120/6ff5c38f79a9a36050e13b4bef883317.png"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -7675,7 +7675,7 @@
       "lang": "VO",
       "director": "Bryan Singer",
       "year": "1995",
-      "poster": "https://files.offi.fr/evenement/69813/images/120/0cedc85f0c936bbe3a988f3c3d098d4a.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -7727,7 +7727,7 @@
       "lang": "VO",
       "director": "Michel Gondry",
       "year": "2004",
-      "poster": "https://files.offi.fr/evenement/9999/images/200/b9b89daf8135a2945f84a9617944d892.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -7740,7 +7740,7 @@
       "lang": "VO",
       "director": "Clint Eastwood",
       "year": "1997",
-      "poster": "https://files.offi.fr/evenement/105800/images/120/171a20922592a9237f7c964881655644.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -7753,7 +7753,7 @@
       "lang": "VO",
       "director": "Gus Van Sant",
       "year": "1991",
-      "poster": "https://files.offi.fr/evenement/105598/images/120/168ab297580470fc6c5184af4769b6b4.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -7792,7 +7792,7 @@
       "lang": "VO",
       "director": "Fritz Lang",
       "year": "1953",
-      "poster": "https://files.offi.fr/evenement/22430/images/200/77bc81087eba42beacee7e3d1a9190ab.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -7909,7 +7909,7 @@
       "lang": "VO",
       "director": "Sidney Lumet",
       "year": "1975",
-      "poster": "https://files.offi.fr/evenement/27072/images/200/5d49ddaa1dcb8b0418f2ca8dca636056.png"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -7935,7 +7935,7 @@
       "lang": "",
       "director": "Neil Jordan",
       "year": "1994",
-      "poster": "https://files.offi.fr/evenement/106118/images/120/158985af90548556c5062161c01afcb9.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -7948,7 +7948,7 @@
       "lang": "VO",
       "director": "Alfonso Cuarón",
       "year": "2005",
-      "poster": "https://files.offi.fr/evenement/11080/images/200/1231432371238.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -7961,7 +7961,7 @@
       "lang": "VO",
       "director": "Ingmar Bergman",
       "year": "1953",
-      "poster": "https://files.offi.fr/evenement/18009/images/200/0b32686b309df38e85aa78cd6b900f38.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -8039,7 +8039,7 @@
       "lang": "VO",
       "director": "Sidney Lumet",
       "year": "1975",
-      "poster": "https://files.offi.fr/evenement/27072/images/200/5d49ddaa1dcb8b0418f2ca8dca636056.png"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -8052,7 +8052,7 @@
       "lang": "VO",
       "director": "Ingmar Bergman",
       "year": "1957",
-      "poster": "https://files.offi.fr/evenement/317/images/200/875e4ab4d5817304aab633600affc433.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -8065,7 +8065,7 @@
       "lang": "VO",
       "director": "Sidney Lumet",
       "year": "1988",
-      "poster": "https://files.offi.fr/evenement/27072/images/120/5d49ddaa1dcb8b0418f2ca8dca636056.png"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -8117,7 +8117,7 @@
       "lang": "VO",
       "director": "Paul Thomas Anderson",
       "year": "1999",
-      "poster": "https://files.offi.fr/evenement/102817/images/120/dc9fef687b982cf7d7cbce49aa6a1873.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -8169,7 +8169,7 @@
       "lang": "VO",
       "director": "Giuseppe Tornatore",
       "year": "1988",
-      "poster": "https://files.offi.fr/evenement/105800/images/120/171a20922592a9237f7c964881655644.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -8182,7 +8182,7 @@
       "lang": "VO",
       "director": "Sidney Lumet",
       "year": "1957",
-      "poster": "https://files.offi.fr/evenement/27072/images/120/5d49ddaa1dcb8b0418f2ca8dca636056.png"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -8195,7 +8195,7 @@
       "lang": "VO",
       "director": "Robert Altman",
       "year": "1970",
-      "poster": "https://files.offi.fr/evenement/105959/images/120/3a9bdb498853b03fe6e98e5b0c7c1112.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -8273,7 +8273,7 @@
       "lang": "VO",
       "director": "Sergio Martino",
       "year": "1973",
-      "poster": "https://files.offi.fr/evenement/106435/images/120/6ff5c38f79a9a36050e13b4bef883317.png"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -8286,7 +8286,7 @@
       "lang": "VO",
       "director": "Bryan Singer",
       "year": "1995",
-      "poster": "https://files.offi.fr/evenement/69813/images/120/0cedc85f0c936bbe3a988f3c3d098d4a.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -8325,7 +8325,7 @@
       "lang": "VO",
       "director": "Michel Gondry",
       "year": "2004",
-      "poster": "https://files.offi.fr/evenement/9999/images/200/b9b89daf8135a2945f84a9617944d892.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -8338,7 +8338,7 @@
       "lang": "VO",
       "director": "Clint Eastwood",
       "year": "1997",
-      "poster": "https://files.offi.fr/evenement/105800/images/120/171a20922592a9237f7c964881655644.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -8351,7 +8351,7 @@
       "lang": "VO",
       "director": "Gus Van Sant",
       "year": "1991",
-      "poster": "https://files.offi.fr/evenement/105598/images/120/168ab297580470fc6c5184af4769b6b4.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -8377,7 +8377,7 @@
       "lang": "VO",
       "director": "Fritz Lang",
       "year": "1953",
-      "poster": "https://files.offi.fr/evenement/22430/images/200/77bc81087eba42beacee7e3d1a9190ab.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "ecoles",
@@ -8910,7 +8910,7 @@
       "lang": "VO",
       "director": "Martin Scorsese",
       "year": "1985",
-      "poster": "https://files.offi.fr/evenement/51424/images/120/28299e229fac676b0329bb0e1369277b.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "christine",
@@ -8949,7 +8949,7 @@
       "lang": "VO",
       "director": "Robert Benton",
       "year": "1979",
-      "poster": "https://files.offi.fr/evenement/105960/images/120/18f40aa938de756f038dc56148e504a4.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "christine",
@@ -9014,7 +9014,7 @@
       "lang": "VO",
       "director": "Ridley Scott",
       "year": "1991",
-      "poster": "https://files.offi.fr/evenement/25967/images/200/80f47d109a310893948fabfc53db0390.jpg"
+      "poster": "https://files.offi.fr/evenement/25967/images/200/d52720c8329a962fc414ec78ea8cd2a2.jpg"
     },
     {
       "cinema_id": "christine",
@@ -9157,7 +9157,7 @@
       "lang": "VO",
       "director": "Richard Kelly",
       "year": "2001",
-      "poster": "https://files.offi.fr/evenement/8679/images/200/4ee794d3257675f05aa6ecc466a16f16.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "christine",
@@ -9170,7 +9170,7 @@
       "lang": "VO",
       "director": "Walter Hill",
       "year": "1979",
-      "poster": "https://files.offi.fr/evenement/106038/images/120/649e1a99b4570fd3669ce9d77779d5d5.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "christine",
@@ -9404,7 +9404,7 @@
       "lang": "VO",
       "director": "Richard Kelly",
       "year": "2001",
-      "poster": "https://files.offi.fr/evenement/8679/images/200/4ee794d3257675f05aa6ecc466a16f16.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "christine",
@@ -9534,7 +9534,7 @@
       "lang": "",
       "director": "Carl Theodor Dreyer",
       "year": "1928",
-      "poster": "https://files.offi.fr/evenement/105960/images/120/18f40aa938de756f038dc56148e504a4.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "christine",
@@ -9612,7 +9612,7 @@
       "lang": "VO",
       "director": "Ridley Scott",
       "year": "1991",
-      "poster": "https://files.offi.fr/evenement/25967/images/200/80f47d109a310893948fabfc53db0390.jpg"
+      "poster": "https://files.offi.fr/evenement/25967/images/200/d52720c8329a962fc414ec78ea8cd2a2.jpg"
     },
     {
       "cinema_id": "christine",
@@ -9664,7 +9664,7 @@
       "lang": "VO",
       "director": "Tian Zhuang-zhuang",
       "year": "2002",
-      "poster": "https://files.offi.fr/evenement/105960/images/120/18f40aa938de756f038dc56148e504a4.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "christine",
@@ -10418,7 +10418,7 @@
       "lang": "",
       "director": "Robert Bresson",
       "year": "1982",
-      "poster": "https://files.offi.fr/evenement/105960/images/120/18f40aa938de756f038dc56148e504a4.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "standre",
@@ -11016,7 +11016,7 @@
       "lang": "",
       "director": "Joe Johnston",
       "year": "1995",
-      "poster": "https://files.offi.fr/evenement/21131/images/120/584fc865cb51ec46fa82ea38d17b6223.jpg"
+      "poster": ""
     },
     {
       "cinema_id": "standre",
