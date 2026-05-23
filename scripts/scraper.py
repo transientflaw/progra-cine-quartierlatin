@@ -157,7 +157,7 @@ def parse_section(section, day_date: date, cinema_id: str) -> list[dict]:
                 valid_times.append(t)
 
         # Récupérer les détails enrichis (mis en cache par URL)
-        info = fetch_film_details(film_url)
+        info = fetch_film_details(film_url, title)
 
         for t in valid_times:
             h, mn = t.split(":")
@@ -181,7 +181,7 @@ def parse_section(section, day_date: date, cinema_id: str) -> list[dict]:
 # Cache des détails de film (clé = URL fiche), pour ne télécharger qu'une fois par film
 _FILM_DETAILS_CACHE = {}
 
-def fetch_film_details(url):
+def fetch_film_details(url, film_title=""):
     """Récupère réalisateur, année et affiche depuis la fiche détaillée d'un film."""
     if not url:
         return {"director": "", "year": "", "poster": ""}
@@ -221,12 +221,36 @@ def fetch_film_details(url):
                 nxt = nxt.next_sibling if hasattr(nxt, "next_sibling") else None
             break
 
-    # Affiche
+    # Affiche : on fait correspondre le TITRE du film avec l'attribut alt
+    # de l'image. Les fiches offi.fr listent plein d'affiches de films
+    # suggérés ; seule celle dont le alt correspond au titre est la bonne.
+    def _norm(txt):
+        txt = (txt or "").lower()
+        # retirer accents basiques + ponctuation pour comparaison souple
+        for a, b in [("é","e"),("è","e"),("ê","e"),("à","a"),("â","a"),
+                     ("î","i"),("ï","i"),("ô","o"),("û","u"),("ù","u"),
+                     ("ç","c"),("œ","oe")]:
+            txt = txt.replace(a, b)
+        return re.sub(r"[^a-z0-9]+", " ", txt).strip()
+
+    poster = ""
+    title_norm = _norm(film_title)
+    candidates = []
     for img in fsoup.find_all("img"):
         src = img.get("src", "")
         if "files.offi.fr/evenement/" in src and "photo_vide" not in src:
-            details["poster"] = src
+            alt_norm = _norm(img.get("alt", ""))
+            candidates.append((src, alt_norm))
+
+    # 1) Image dont le alt contient le titre du film (ou inverse)
+    for src, alt_norm in candidates:
+        if title_norm and (title_norm in alt_norm or alt_norm.startswith(title_norm)):
+            poster = src
             break
+
+    # 2) Sinon : pas d'affiche propre identifiable -> on laisse vide
+    #    (mieux que d'afficher l'affiche d'un autre film)
+    details["poster"] = poster
 
     _FILM_DETAILS_CACHE[url] = details
     return details
