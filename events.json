@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-05-24T01:14:03",
+  "source": "Sites officiels des cinémas",
+  "events": [
+    {
+      "cinema_id": "laClef",
+      "date": "2026-05-24",
+      "hour": 20,
+      "minute": 0,
+      "title": "Turang",
+      "director": "Bachtiar Siagian",
+      "description": "de Bachtiar Siagian",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/turang2-768x432.jpg",
+      "url": "https://laclefrevival.org/project/turang/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-05-27",
+      "hour": 19,
+      "minute": 0,
+      "title": "Apolonia, Apolonia",
+      "director": "Lea Glob",
+      "description": "de Lea Glob",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/ApoloniaAPOLONIA_11_1-1778x1000-1-768x432.jpg",
+      "url": "https://laclefrevival.org/project/apolonia-apolonia/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-05-28",
+      "hour": 18,
+      "minute": 30,
+      "title": "1946 – 2006 : Jeunesses en mouvements – résistances, révoltes et répression",
+      "director": "David Dufresne (en sa présence) et Christophe Bouquet",
+      "description": "de David Dufresne (en sa présence) et Christophe Bouquet",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/Capture-decran-2025-10-27-a-09.54.13-768x434.jpg",
+      "url": "https://laclefrevival.org/project/1946-2006-jeunesses-en-mouvements-resistances-revoltes-et-repression/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-05-29",
+      "hour": 20,
+      "minute": 0,
+      "title": "Quatre courts du Sudanese Film Group",
+      "director": "Sulima Mohamed Ibrahim Elnour, Ibrahim Shaddad, Eltayeb Mahdi",
+      "description": "de Sulima Mohamed Ibrahim Elnour, Ibrahim Shaddad, Eltayeb Mahdi",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/la-station-768x567.jpg",
+      "url": "https://laclefrevival.org/project/quatre-courts-du-sudanese-film-group/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-05-30",
+      "hour": 15,
+      "minute": 0,
+      "title": "Ulrike",
+      "director": "Nadja Ringart (en sa présence) et Florence Assouline",
+      "description": "de Nadja Ringart (en sa présence) et Florence Assouline",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/Ulrike-capture-ecran4.jpg",
+      "url": "https://laclefrevival.org/project/ulrike/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-05-30",
+      "hour": 17,
+      "minute": 0,
+      "title": "Flingue, conscience et collectif – textes de prison d’Ulrike Meinhof",
+      "director": "Ulrike Meinhof",
+      "description": "d'Ulrike Meinhof",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/Ulrike-capture-ecran1.jpg",
+      "url": "https://laclefrevival.org/project/flingue-conscience-et-collectif-textes-de-prison-dulrike-meinhof/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-05-30",
+      "hour": 19,
+      "minute": 0,
+      "title": "Bambule",
+      "director": "Eberhard Itzenplitz",
+      "description": "d'Eberhard Itzenplitz",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/Bambule-3-768x587.jpg",
+      "url": "https://laclefrevival.org/project/bambule/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-05-30",
+      "hour": 19,
+      "minute": 30,
+      "title": "Les mots qu’elles eurent un jour",
+      "director": "Raphaël Pillosio",
+      "description": "de Raphaël Pillosio",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/LES-MOTS-QUELLES-EURENT-UN-JOUR_6-1-768x434.jpg",
+      "url": "https://laclefrevival.org/project/les-mots-quelles-eurent-un-jour/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-05-31",
+      "hour": 19,
+      "minute": 0,
+      "title": "Technofascisme : rencontre avec Norman Ajari",
+      "director": "",
+      "description": "Projection de \"Their Eyes\" de Nicolas Gourault",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/Their-Eyes-Still-2-1-768x432.jpg",
+      "url": "https://laclefrevival.org/project/technofascisme-rencontre-avec-norman-ajari/"
+    }
+  ]
+}

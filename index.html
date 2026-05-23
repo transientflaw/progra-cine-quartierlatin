@@ -339,6 +339,62 @@
     font-size: 16px; line-height: 1.3;
     border-radius: 4px;
   }
+
+  .tabs {
+    display: flex; gap: 0; padding: 0 20px; margin: 4px 0 14px;
+    position: relative; z-index: 2;
+    border-bottom: 1px solid var(--line);
+  }
+  .tab {
+    background: transparent; border: none; cursor: pointer;
+    font-family: 'JetBrains Mono', monospace; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.15em;
+    color: var(--ink-soft); padding: 10px 16px 12px;
+    border-bottom: 2px solid transparent; margin-bottom: -1px;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .tab.active { color: var(--ink); border-bottom-color: var(--accent); font-weight: 500; }
+  .tab-count {
+    background: var(--accent); color: var(--paper);
+    font-size: 9px; padding: 1px 6px; border-radius: 999px;
+    letter-spacing: 0.05em;
+  }
+  .tab-count:empty { display: none; }
+  .event-card {
+    background: var(--paper); border: 1px solid var(--line);
+    border-radius: 2px; margin-bottom: 14px; overflow: hidden;
+    display: flex; gap: 0; cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .event-card:active { transform: scale(0.99); box-shadow: 0 4px 16px rgba(26,20,16,0.12); }
+  .event-card .ev-poster {
+    width: 110px; min-width: 110px; height: 150px; object-fit: cover;
+    background: var(--bg-deep);
+  }
+  .event-card .ev-body { padding: 14px 16px; flex: 1; }
+  .event-card .ev-date {
+    font-family: 'JetBrains Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent);
+    font-weight: 500; margin-bottom: 6px;
+  }
+  .event-card .ev-title {
+    font-family: 'Fraunces', serif; font-size: 17px; font-weight: 600;
+    line-height: 1.2; letter-spacing: -0.01em; margin-bottom: 4px;
+  }
+  .event-card .ev-director {
+    font-family: 'JetBrains Mono', monospace; font-size: 9px;
+    text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-soft);
+  }
+  .event-card .ev-cinema {
+    font-family: 'JetBrains Mono', monospace; font-size: 9px;
+    text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-soft);
+    margin-top: 8px;
+  }
+  .event-day-header {
+    font-family: 'JetBrains Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.2em; color: var(--ink-soft);
+    margin: 20px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--line);
+  }
 </style>
 </head>
 <body>
@@ -360,6 +416,10 @@
 <div id="errorBox" class="error" style="display:none"></div>
 
 <div id="app" style="display:none">
+  <div class="tabs" id="tabs">
+    <button class="tab active" data-tab="seances" id="tabSeances">Séances</button>
+    <button class="tab" data-tab="events" id="tabEvents">Événements<span class="tab-count" id="evCount"></span></button>
+  </div>
   <nav class="day-rail" aria-label="Sélecteur de jour">
     <div class="day-track" id="dayTrack"></div>
   </nav>
@@ -402,6 +462,8 @@
 // DATA LOADING
 // =====================================================================
 let DATA = null;
+let EVENTS = [];
+let currentTab = 'seances';
 let cinemaMap = {};
 let datesAvecData = [];
 let TODAY = null;
@@ -443,6 +505,17 @@ async function loadData() {
 
     state.activeCinemas = new Set(DATA.cinemas.filter(c => c.has_data).map(c => c.id));
 
+    // Charger les événements spéciaux (optionnel : ne bloque pas si absent)
+    try {
+      const er = await fetch(`./events.json?t=${Date.now()}`);
+      if (er.ok) {
+        const ed = await er.json();
+        EVENTS = ed.events || [];
+      }
+    } catch (e) {
+      EVENTS = [];
+    }
+
     document.getElementById('loading').style.display = 'none';
     document.getElementById('app').style.display = 'block';
     document.getElementById('geoBtn').style.display = 'flex';
@@ -451,6 +524,7 @@ async function loadData() {
     document.getElementById('genAt').textContent =
       DATA.generated_at ? DATA.generated_at.slice(0, 16).replace('T', ' ') : '—';
 
+    setupTabs();
     render();
   } catch (err) {
     document.getElementById('loading').style.display = 'none';
@@ -744,6 +818,84 @@ function render() {
   );
   renderHeader(filtered);
   renderTimeline(filtered);
+}
+
+// ===== ONGLETS Séances / Événements =====
+function setupTabs() {
+  const tabS = document.getElementById('tabSeances');
+  const tabE = document.getElementById('tabEvents');
+  const evCount = document.getElementById('evCount');
+  if (EVENTS.length > 0) evCount.textContent = EVENTS.length;
+
+  tabS.onclick = () => switchTab('seances');
+  tabE.onclick = () => switchTab('events');
+}
+
+function switchTab(tab) {
+  currentTab = tab;
+  document.getElementById('tabSeances').classList.toggle('active', tab === 'seances');
+  document.getElementById('tabEvents').classList.toggle('active', tab === 'events');
+
+  // Éléments propres aux séances (masqués en vue événements)
+  const dayRail = document.querySelector('.day-rail');
+  const filters = document.getElementById('cinemaFilters');
+  const stamp = document.querySelector('.stamp');
+  const pending = document.getElementById('pendingNotice');
+  const geoBtn = document.getElementById('geoBtn');
+
+  if (tab === 'events') {
+    if (dayRail) dayRail.style.display = 'none';
+    if (filters) filters.style.display = 'none';
+    if (stamp) stamp.style.display = 'none';
+    if (pending) pending.style.display = 'none';
+    if (geoBtn) geoBtn.style.display = 'none';
+    renderEvents();
+  } else {
+    if (dayRail) dayRail.style.display = '';
+    if (filters) filters.style.display = '';
+    if (stamp) stamp.style.display = '';
+    if (geoBtn) geoBtn.style.display = 'flex';
+    render();
+  }
+}
+
+function renderEvents() {
+  const timeline = document.getElementById('timeline');
+  timeline.innerHTML = '';
+  if (!EVENTS.length) {
+    timeline.innerHTML = '<div class="empty">Aucun événement spécial à venir pour le moment.</div>';
+    return;
+  }
+  const MOIS = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+  const JOURS = ['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
+  let lastDate = '';
+  EVENTS.forEach(ev => {
+    if (ev.date !== lastDate) {
+      lastDate = ev.date;
+      const [y, m, d] = ev.date.split('-').map(Number);
+      const dt = new Date(y, m - 1, d);
+      const hdr = document.createElement('div');
+      hdr.className = 'event-day-header';
+      hdr.textContent = `${JOURS[dt.getDay()]} ${d} ${MOIS[m-1]}`;
+      timeline.appendChild(hdr);
+    }
+    const cinema = cinemaMap[ev.cinema_id];
+    const card = document.createElement('div');
+    card.className = 'event-card';
+    const posterHtml = ev.poster
+      ? `<img class="ev-poster" src="${ev.poster}" alt="" onerror="this.style.display='none'">`
+      : '';
+    card.innerHTML = `
+      ${posterHtml}
+      <div class="ev-body">
+        <div class="ev-date">${String(ev.hour).padStart(2,'0')}:${String(ev.minute).padStart(2,'0')}</div>
+        <div class="ev-title">${escapeHtml(ev.title)}</div>
+        ${ev.director ? `<div class="ev-director">${escapeHtml(ev.director)}</div>` : ''}
+        <div class="ev-cinema">${cinema ? escapeHtml(cinema.name) : 'La Clef'}</div>
+      </div>`;
+    card.onclick = () => { if (ev.url) window.open(ev.url, '_blank'); };
+    timeline.appendChild(card);
+  });
 }
 
 loadData();
