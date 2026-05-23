@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-05-24T01:14:03",
+  "generated_at": "2026-05-23T23:35:30",
   "source": "Sites officiels des cinémas",
   "events": [
+    {
+      "cinema_id": "laClef",
+      "date": "2026-05-23",
+      "hour": 20,
+      "minute": 0,
+      "title": "Débordées de toutes les époques, unissez-vous",
+      "director": "Julia Mellen, Carole Vidal (en sa présence), Elisabeth Cousew, Josiane Lepennetier, Marie-Claude Heuli, Florence Turner",
+      "description": "de Julia Mellen, Carole Vidal (en sa présence), Elisabeth Cousew, Josiane Lepennetier, Marie-Claude Heuli, Florence Turner",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/Capture-decran-2026-04-21-110057-768x585.jpg",
+      "url": "https://laclefrevival.org/project/debordees-de-toutes-les-epoques-unissez-vous/"
+    },
     {
       "cinema_id": "laClef",
       "date": "2026-05-24",
