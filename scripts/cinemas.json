@@ -118,5 +118,115 @@
     "lng": 2.3413,
     "address": "30 rue Saint-André des Arts, 75006",
     "slug": "saint-andre-des-arts-3105"
+  },
+  {
+    "id": "luminor",
+    "name": "Luminor Hôtel de Ville",
+    "short": "Luminor",
+    "color": "#1f6f6b",
+    "lat": 48.8575,
+    "lng": 2.3536,
+    "address": "20 rue du Temple, 75004",
+    "slug": "nouveau-latina-2584"
+  },
+  {
+    "id": "ursulines",
+    "name": "Studio des Ursulines",
+    "short": "Ursulines",
+    "color": "#8a5a2b",
+    "lat": 48.84278,
+    "lng": 2.34194,
+    "address": "10 rue des Ursulines, 75005",
+    "slug": "studio-des-ursulines-3210"
+  },
+  {
+    "id": "arlequin",
+    "name": "L'Arlequin",
+    "short": "Arlequin",
+    "color": "#b5475c",
+    "lat": 48.8489,
+    "lng": 2.3286,
+    "address": "76 rue de Rennes, 75006",
+    "slug": "arlequin-1438"
+  },
+  {
+    "id": "balzac",
+    "name": "Le Balzac",
+    "short": "Balzac",
+    "color": "#4a6f2c",
+    "lat": 48.8728,
+    "lng": 2.2998,
+    "address": "1 rue Balzac, 75008",
+    "slug": "balzac-1515"
+  },
+  {
+    "id": "publicis",
+    "name": "Publicis Cinémas",
+    "short": "Publicis",
+    "color": "#2c4f8a",
+    "lat": 48.8721,
+    "lng": 2.3001,
+    "address": "129 avenue des Champs-Élysées, 75008",
+    "slug": "publicis-cinemas-3038"
+  },
+  {
+    "id": "lincoln",
+    "name": "Les Élysées Lincoln",
+    "short": "Lincoln",
+    "color": "#6b3fa0",
+    "lat": 48.8703,
+    "lng": 2.3022,
+    "address": "14 rue Lincoln, 75008",
+    "slug": "lincoln-2605"
+  },
+  {
+    "id": "maxLinder",
+    "name": "Max Linder Panorama",
+    "short": "Max Linder",
+    "color": "#a83232",
+    "lat": 48.8714,
+    "lng": 2.3463,
+    "address": "24 boulevard Poissonnière, 75009",
+    "slug": "max-linder-panorama-2754"
+  },
+  {
+    "id": "caumartin",
+    "name": "5 Caumartin",
+    "short": "Caumartin",
+    "color": "#3f7d8a",
+    "lat": 48.8755,
+    "lng": 2.327,
+    "address": "101 rue Saint-Lazare, 75009",
+    "slug": "5-caumartin-1843"
+  },
+  {
+    "id": "escurial",
+    "name": "L'Escurial",
+    "short": "Escurial",
+    "color": "#7a4d2b",
+    "lat": 48.8382,
+    "lng": 2.3517,
+    "address": "11 boulevard de Port-Royal, 75013",
+    "slug": "escurial-panorama-2187"
+  },
+  {
+    "id": "parnassiens",
+    "name": "Les 7 Parnassiens",
+    "short": "Parnassiens",
+    "color": "#566b2f",
+    "lat": 48.8423,
+    "lng": 2.327,
+    "address": "98 boulevard du Montparnasse, 75014",
+    "slug": "sept-parnassiens-3178"
+  },
+  {
+    "id": "louxor",
+    "name": "Le Louxor",
+    "short": "Louxor",
+    "color": "#b08020",
+    "lat": 48.8836,
+    "lng": 2.3496,
+    "address": "170 boulevard de Magenta, 75010",
+    "slug": "le-louxor-5697"
   }
 ]
