@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-05-27T06:48:30",
+  "generated_at": "2026-05-28T06:39:38",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-05-27",
-      "hour": 19,
-      "minute": 0,
-      "title": "Apolonia, Apolonia",
-      "director": "Lea Glob",
-      "description": "de Lea Glob",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/ApoloniaAPOLONIA_11_1-1778x1000-1-768x432.jpg",
-      "url": "https://laclefrevival.org/project/apolonia-apolonia/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-05-27",
-      "hour": 20,
-      "minute": 0,
-      "title": "Cemetery of Splendour",
-      "director": "Apichatpong Weerasethakul (en sa présence)",
-      "description": "de Apichatpong Weerasethakul (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/cemeteryofsplendour1-768x432.jpg",
-      "url": "https://laclefrevival.org/project/cemetery-of-splendour/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-05-28",
