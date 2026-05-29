@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-05-28T06:39:38",
+  "generated_at": "2026-05-29T06:40:49",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-05-28",
-      "hour": 18,
-      "minute": 30,
-      "title": "1946 – 2006 : Jeunesses en mouvements – résistances, révoltes et répression",
-      "director": "David Dufresne (en sa présence) et Christophe Bouquet",
-      "description": "de David Dufresne (en sa présence) et Christophe Bouquet",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/Capture-decran-2025-10-27-a-09.54.13-768x434.jpg",
-      "url": "https://laclefrevival.org/project/1946-2006-jeunesses-en-mouvements-resistances-revoltes-et-repression/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-05-29",
