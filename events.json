@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-05-29T06:40:49",
+  "generated_at": "2026-05-30T06:03:35",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-05-29",
-      "hour": 20,
-      "minute": 0,
-      "title": "Quatre courts du Sudanese Film Group",
-      "director": "Sulima Mohamed Ibrahim Elnour, Ibrahim Shaddad, Eltayeb Mahdi",
-      "description": "de Sulima Mohamed Ibrahim Elnour, Ibrahim Shaddad, Eltayeb Mahdi",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/la-station-768x567.jpg",
-      "url": "https://laclefrevival.org/project/quatre-courts-du-sudanese-film-group/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-05-30",
@@ -111,6 +100,94 @@
       "description": "\"Épouses et Concubines\" de Zhang Yimou",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/EPOUSES-ET-CONCUBINES-Photo-10-768x414.jpg",
       "url": "https://laclefrevival.org/project/carte-blanche-a-wongkarwaifu/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-10",
+      "hour": 19,
+      "minute": 0,
+      "title": "Ce n’est pas l’homosexuel qui est pervers mais la société dans laquelle il vit",
+      "director": "Rosa von Praunheim",
+      "description": "de Rosa von Praunheim",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/NICHT_DER_HOMOSEXUELLE_IST_PERVERS_SONDERN_DIE_SITUATION_IN_DER_ER_LEBT_Foto_01-1-768x781.jpeg",
+      "url": "https://laclefrevival.org/project/ce-nest-pas-lhomosexuel-qui-est-pervers-mais-la-societe-dans-laquelle-il-vit/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-11",
+      "hour": 20,
+      "minute": 0,
+      "title": "Le Courage du peuple",
+      "director": "Jorge Sanjinés",
+      "description": "de Jorge Sanjinés",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/EL-CORAJE-DEL-PUEBLO-1971-©-Fundacion-Grupo-Ukamau-3-768x598.jpg",
+      "url": "https://laclefrevival.org/project/le-courage-du-peuple/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-12",
+      "hour": 19,
+      "minute": 0,
+      "title": "Yrupẽ",
+      "director": "Candela Sotos (en sa présence)",
+      "description": "de Candela Sotos (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/Yrupe-768x433.jpg",
+      "url": "https://laclefrevival.org/project/yrupe/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-12",
+      "hour": 20,
+      "minute": 0,
+      "title": "Le Juge et les immigrés",
+      "director": "Carole Roussopoulos et Danièle Bordes",
+      "description": "de Carole Roussopoulos et Danièle Bordes",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/Juge-et-immigres-1.png",
+      "url": "https://laclefrevival.org/project/le-juge-et-les-immigres/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-13",
+      "hour": 15,
+      "minute": 0,
+      "title": "Journal d’un maître d’école",
+      "director": "Vittorio de Seta",
+      "description": "de Vittorio de Seta",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/Diario-di-un-maestro-768x560.jpeg",
+      "url": "https://laclefrevival.org/project/journal-dun-maitre-decole/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-13",
+      "hour": 16,
+      "minute": 30,
+      "title": "Man in Black",
+      "director": "Wang Bing",
+      "description": "de Wang Bing",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/maninblack-2560x-q85-768x512.jpg",
+      "url": "https://laclefrevival.org/project/man-in-black/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-13",
+      "hour": 20,
+      "minute": 0,
+      "title": "La Trilogie de la Vierge",
+      "director": "Maria Galindo (en sa présence)",
+      "description": "de Maria Galindo (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/LA-VIRGEN-BARBIE-768x584.jpg",
+      "url": "https://laclefrevival.org/project/la-trilogie-de-la-vierge/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-14",
+      "hour": 20,
+      "minute": 0,
+      "title": "Resonance Spiral",
+      "director": "Filipa César et Marinho Pina (en sa présence)",
+      "description": "de Filipa César et Marinho Pina (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/c-resonance-spiral-3-stenar-projects-geba-filmes-elsehere-e-v-768x432.jpg",
+      "url": "https://laclefrevival.org/project/resonance-spiral/"
     }
   ]
 }
