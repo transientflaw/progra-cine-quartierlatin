@@ -1,51 +1,7 @@
 {
-  "generated_at": "2026-05-30T06:03:35",
+  "generated_at": "2026-05-31T06:42:28",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-05-30",
-      "hour": 15,
-      "minute": 0,
-      "title": "Ulrike",
-      "director": "Nadja Ringart (en sa présence) et Florence Assouline",
-      "description": "de Nadja Ringart (en sa présence) et Florence Assouline",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/Ulrike-capture-ecran4.jpg",
-      "url": "https://laclefrevival.org/project/ulrike/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-05-30",
-      "hour": 17,
-      "minute": 0,
-      "title": "Flingue, conscience et collectif – textes de prison d’Ulrike Meinhof",
-      "director": "Ulrike Meinhof",
-      "description": "d'Ulrike Meinhof",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/Ulrike-capture-ecran1.jpg",
-      "url": "https://laclefrevival.org/project/flingue-conscience-et-collectif-textes-de-prison-dulrike-meinhof/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-05-30",
-      "hour": 19,
-      "minute": 0,
-      "title": "Bambule",
-      "director": "Eberhard Itzenplitz",
-      "description": "d'Eberhard Itzenplitz",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/Bambule-3-768x587.jpg",
-      "url": "https://laclefrevival.org/project/bambule/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-05-30",
-      "hour": 19,
-      "minute": 30,
-      "title": "Les mots qu’elles eurent un jour",
-      "director": "Raphaël Pillosio",
-      "description": "de Raphaël Pillosio",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/LES-MOTS-QUELLES-EURENT-UN-JOUR_6-1-768x434.jpg",
-      "url": "https://laclefrevival.org/project/les-mots-quelles-eurent-un-jour/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-05-31",
