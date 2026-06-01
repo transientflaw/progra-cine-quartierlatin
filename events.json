@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-05-31T06:42:28",
+  "generated_at": "2026-06-01T07:30:34",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-05-31",
-      "hour": 19,
-      "minute": 0,
-      "title": "Technofascisme : rencontre avec Norman Ajari",
-      "director": "",
-      "description": "Projection de \"Their Eyes\" de Nicolas Gourault",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/Their-Eyes-Still-2-1-768x432.jpg",
-      "url": "https://laclefrevival.org/project/technofascisme-rencontre-avec-norman-ajari/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-06-04",
