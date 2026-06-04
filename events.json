@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T07:26:16",
+  "generated_at": "2026-06-04T07:04:10",
   "source": "Sites officiels des cinémas",
   "events": [
     {
@@ -126,6 +126,28 @@
     {
       "cinema_id": "laClef",
       "date": "2026-06-14",
+      "hour": 15,
+      "minute": 0,
+      "title": "Bribes d’une autre histoire du cinéma arabe",
+      "director": "",
+      "description": "Collection de films restaurés collectivement",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/WALADI__STILL_2-768x480.jpg",
+      "url": "https://laclefrevival.org/project/bribes-dune-autre-histoire-du-cinema-arabe/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-14",
+      "hour": 17,
+      "minute": 0,
+      "title": "Sautes de tigre : Actualité(s) au présent continu",
+      "director": "Video Tracts for Palestine, Colectivo los Ingravidos, Alexandra Cuesta, VideA, Marlow Magdalene",
+      "description": "de Video Tracts for Palestine, Colectivo los Ingravidos, Alexandra Cuesta, VideA, Marlow Magdalene",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Beirut.00_38_17_15.Still028-768x576.jpg",
+      "url": "https://laclefrevival.org/project/sautes-de-tigre-actualites-au-present-continu/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-14",
       "hour": 20,
       "minute": 0,
       "title": "Resonance Spiral",
@@ -133,6 +155,61 @@
       "description": "de Filipa César et Marinho Pina (en sa présence)",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/c-resonance-spiral-3-stenar-projects-geba-filmes-elsehere-e-v-768x432.jpg",
       "url": "https://laclefrevival.org/project/resonance-spiral/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-17",
+      "hour": 20,
+      "minute": 0,
+      "title": "Disparaître : mode d’emploi",
+      "director": "Antoine du Jeu et Lucie Bonnet (en leur présence)",
+      "description": "d'Antoine du Jeu et Lucie Bonnet (en leur présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Design-sans-titre-768x1011.jpg",
+      "url": "https://laclefrevival.org/project/disparaitre-mode-demploi/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-18",
+      "hour": 20,
+      "minute": 0,
+      "title": "Faire Place !",
+      "director": "Flore de Corbier (en sa présence)",
+      "description": "de Flore de Corbier (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/D485AF87F77F45DCBB92187D25D679BB-768x576.jpg",
+      "url": "https://laclefrevival.org/project/faire-place/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-19",
+      "hour": 20,
+      "minute": 0,
+      "title": "Something Wild",
+      "director": "Jonathan Demme",
+      "description": "de Jonathan Demme",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Something-wild_laclef-768x431.jpg",
+      "url": "https://laclefrevival.org/project/something-wild/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-20",
+      "hour": 16,
+      "minute": 0,
+      "title": "Mener la lutte des classes dans le champ intellectuel",
+      "director": "Chris Marker et collectif",
+      "description": "de Chris Marker et collectif",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/vlcsnap-2020-06-04-11h55m00s610-768x573.webp",
+      "url": "https://laclefrevival.org/project/mener-la-lutte-des-classes-dans-le-champ-intellectuel/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-20",
+      "hour": 19,
+      "minute": 0,
+      "title": "La bi(en)séance – le ciné club du collectif bi to bi",
+      "director": "Ira Sachs",
+      "description": "de Ira Sachs",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/230504152423-768x470.jpg",
+      "url": "https://laclefrevival.org/project/la-bienseance-le-cine-club-du-collectif-bi-to-bi/"
     }
   ]
 }
