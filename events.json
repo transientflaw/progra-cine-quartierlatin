@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-06-04T07:04:10",
+  "generated_at": "2026-06-05T06:52:28",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-04",
-      "hour": 19,
-      "minute": 0,
-      "title": "Xaraasi Xanne (Les Voix croisées)",
-      "director": "Raphaël Grisey (en sa présence), Bouba Touré",
-      "description": "de Raphaël Grisey (en sa présence), Bouba Touré",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/voixcroisee_2-768x488.jpg",
-      "url": "https://laclefrevival.org/project/xaraasi-xanne-les-voix-croisees/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-06-05",
