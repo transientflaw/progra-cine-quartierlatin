@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-06-05T06:52:28",
+  "generated_at": "2026-06-06T06:10:11",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-05",
-      "hour": 19,
-      "minute": 0,
-      "title": "Peter Pan",
-      "director": "Natacha Samuel, Florent Klockenbring (en leur présence)",
-      "description": "de Natacha Samuel, Florent Klockenbring (en leur présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/Capture-decran-180-768x461.jpeg",
-      "url": "https://laclefrevival.org/project/peter-pan/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-06-06",
