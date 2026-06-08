@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-06-07T06:50:02",
+  "generated_at": "2026-06-08T07:14:43",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-07",
-      "hour": 19,
-      "minute": 0,
-      "title": "Carte blanche à WongKarWaifu",
-      "director": "",
-      "description": "\"Épouses et Concubines\" de Zhang Yimou",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/EPOUSES-ET-CONCUBINES-Photo-10-768x414.jpg",
-      "url": "https://laclefrevival.org/project/carte-blanche-a-wongkarwaifu/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-06-10",
