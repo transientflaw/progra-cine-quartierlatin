@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-06-10T06:52:39",
+  "generated_at": "2026-06-11T07:17:33",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-10",
-      "hour": 19,
-      "minute": 0,
-      "title": "Ce n’est pas l’homosexuel qui est pervers mais la société dans laquelle il vit",
-      "director": "Rosa von Praunheim",
-      "description": "de Rosa von Praunheim",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/NICHT_DER_HOMOSEXUELLE_IST_PERVERS_SONDERN_DIE_SITUATION_IN_DER_ER_LEBT_Foto_01-1-768x781.jpeg",
-      "url": "https://laclefrevival.org/project/ce-nest-pas-lhomosexuel-qui-est-pervers-mais-la-societe-dans-laquelle-il-vit/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-06-11",
