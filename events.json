@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-06-11T07:17:33",
+  "generated_at": "2026-06-12T07:04:48",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-11",
-      "hour": 20,
-      "minute": 0,
-      "title": "Le Courage du peuple",
-      "director": "Jorge Sanjinés",
-      "description": "de Jorge Sanjinés",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/EL-CORAJE-DEL-PUEBLO-1971-©-Fundacion-Grupo-Ukamau-3-768x598.jpg",
-      "url": "https://laclefrevival.org/project/le-courage-du-peuple/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-06-12",
