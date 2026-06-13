@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-06-12T07:04:48",
+  "generated_at": "2026-06-13T06:40:29",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-12",
-      "hour": 19,
-      "minute": 0,
-      "title": "Yrupẽ",
-      "director": "Candela Sotos (en sa présence)",
-      "description": "de Candela Sotos (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/Yrupe-768x433.jpg",
-      "url": "https://laclefrevival.org/project/yrupe/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-12",
-      "hour": 20,
-      "minute": 0,
-      "title": "Le Juge et les immigrés",
-      "director": "Carole Roussopoulos et Danièle Bordes",
-      "description": "de Carole Roussopoulos et Danièle Bordes",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/Juge-et-immigres-1.png",
-      "url": "https://laclefrevival.org/project/le-juge-et-les-immigres/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-06-13",
