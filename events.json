@@ -1,40 +1,7 @@
 {
-  "generated_at": "2026-06-13T06:40:29",
+  "generated_at": "2026-06-14T07:07:46",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-13",
-      "hour": 15,
-      "minute": 0,
-      "title": "Journal d’un maître d’école",
-      "director": "Vittorio de Seta",
-      "description": "de Vittorio de Seta",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/Diario-di-un-maestro-768x560.jpeg",
-      "url": "https://laclefrevival.org/project/journal-dun-maitre-decole/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-13",
-      "hour": 16,
-      "minute": 30,
-      "title": "Man in Black",
-      "director": "Wang Bing",
-      "description": "de Wang Bing",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/maninblack-2560x-q85-768x512.jpg",
-      "url": "https://laclefrevival.org/project/man-in-black/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-13",
-      "hour": 20,
-      "minute": 0,
-      "title": "La Trilogie de la Vierge",
-      "director": "Maria Galindo (en sa présence)",
-      "description": "de Maria Galindo (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/LA-VIRGEN-BARBIE-768x584.jpg",
-      "url": "https://laclefrevival.org/project/la-trilogie-de-la-vierge/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-06-14",
