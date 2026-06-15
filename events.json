@@ -1,40 +1,7 @@
 {
-  "generated_at": "2026-06-14T07:07:46",
+  "generated_at": "2026-06-15T07:46:02",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-14",
-      "hour": 15,
-      "minute": 0,
-      "title": "Bribes d’une autre histoire du cinéma arabe",
-      "director": "",
-      "description": "Collection de films restaurés collectivement",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/WALADI__STILL_2-768x480.jpg",
-      "url": "https://laclefrevival.org/project/bribes-dune-autre-histoire-du-cinema-arabe/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-14",
-      "hour": 17,
-      "minute": 0,
-      "title": "Sautes de tigre : Actualité(s) au présent continu",
-      "director": "Video Tracts for Palestine, Colectivo los Ingravidos, Alexandra Cuesta, VideA, Marlow Magdalene",
-      "description": "de Video Tracts for Palestine, Colectivo los Ingravidos, Alexandra Cuesta, VideA, Marlow Magdalene",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Beirut.00_38_17_15.Still028-768x576.jpg",
-      "url": "https://laclefrevival.org/project/sautes-de-tigre-actualites-au-present-continu/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-14",
-      "hour": 20,
-      "minute": 0,
-      "title": "Resonance Spiral",
-      "director": "Filipa César et Marinho Pina (en sa présence)",
-      "description": "de Filipa César et Marinho Pina (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/05/c-resonance-spiral-3-stenar-projects-geba-filmes-elsehere-e-v-768x432.jpg",
-      "url": "https://laclefrevival.org/project/resonance-spiral/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-06-17",
