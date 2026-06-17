@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T08:30:30",
+  "generated_at": "2026-06-17T07:35:40",
   "source": "Sites officiels des cinémas",
   "events": [
     {
@@ -56,6 +56,83 @@
       "description": "de Ira Sachs",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/230504152423-768x470.jpg",
       "url": "https://laclefrevival.org/project/la-bienseance-le-cine-club-du-collectif-bi-to-bi/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-24",
+      "hour": 20,
+      "minute": 0,
+      "title": "Le Comité Rojava Paris présente « Kurdistan, la guerre des filles »",
+      "director": "Mylène Sauloy (en sa présence)",
+      "description": "de Mylène Sauloy (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/kurdistann-768x432.jpg",
+      "url": "https://laclefrevival.org/project/le-comite-rojava-paris-presente-kurdistan-la-guerre-des-filles/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-25",
+      "hour": 19,
+      "minute": 0,
+      "title": "Ciné-club addicto du CSAPA : Neige",
+      "director": "Juliet Berto & Jean Henri Roger",
+      "description": "de Juliet Berto & Jean Henri Roger",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/neige-film-La-Clef-768x691.jpg",
+      "url": "https://laclefrevival.org/project/cine-club-addicto-du-csapa/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-26",
+      "hour": 18,
+      "minute": 0,
+      "title": "Brecht et les mauvais temps nouveaux",
+      "director": "",
+      "description": "Un film, un débat et une présentation de livre",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Capture-decran-2026-06-15-a-12.14.05-768x521.jpg",
+      "url": "https://laclefrevival.org/project/brecht-et-les-mauvais-temps-nouveaux/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-26",
+      "hour": 20,
+      "minute": 0,
+      "title": "Ventres glacés",
+      "director": "Slátan Dudow & Bertolt Brecht",
+      "description": "de Slátan Dudow & Bertolt Brecht",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/kuhle1-mod-La-Clef.jpg",
+      "url": "https://laclefrevival.org/project/ventres-glaces/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-27",
+      "hour": 16,
+      "minute": 0,
+      "title": "Solidarité internationaliste – Mujawara",
+      "director": "",
+      "description": "courts-métrages et rencontres",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Mujawara-les-peuples-veulet-La-Clef-768x566.jpg",
+      "url": "https://laclefrevival.org/project/solidarite-internationaliste-mujawara/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-27",
+      "hour": 20,
+      "minute": 0,
+      "title": "Décoloniser avec les moyens de l’ennemi – ni auteur ni maître #5",
+      "director": "Álvaro Ramírez et Claudio Sapiaín, Colectivo VlopCinema",
+      "description": "d'Álvaro Ramírez et Claudio Sapiaín, Colectivo VlopCinema",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/ni-auterur-ni-maitre-5_La-Clef-768x567.jpg",
+      "url": "https://laclefrevival.org/project/decoloniser-avec-les-moyens-de-lennemi-ni-auteur-ni-maitre-5/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-06-28",
+      "hour": 16,
+      "minute": 0,
+      "title": "Gaslight",
+      "director": "Georges Cukor",
+      "description": "de Georges Cukor",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Gaslight-768x520.jpg",
+      "url": "https://laclefrevival.org/project/gaslight/"
     }
   ]
 }
