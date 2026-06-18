@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-06-17T07:35:40",
+  "generated_at": "2026-06-18T07:19:37",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-17",
-      "hour": 20,
-      "minute": 0,
-      "title": "Disparaître : mode d’emploi",
-      "director": "Antoine du Jeu et Lucie Bonnet (en leur présence)",
-      "description": "d'Antoine du Jeu et Lucie Bonnet (en leur présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Design-sans-titre-768x1011.jpg",
-      "url": "https://laclefrevival.org/project/disparaitre-mode-demploi/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-06-18",
@@ -133,6 +122,83 @@
       "description": "de Georges Cukor",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Gaslight-768x520.jpg",
       "url": "https://laclefrevival.org/project/gaslight/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-07-01",
+      "hour": 19,
+      "minute": 0,
+      "title": "Commémoration de la rétrocession de Hong Kong",
+      "director": "",
+      "description": "\"Rather be ashes than dust\" d'Alan Lau",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Film-stills_2-768x432.jpg",
+      "url": "https://laclefrevival.org/project/commemoration-de-la-retrocession-de-hong-kong/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-07-01",
+      "hour": 20,
+      "minute": 0,
+      "title": "Hors service",
+      "director": "Jean Boiron Lajous (en sa présence)",
+      "description": "de Jean Boiron Lajous (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Copie-de-HorsService_OK-STILL21-768x322.jpg",
+      "url": "https://laclefrevival.org/project/hors-service/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-07-02",
+      "hour": 20,
+      "minute": 0,
+      "title": "Si seulement… #2",
+      "director": "Alice Diop, Hani Almalazi, Bilal Ahmadzai, Alpha Bah, Ibrahima Sory Camara, Abdallaye Diawara, Zenobita Maganga, Margaret No Stain et Md Ferdous Waheed, Anne Toussaint",
+      "description": "d'Alice Diop, Hani Almalazi, Bilal Ahmadzai, Alpha Bah, Ibrahima Sory Camara, Abdallaye Diawara, Zenobita Maganga, Margaret No Stain et Md Ferdous Waheed, Anne Toussaint",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Cycle-Si-seulement2-768x570.jpg",
+      "url": "https://laclefrevival.org/project/si-seulement-2/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-07-03",
+      "hour": 20,
+      "minute": 0,
+      "title": "Scarecrow in a Garden of Cucumbers",
+      "director": "Robert J. Kaplan",
+      "description": "de Robert J. Kaplan",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/scarecrow-12-768x576.jpg",
+      "url": "https://laclefrevival.org/project/scarecrow-in-a-garden-of-cucumbers/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-07-04",
+      "hour": 16,
+      "minute": 0,
+      "title": "Justiça",
+      "director": "Maria Augusta Ramos",
+      "description": "de Maria Augusta Ramos",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Capture-decran-2026-06-11-a-14.41.29-768x432.jpg",
+      "url": "https://laclefrevival.org/project/justica/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-07-05",
+      "hour": 15,
+      "minute": 0,
+      "title": "Céline et Julie vont en bateau (reprise)",
+      "director": "Jacques Rivette",
+      "description": "de Jacques Rivette",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/568743713_17927675028134297_1889726804810543195_n-768x576.jpg",
+      "url": "https://laclefrevival.org/project/celine-et-julie-vont-en-bateau-reprise/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-07-05",
+      "hour": 20,
+      "minute": 0,
+      "title": "Vietnam : agent orange, une bombe à retardement",
+      "director": "Laurent Lindebrings et Thuy Tien Ho (en sa présence)",
+      "description": "de Laurent Lindebrings et Thuy Tien Ho (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/famille-touchc3a9e-par-la-dioxine-768x411.jpeg",
+      "url": "https://laclefrevival.org/project/vietnam-agent-orange-une-bombe-a-retardement/"
     }
   ]
 }
