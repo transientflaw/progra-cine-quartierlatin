@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-06-18T07:19:37",
+  "generated_at": "2026-06-19T07:40:20",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-18",
-      "hour": 20,
-      "minute": 0,
-      "title": "Faire Place !",
-      "director": "Flore de Corbier (en sa présence)",
-      "description": "de Flore de Corbier (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/D485AF87F77F45DCBB92187D25D679BB-768x576.jpg",
-      "url": "https://laclefrevival.org/project/faire-place/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-06-19",
@@ -148,6 +137,17 @@
     {
       "cinema_id": "laClef",
       "date": "2026-07-02",
+      "hour": 19,
+      "minute": 30,
+      "title": "Ukamau",
+      "director": "Jorge Sanjinés",
+      "description": "de Jorge Sanjinés",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Ukamau-768x512.jpg",
+      "url": "https://laclefrevival.org/project/ukamau/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-07-02",
       "hour": 20,
       "minute": 0,
       "title": "Si seulement… #2",
@@ -161,9 +161,9 @@
       "date": "2026-07-03",
       "hour": 20,
       "minute": 0,
-      "title": "Scarecrow in a Garden of Cucumbers",
-      "director": "Robert J. Kaplan",
-      "description": "de Robert J. Kaplan",
+      "title": "CLIP – Ciné-Club de Lutte, Inverties et Politique",
+      "director": "",
+      "description": "\"Scarecrow in a Garden of Cucumbers\" de Robert J. Kaplan",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/scarecrow-12-768x576.jpg",
       "url": "https://laclefrevival.org/project/scarecrow-in-a-garden-of-cucumbers/"
     },
@@ -177,6 +177,17 @@
       "description": "de Maria Augusta Ramos",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Capture-decran-2026-06-11-a-14.41.29-768x432.jpg",
       "url": "https://laclefrevival.org/project/justica/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-07-04",
+      "hour": 20,
+      "minute": 0,
+      "title": "La tragédie de la mine (Kameradschaft) – carte blanche à Ciné Barricade",
+      "director": "Georg Wilhelm Pabst",
+      "description": "de Georg Wilhelm Pabst",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Kameradschaft_1-768x432.jpg",
+      "url": "https://laclefrevival.org/project/la-tragedie-de-la-mine-kameradschaft-carte-blanche-a-cine-barricade/"
     },
     {
       "cinema_id": "laClef",
