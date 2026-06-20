@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-06-19T07:40:20",
+  "generated_at": "2026-06-20T06:49:39",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-19",
-      "hour": 20,
-      "minute": 0,
-      "title": "Something Wild",
-      "director": "Jonathan Demme",
-      "description": "de Jonathan Demme",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Something-wild_laclef-768x431.jpg",
-      "url": "https://laclefrevival.org/project/something-wild/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-06-20",
