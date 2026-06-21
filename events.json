@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-06-20T06:49:39",
+  "generated_at": "2026-06-21T07:18:16",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-20",
-      "hour": 16,
-      "minute": 0,
-      "title": "Mener la lutte des classes dans le champ intellectuel",
-      "director": "Chris Marker et collectif",
-      "description": "de Chris Marker et collectif",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/vlcsnap-2020-06-04-11h55m00s610-768x573.webp",
-      "url": "https://laclefrevival.org/project/mener-la-lutte-des-classes-dans-le-champ-intellectuel/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-20",
-      "hour": 19,
-      "minute": 0,
-      "title": "La bi(en)séance – le ciné club du collectif bi to bi",
-      "director": "Ira Sachs",
-      "description": "de Ira Sachs",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/230504152423-768x470.jpg",
-      "url": "https://laclefrevival.org/project/la-bienseance-le-cine-club-du-collectif-bi-to-bi/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-06-24",
