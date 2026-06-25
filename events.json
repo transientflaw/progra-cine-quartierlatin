@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-06-24T06:33:48",
+  "generated_at": "2026-06-25T06:35:18",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-24",
-      "hour": 20,
-      "minute": 0,
-      "title": "Le Comité Rojava Paris présente « Kurdistan, la guerre des filles »",
-      "director": "Mylène Sauloy (en sa présence)",
-      "description": "de Mylène Sauloy (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/kurdistann-768x432.jpg",
-      "url": "https://laclefrevival.org/project/le-comite-rojava-paris-presente-kurdistan-la-guerre-des-filles/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-06-25",
