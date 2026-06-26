@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-06-25T06:35:18",
+  "generated_at": "2026-06-26T06:38:57",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-25",
-      "hour": 19,
-      "minute": 0,
-      "title": "Ciné-club addicto du CSAPA : Neige",
-      "director": "Juliet Berto & Jean Henri Roger",
-      "description": "de Juliet Berto & Jean Henri Roger",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/neige-film-La-Clef-768x691.jpg",
-      "url": "https://laclefrevival.org/project/cine-club-addicto-du-csapa/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-06-26",
