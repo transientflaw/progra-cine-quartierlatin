@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-06-26T06:38:57",
+  "generated_at": "2026-06-27T06:11:30",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-26",
-      "hour": 18,
-      "minute": 0,
-      "title": "Brecht et les mauvais temps nouveaux",
-      "director": "",
-      "description": "Un film, un débat et une présentation de livre",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Capture-decran-2026-06-15-a-12.14.05-768x521.jpg",
-      "url": "https://laclefrevival.org/project/brecht-et-les-mauvais-temps-nouveaux/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-26",
-      "hour": 20,
-      "minute": 0,
-      "title": "Ventres glacés",
-      "director": "Slátan Dudow & Bertolt Brecht",
-      "description": "de Slátan Dudow & Bertolt Brecht",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/kuhle1-mod-La-Clef.jpg",
-      "url": "https://laclefrevival.org/project/ventres-glaces/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-06-27",
