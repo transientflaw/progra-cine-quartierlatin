@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-06-28T06:46:06",
+  "generated_at": "2026-06-29T07:14:57",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-06-28",
-      "hour": 16,
-      "minute": 0,
-      "title": "Gaslight",
-      "director": "Georges Cukor",
-      "description": "de Georges Cukor",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Gaslight-768x520.jpg",
-      "url": "https://laclefrevival.org/project/gaslight/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-07-01",
