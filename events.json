@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T07:14:57",
+  "generated_at": "2026-06-30T06:43:06",
   "source": "Sites officiels des cinémas",
   "events": [
     {
@@ -100,6 +100,61 @@
       "description": "de Laurent Lindebrings et Thuy Tien Ho (en sa présence)",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/famille-touchc3a9e-par-la-dioxine-768x411.jpeg",
       "url": "https://laclefrevival.org/project/vietnam-agent-orange-une-bombe-a-retardement/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-07-09",
+      "hour": 20,
+      "minute": 0,
+      "title": "Astrokino #1 : GEMEAU",
+      "director": "",
+      "description": "\"The Ballad of Genesis and Lady Jaye\" de Marie Losier",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/BALLAD-5_b-768x556.jpg",
+      "url": "https://laclefrevival.org/project/astrokino-1-gemeau/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-07-10",
+      "hour": 19,
+      "minute": 30,
+      "title": "Carte blanche à l’Association France Palestine Solidarité",
+      "director": "",
+      "description": "\"Pour l'honneur de Gaza\" d'Iyad Alasttal (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/©GazaStoriesProduction-PourlhonneurdeGazaphoto8-768x431.jpg",
+      "url": "https://laclefrevival.org/project/carte-blanche-a-lassociation-france-palestine-solidarite/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-07-11",
+      "hour": 16,
+      "minute": 0,
+      "title": "Outliers and Outlaws",
+      "director": "Judith Raiskin et Courtney Hermann",
+      "description": "de Judith Raiskin et Courtney Hermann",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Outliers-and-Outlaws-1-768x432.jpg",
+      "url": "https://laclefrevival.org/project/outliers-and-outlaws/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-07-11",
+      "hour": 20,
+      "minute": 0,
+      "title": "Fistful of Love",
+      "director": "Reynaldo Rivera",
+      "description": "de Reynaldo Rivera",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Fistful-of-love-LaClef-768x597.jpg",
+      "url": "https://laclefrevival.org/project/fistful-of-love/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-07-12",
+      "hour": 19,
+      "minute": 0,
+      "title": "United in Anger",
+      "director": "Jim Hubbard",
+      "description": "de Jim Hubbard",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/UnitedinAngerStills_1.1.2-768x575.jpg",
+      "url": "https://laclefrevival.org/project/united-in-anger/"
     }
   ]
 }
