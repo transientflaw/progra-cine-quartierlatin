@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-07-01T06:55:46",
+  "generated_at": "2026-07-02T06:18:22",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-01",
-      "hour": 19,
-      "minute": 0,
-      "title": "Commémoration de la rétrocession de Hong Kong",
-      "director": "",
-      "description": "\"Rather be ashes than dust\" d'Alan Lau",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Film-stills_2-768x432.jpg",
-      "url": "https://laclefrevival.org/project/commemoration-de-la-retrocession-de-hong-kong/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-01",
-      "hour": 20,
-      "minute": 0,
-      "title": "Hors service",
-      "director": "Jean Boiron Lajous (en sa présence)",
-      "description": "de Jean Boiron Lajous (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Copie-de-HorsService_OK-STILL21-768x322.jpg",
-      "url": "https://laclefrevival.org/project/hors-service/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-07-02",
