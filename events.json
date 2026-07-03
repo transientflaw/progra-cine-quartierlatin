@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-07-02T06:18:22",
+  "generated_at": "2026-07-03T06:11:46",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-02",
-      "hour": 19,
-      "minute": 30,
-      "title": "Ukamau",
-      "director": "Jorge Sanjinés",
-      "description": "de Jorge Sanjinés",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Ukamau-768x512.jpg",
-      "url": "https://laclefrevival.org/project/ukamau/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-02",
-      "hour": 20,
-      "minute": 0,
-      "title": "Si seulement… #2",
-      "director": "",
-      "description": "Par Les Yeux de l'Ouïe",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Cycle-Si-seulement2-768x570.jpg",
-      "url": "https://laclefrevival.org/project/si-seulement-2/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-07-03",
