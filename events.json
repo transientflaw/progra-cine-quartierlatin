@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-07-03T06:11:46",
+  "generated_at": "2026-07-04T06:01:36",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-03",
-      "hour": 20,
-      "minute": 0,
-      "title": "CLIP – Ciné-Club de Lutte, Inverties et Politique",
-      "director": "",
-      "description": "\"Scarecrow in a Garden of Cucumbers\" de Robert J. Kaplan",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/scarecrow-12-768x576.jpg",
-      "url": "https://laclefrevival.org/project/scarecrow-in-a-garden-of-cucumbers/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-07-04",
