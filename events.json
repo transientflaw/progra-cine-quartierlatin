@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-07-04T06:01:36",
+  "generated_at": "2026-07-05T06:27:30",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-04",
-      "hour": 16,
-      "minute": 0,
-      "title": "Justiça",
-      "director": "Maria Augusta Ramos",
-      "description": "de Maria Augusta Ramos",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Capture-decran-2026-06-11-a-14.41.29-768x432.jpg",
-      "url": "https://laclefrevival.org/project/justica/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-04",
-      "hour": 20,
-      "minute": 0,
-      "title": "La tragédie de la mine (Kameradschaft) – carte blanche à Ciné Barricade",
-      "director": "Georg Wilhelm Pabst",
-      "description": "de Georg Wilhelm Pabst",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Kameradschaft_1-768x432.jpg",
-      "url": "https://laclefrevival.org/project/la-tragedie-de-la-mine-kameradschaft-carte-blanche-a-cine-barricade/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-07-05",
