@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-07-05T06:27:30",
+  "generated_at": "2026-07-06T06:53:43",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-05",
-      "hour": 15,
-      "minute": 0,
-      "title": "Céline et Julie vont en bateau (reprise)",
-      "director": "Jacques Rivette",
-      "description": "de Jacques Rivette",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/568743713_17927675028134297_1889726804810543195_n-768x576.jpg",
-      "url": "https://laclefrevival.org/project/celine-et-julie-vont-en-bateau-reprise/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-05",
-      "hour": 20,
-      "minute": 0,
-      "title": "Vietnam : agent orange, une bombe à retardement",
-      "director": "Laurent Lindebrings et Thuy Tien Ho (en sa présence)",
-      "description": "de Laurent Lindebrings et Thuy Tien Ho (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/famille-touchc3a9e-par-la-dioxine-768x411.jpeg",
-      "url": "https://laclefrevival.org/project/vietnam-agent-orange-une-bombe-a-retardement/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-07-09",
@@ -78,6 +56,61 @@
       "description": "de Jim Hubbard",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/UnitedinAngerStills_1.1.2-768x575.jpg",
       "url": "https://laclefrevival.org/project/united-in-anger/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-07-15",
+      "hour": 18,
+      "minute": 0,
+      "title": "Le Corbeau",
+      "director": "Roger Corman",
+      "description": "de Roger Corman",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/corbeau_1-768x324.jpg",
+      "url": "https://laclefrevival.org/project/le-corbeau/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-07-15",
+      "hour": 20,
+      "minute": 30,
+      "title": "The Intruder",
+      "director": "Roger Corman",
+      "description": "de Roger Corman",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/the_intruder_1-768x432.jpg",
+      "url": "https://laclefrevival.org/project/the-intruder/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-07-16",
+      "hour": 20,
+      "minute": 0,
+      "title": "Séance Reprise : Talking about trees",
+      "director": "Suhaib Gasmelbari (en sa présence)",
+      "description": "de Suhaib Gasmelbari (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/01/TalkingAboutTrees-768x432.jpg",
+      "url": "https://laclefrevival.org/project/seance-reprise-talking-about-trees/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-07-17",
+      "hour": 20,
+      "minute": 0,
+      "title": "MACDO",
+      "director": "Racornelia (en sa présence)",
+      "description": "de Racornelia (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/MACDO-Still-Cams-LaClef-768x288.jpg",
+      "url": "https://laclefrevival.org/project/macdo/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-07-19",
+      "hour": 19,
+      "minute": 0,
+      "title": "Soundtrack to a Coup d’État (reprise)",
+      "director": "Johan Grimonprez",
+      "description": "de Johan Grimonprez",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/01/2024_Soundtrack-to-a-Coup-dEtat_Johan-Grimonprez_Andree-Blouin-©Terence-Spencer_Popperfoto-768x432.jpg",
+      "url": "https://laclefrevival.org/project/soundtrack-to-a-coup-detat-reprise/"
     }
   ]
 }
