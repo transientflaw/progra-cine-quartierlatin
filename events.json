@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-07-09T06:34:40",
+  "generated_at": "2026-07-10T06:28:49",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-09",
-      "hour": 20,
-      "minute": 0,
-      "title": "Astrokino #1 : GEMEAU",
-      "director": "",
-      "description": "\"The Ballad of Genesis and Lady Jaye\" de Marie Losier",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/BALLAD-5_b-768x556.jpg",
-      "url": "https://laclefrevival.org/project/astrokino-1-gemeau/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-07-10",
