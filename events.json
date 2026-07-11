@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-07-10T06:28:49",
+  "generated_at": "2026-07-11T05:31:03",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-10",
-      "hour": 19,
-      "minute": 30,
-      "title": "Carte blanche à l’Association France Palestine Solidarité",
-      "director": "",
-      "description": "\"Pour l'honneur de Gaza\" d'Iyad Alasttal (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/©GazaStoriesProduction-PourlhonneurdeGazaphoto8-768x431.jpg",
-      "url": "https://laclefrevival.org/project/carte-blanche-a-lassociation-france-palestine-solidarite/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-07-11",
