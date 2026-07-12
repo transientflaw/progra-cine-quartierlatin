@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-07-11T05:31:03",
+  "generated_at": "2026-07-12T05:50:20",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-11",
-      "hour": 16,
-      "minute": 0,
-      "title": "Outliers and Outlaws",
-      "director": "Judith Raiskin et Courtney Hermann",
-      "description": "de Judith Raiskin et Courtney Hermann",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Outliers-and-Outlaws-1-768x432.jpg",
-      "url": "https://laclefrevival.org/project/outliers-and-outlaws/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-11",
-      "hour": 20,
-      "minute": 0,
-      "title": "Fistful of Love",
-      "director": "Reynaldo Rivera",
-      "description": "de Reynaldo Rivera",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/Fistful-of-love-LaClef-768x597.jpg",
-      "url": "https://laclefrevival.org/project/fistful-of-love/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-07-12",
