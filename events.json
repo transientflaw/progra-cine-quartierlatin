@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-07-12T05:50:20",
+  "generated_at": "2026-07-13T05:56:35",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-12",
-      "hour": 19,
-      "minute": 0,
-      "title": "United in Anger",
-      "director": "Jim Hubbard",
-      "description": "de Jim Hubbard",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/UnitedinAngerStills_1.1.2-768x575.jpg",
-      "url": "https://laclefrevival.org/project/united-in-anger/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-07-15",
