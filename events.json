@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T05:17:30",
+  "generated_at": "2026-07-15T05:17:33",
   "source": "Sites officiels des cinémas",
   "events": [
     {
@@ -95,7 +95,7 @@
       "date": "2026-07-23",
       "hour": 20,
       "minute": 0,
-      "title": "Jackson vous parle de Chris Marker : Lettre de Sibérie",
+      "title": "Lettre de Sibérie",
       "director": "Chris Marker (en présence de Jackson B. Smith)",
       "description": "de Chris Marker (en présence de Jackson B. Smith)",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/LS8-768x560.jpg",
@@ -107,8 +107,8 @@
       "hour": 19,
       "minute": 0,
       "title": "Séance de courts-métrages",
-      "director": "Skirmant Jakaite, Olga & Priit Pärn, Marta Pajek",
-      "description": "de Skirmant Jakaite, Olga & Priit Pärn, Marta Pajek",
+      "director": "Skirmant Jakaite, Marta Pajek",
+      "description": "de Skirmant Jakaite, Marta Pajek",
       "poster": "",
       "url": "https://laclefrevival.org/project/seance-de-courts-metrages/"
     },
