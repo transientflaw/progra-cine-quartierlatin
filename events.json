@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-07-15T05:17:33",
+  "generated_at": "2026-07-16T05:27:06",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-15",
-      "hour": 18,
-      "minute": 0,
-      "title": "Le Corbeau",
-      "director": "Roger Corman",
-      "description": "de Roger Corman",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/corbeau_1-768x324.jpg",
-      "url": "https://laclefrevival.org/project/le-corbeau/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-15",
-      "hour": 20,
-      "minute": 30,
-      "title": "The Intruder",
-      "director": "Roger Corman",
-      "description": "de Roger Corman",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/the_intruder_1-768x432.jpg",
-      "url": "https://laclefrevival.org/project/the-intruder/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-07-16",
@@ -106,10 +84,10 @@
       "date": "2026-07-25",
       "hour": 19,
       "minute": 0,
-      "title": "Séance de courts-métrages",
+      "title": "Films d’animations Baltiques",
       "director": "Skirmant Jakaite, Marta Pajek",
       "description": "de Skirmant Jakaite, Marta Pajek",
-      "poster": "",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/impossibles-stories-768x432.webp",
       "url": "https://laclefrevival.org/project/seance-de-courts-metrages/"
     },
     {
