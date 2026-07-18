@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-07-17T05:29:16",
+  "generated_at": "2026-07-18T05:11:32",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-17",
-      "hour": 20,
-      "minute": 0,
-      "title": "MACDO",
-      "director": "Racornelia (en sa présence)",
-      "description": "de Racornelia (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/06/MACDO-Still-Cams-LaClef-768x288.jpg",
-      "url": "https://laclefrevival.org/project/macdo/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-07-19",
