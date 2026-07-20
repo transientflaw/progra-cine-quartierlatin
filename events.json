@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-07-19T05:38:12",
+  "generated_at": "2026-07-20T05:55:39",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-19",
-      "hour": 19,
-      "minute": 0,
-      "title": "Soundtrack to a Coup d’État (reprise)",
-      "director": "Johan Grimonprez",
-      "description": "de Johan Grimonprez",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/01/2024_Soundtrack-to-a-Coup-dEtat_Johan-Grimonprez_Andree-Blouin-©Terence-Spencer_Popperfoto-768x432.jpg",
-      "url": "https://laclefrevival.org/project/soundtrack-to-a-coup-detat-reprise/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-07-22",
