@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-07-20T05:55:39",
+  "generated_at": "2026-07-21T05:39:02",
   "source": "Sites officiels des cinémas",
   "events": [
+    {
+      "cinema_id": "laClef",
+      "date": "2026-07-21",
+      "hour": 20,
+      "minute": 0,
+      "title": "Séance de soutien à El Mahdi Lyoubi",
+      "director": "",
+      "description": "",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/Seance-soutien-MahdiLyoubi.jpg",
+      "url": "https://laclefrevival.org/project/seance-de-soutien-a-el-mahdi-lyoubi/"
+    },
     {
       "cinema_id": "laClef",
       "date": "2026-07-22",
