@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-07-22T05:36:51",
+  "generated_at": "2026-07-23T05:43:10",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-22",
-      "hour": 19,
-      "minute": 0,
-      "title": "Les feuilles de l’après-mai",
-      "director": "",
-      "description": "Rencontre littéraire avec Jean-François Hamel",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/Seance-livre-affiche2-LaClef-768x564.jpg",
-      "url": "https://laclefrevival.org/project/les-feuilles-de-lapres-mai/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-22",
-      "hour": 20,
-      "minute": 0,
-      "title": "Ce n’est qu’un début, continuons le combat",
-      "director": "Claudia Von Alemann",
-      "description": "de Claudia Von Alemann",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/cva-ce-n-est-qu-un-debut-continuons-le-combat-2-768x432.jpg",
-      "url": "https://laclefrevival.org/project/ce-nest-quun-debut-continuons-le-combat/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-07-23",
