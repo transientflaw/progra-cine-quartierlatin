@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-07-23T05:43:10",
+  "generated_at": "2026-07-24T05:36:40",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-23",
-      "hour": 18,
-      "minute": 0,
-      "title": "Eternal Current Events – Chris Marker traduit par Jackson B. Smith",
-      "director": "",
-      "description": "Rencontre-discussion avec Jackson B. Smith",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/Chris-Marker-Esprit-768x513.jpg",
-      "url": "https://laclefrevival.org/project/eternal-current-events-chris-marker-traduit-par-jackson-b-smith/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-23",
-      "hour": 20,
-      "minute": 0,
-      "title": "Lettre de Sibérie",
-      "director": "Chris Marker (en présence de Jackson B. Smith)",
-      "description": "de Chris Marker (en présence de Jackson B. Smith)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/LS8-768x560.jpg",
-      "url": "https://laclefrevival.org/project/jackson-vous-parle-de-chris-marker-lettre-de-siberie/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-07-25",
