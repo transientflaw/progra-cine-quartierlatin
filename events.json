@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-07-25T05:31:09",
+  "generated_at": "2026-07-26T05:46:52",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-25",
-      "hour": 19,
-      "minute": 0,
-      "title": "Films d’animations Baltiques",
-      "director": "Skirmanta Jakaite, Marta Pajek, Olga & Priit Pärn",
-      "description": "de Skirmanta Jakaite, Marta Pajek, Olga & Priit Pärn",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/impossibles-stories-768x432.webp",
-      "url": "https://laclefrevival.org/project/seance-de-courts-metrages/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-07-26",
