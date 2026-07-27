@@ -1,28 +1,5 @@
 {
-  "generated_at": "2026-07-26T05:46:52",
+  "generated_at": "2026-07-27T06:05:48",
   "source": "Sites officiels des cinémas",
-  "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-26",
-      "hour": 17,
-      "minute": 30,
-      "title": "Soixante-dix fantômes (choses vues)",
-      "director": "",
-      "description": "Rencontre littéraire avec Nathalie Quintane, animée par Jackson B. Smith",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/VM2-avecLivre-LaClef.jpg",
-      "url": "https://laclefrevival.org/project/soixante-dix-fantomes-choses-vues/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-07-26",
-      "hour": 20,
-      "minute": 0,
-      "title": "Le Ventre de la montagne",
-      "director": "Stephen Loye",
-      "description": "de Stephen Loye",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/VM5.jpg",
-      "url": "https://laclefrevival.org/project/le-ventre-de-la-montagne/"
-    }
-  ]
+  "events": []
 }
