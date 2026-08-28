@@ -1,5 +1,105 @@
 {
-  "generated_at": "2026-08-27T13:02:19",
+  "generated_at": "2026-08-28T14:31:13",
   "source": "Sites officiels des cinémas",
-  "events": []
+  "events": [
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-03",
+      "hour": 20,
+      "minute": 0,
+      "title": "Dakan",
+      "director": "Mohamed Camara (en sa présence, ainsi que du collectif Plastiq)",
+      "description": "de Mohamed Camara (en sa présence, ainsi que du collectif Plastiq)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/Dakan-LaClef_1280-768x468.jpg",
+      "url": "https://laclefrevival.org/project/dakan/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-04",
+      "hour": 19,
+      "minute": 30,
+      "title": "Ouverture du Festival Seytou Africa",
+      "director": "",
+      "description": "festival de documentaires africains & afro-diasporiques",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/Onuoha-Adventures_16-768x618.jpg",
+      "url": "https://laclefrevival.org/project/ouverture-du-festival-seytou-africa/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-05",
+      "hour": 14,
+      "minute": 0,
+      "title": "Visions d’ART LAB Sudan : carte blanche à Ekram Hamad Fadlalla et Algaddal Hassan",
+      "director": "Ekram Hamad Fadlalla",
+      "description": "d'Ekram Hamad Fadlalla",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Programme-Festival-Arkawit_FR.pdf-image-061-768x432.jpg",
+      "url": "https://laclefrevival.org/project/visions-dart-lab-sudan-carte-blanche-a-ekram-hamad-fadlalla-et-algaddal-hassan/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-05",
+      "hour": 16,
+      "minute": 30,
+      "title": "Carte blanche à Sudan Film Institute",
+      "director": "Ibrahim Omar (en sa présence), Mohammed Zbiday",
+      "description": "d'Ibrahim Omar (en sa présence), Mohammed Zbiday",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Programme-Festival-Arkawit_FR.pdf-image-067mod.jpg",
+      "url": "https://laclefrevival.org/project/carte-blanche-a-sudan-film-institute/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-05",
+      "hour": 18,
+      "minute": 30,
+      "title": "Carte blanche à Ibrahim Sayed & APEDEMAK",
+      "director": "",
+      "description": "Festival Arkawit – 2èmes Rencontres du Film Soudanais",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Programme-Festival-Arkawit_FR.pdf-image-068.jpg",
+      "url": "https://laclefrevival.org/project/carte-blanche-a-ibrahim-sayed-apedemak/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-06",
+      "hour": 14,
+      "minute": 0,
+      "title": "Little President",
+      "director": "Christophe Clavert (en sa présence, ainsi que de protagonistes du film)",
+      "description": "de Christophe Clavert (en sa présence, ainsi que de protagonistes du film)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Programme-Festival-Arkawit_FR.pdf-image-078mod.jpg",
+      "url": "https://laclefrevival.org/project/little-president/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-06",
+      "hour": 16,
+      "minute": 0,
+      "title": "Souvenirs et récits : sélection de films courts",
+      "director": "",
+      "description": "Festival Arkawit – 2èmes Rencontres du Film Soudanais",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Programme-Festival-Arkawit_FR.pdf-image-082-768x381.png",
+      "url": "https://laclefrevival.org/project/souvenirs-et-recits-selection-de-films-courts/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-06",
+      "hour": 17,
+      "minute": 30,
+      "title": "Table ronde « Cinéma soudanais en France – cinéma diasporique : perspectives, influences, engagements »",
+      "director": "",
+      "description": "En présence de cinéastes, comédiens et techniciens de cinéma soudanais résidant en France",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Programme-Festival-Arkawit_FR.pdf-image-000-768x432.jpg",
+      "url": "https://laclefrevival.org/project/table-ronde-cinema-soudanais-en-france-cinema-diasporique-perspectives-influences-engagements/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-06",
+      "hour": 19,
+      "minute": 30,
+      "title": "Festival Arkawit – soirée de clôture",
+      "director": "",
+      "description": "Festival Arkawit – 2èmes Rencontres du Film Soudanais",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/ARKAWIT-768x768.png",
+      "url": "https://laclefrevival.org/project/festival-arkawit-soiree-de-cloture/"
+    }
+  ]
 }
