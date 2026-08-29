@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T14:31:13",
+  "generated_at": "2026-08-29T09:16:32",
   "source": "Sites officiels des cinémas",
   "events": [
     {
@@ -100,6 +100,61 @@
       "description": "Festival Arkawit – 2èmes Rencontres du Film Soudanais",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/ARKAWIT-768x768.png",
       "url": "https://laclefrevival.org/project/festival-arkawit-soiree-de-cloture/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-09",
+      "hour": 20,
+      "minute": 0,
+      "title": "Wolobougou",
+      "director": "Camille Varenne (en sa présence)",
+      "description": "de Camille Varenne (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Sequence-27.00_48_23_13.Still015-768x415.jpg",
+      "url": "https://laclefrevival.org/project/wolobougou/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-11",
+      "hour": 20,
+      "minute": 0,
+      "title": "Evening Land",
+      "director": "Peter Watkins",
+      "description": "de Peter Watkins",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/fdp_LaClef.jpg",
+      "url": "https://laclefrevival.org/project/evening-land/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-12",
+      "hour": 17,
+      "minute": 30,
+      "title": "3 court-métrages de Barbara Hammer en 16mm",
+      "director": "Barbara Hammer",
+      "description": "de Barbara Hammer",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/Double-Strength-barbara-hammer.jpeg",
+      "url": "https://laclefrevival.org/project/3-court-metrages-de-barbara-hammer-en-16mm/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-12",
+      "hour": 20,
+      "minute": 0,
+      "title": "Amour Amour Liberté",
+      "director": "Tahin Demiral (en sa présence)",
+      "description": "de Tahin Demiral (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/Capture-decran-2026-07-14-a-17.47.181-768x439.jpg",
+      "url": "https://laclefrevival.org/project/amour-amour-liberte/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-13",
+      "hour": 19,
+      "minute": 0,
+      "title": "Diciembre",
+      "director": "Lucas Gallo",
+      "description": "de Lucas Gallo",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/DICIEMBRE-STILL-2-768x321.jpg",
+      "url": "https://laclefrevival.org/project/diciembre/"
     }
   ]
 }
