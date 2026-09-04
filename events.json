@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-09-03T07:20:24",
+  "generated_at": "2026-09-04T07:23:32",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-03",
-      "hour": 20,
-      "minute": 0,
-      "title": "Dakan",
-      "director": "Mohamed Camara (en sa présence, ainsi que du collectif Plastiq)",
-      "description": "de Mohamed Camara (en sa présence, ainsi que du collectif Plastiq)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/Dakan-LaClef_1280-768x468.jpg",
-      "url": "https://laclefrevival.org/project/dakan/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-09-04",
