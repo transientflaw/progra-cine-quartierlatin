@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-09-04T07:23:32",
+  "generated_at": "2026-09-05T07:03:36",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-04",
-      "hour": 19,
-      "minute": 30,
-      "title": "Ouverture du Festival Seytou Africa",
-      "director": "",
-      "description": "festival de documentaires africains & afro-diasporiques",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/Onuoha-Adventures_16-768x618.jpg",
-      "url": "https://laclefrevival.org/project/ouverture-du-festival-seytou-africa/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-09-05",
@@ -100,6 +89,17 @@
       "description": "de Camille Varenne (en sa présence)",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Sequence-27.00_48_23_13.Still015-768x415.jpg",
       "url": "https://laclefrevival.org/project/wolobougou/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-10",
+      "hour": 20,
+      "minute": 0,
+      "title": "Pourquoi le boycott culturel en soutien à la Palestine ?",
+      "director": "",
+      "description": "Rencontre avec Monira Moon du FRACBI et Nadine Naous de La Palestine sauvera le cinéma",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/D51E28DB13E64D7F91069E0B882BC6EC.jpg",
+      "url": "https://laclefrevival.org/project/pourquoi-le-boycott-culturel-en-soutien-a-la-palestine/"
     },
     {
       "cinema_id": "laClef",
