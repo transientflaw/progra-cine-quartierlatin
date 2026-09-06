@@ -1,40 +1,7 @@
 {
-  "generated_at": "2026-09-05T07:03:36",
+  "generated_at": "2026-09-06T07:15:43",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-05",
-      "hour": 14,
-      "minute": 0,
-      "title": "Visions d’ART LAB Sudan : carte blanche à Ekram Hamad Fadlalla et Algaddal Hassan",
-      "director": "Ekram Hamad Fadlalla, Algaddal Hassan",
-      "description": "d'Ekram Hamad Fadlalla, Algaddal Hassan",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Programme-Festival-Arkawit_FR.pdf-image-061-768x432.jpg",
-      "url": "https://laclefrevival.org/project/visions-dart-lab-sudan-carte-blanche-a-ekram-hamad-fadlalla-et-algaddal-hassan/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-05",
-      "hour": 16,
-      "minute": 30,
-      "title": "Carte blanche à Sudan Film Institute",
-      "director": "Ibrahim Omar (en sa présence), Mohammed Zbiday",
-      "description": "d'Ibrahim Omar (en sa présence), Mohammed Zbiday",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Programme-Festival-Arkawit_FR.pdf-image-067mod.jpg",
-      "url": "https://laclefrevival.org/project/carte-blanche-a-sudan-film-institute/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-05",
-      "hour": 18,
-      "minute": 30,
-      "title": "Carte blanche à Ibrahim Sayed & APEDEMAK",
-      "director": "",
-      "description": "Festival Arkawit – 2èmes Rencontres du Film Soudanais",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Programme-Festival-Arkawit_FR.pdf-image-068.jpg",
-      "url": "https://laclefrevival.org/project/carte-blanche-a-ibrahim-sayed-apedemak/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-09-06",
