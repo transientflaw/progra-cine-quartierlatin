@@ -1,51 +1,7 @@
 {
-  "generated_at": "2026-09-06T07:15:43",
+  "generated_at": "2026-09-07T07:28:46",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-06",
-      "hour": 14,
-      "minute": 0,
-      "title": "Little President",
-      "director": "Christophe Clavert (en sa présence, ainsi que de protagonistes du film)",
-      "description": "de Christophe Clavert (en sa présence, ainsi que de protagonistes du film)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Programme-Festival-Arkawit_FR.pdf-image-078mod.jpg",
-      "url": "https://laclefrevival.org/project/little-president/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-06",
-      "hour": 16,
-      "minute": 0,
-      "title": "Souvenirs et récits : sélection de films courts",
-      "director": "",
-      "description": "Festival Arkawit – 2èmes Rencontres du Film Soudanais",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Programme-Festival-Arkawit_FR.pdf-image-082-768x381.png",
-      "url": "https://laclefrevival.org/project/souvenirs-et-recits-selection-de-films-courts/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-06",
-      "hour": 17,
-      "minute": 30,
-      "title": "Table ronde « Cinéma soudanais en France – cinéma diasporique : perspectives, influences, engagements »",
-      "director": "",
-      "description": "En présence de cinéastes, comédiens et techniciens de cinéma soudanais résidant en France",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Programme-Festival-Arkawit_FR.pdf-image-000-768x432.jpg",
-      "url": "https://laclefrevival.org/project/table-ronde-cinema-soudanais-en-france-cinema-diasporique-perspectives-influences-engagements/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-06",
-      "hour": 19,
-      "minute": 30,
-      "title": "Festival Arkawit – soirée de clôture",
-      "director": "",
-      "description": "Festival Arkawit – 2èmes Rencontres du Film Soudanais",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/ARKAWIT-768x768.png",
-      "url": "https://laclefrevival.org/project/festival-arkawit-soiree-de-cloture/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-09-09",
@@ -111,6 +67,116 @@
       "description": "de Lucas Gallo",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/DICIEMBRE-STILL-2-768x321.jpg",
       "url": "https://laclefrevival.org/project/diciembre/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-16",
+      "hour": 19,
+      "minute": 0,
+      "title": "10 ans du Zoot Collectif : focus Palestine",
+      "director": "Asia Zughaiar, Zachary Barr et Nick Rosen (puis la musique du Marsa Trio, Maydan Ensemble)",
+      "description": "de Asia Zughaiar, Zachary Barr et Nick Rosen (puis la musique du Marsa Trio, Maydan Ensemble)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/full_I_hope_this_email_finds_you_well.-Clean-16x9-02-768x432.png",
+      "url": "https://laclefrevival.org/project/10-ans-du-zoot-collectif-focus-palestine/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-17",
+      "hour": 20,
+      "minute": 0,
+      "title": "25 ans de cinéma hors capital(e) #1 : ÉMIGRATION",
+      "director": "Ahmed Hamou-Zerrouki",
+      "description": "d'Ahmed Hamou-Zerrouki",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Emigration1©Zerrouki-768x488.jpg",
+      "url": "https://laclefrevival.org/project/25-ans-de-cinema-hors-capitale-1-emigration/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-18",
+      "hour": 18,
+      "minute": 0,
+      "title": "25 ans de cinéma hors capital(e) #2 : PROLONGÉ D’UN RIEN",
+      "director": "Martine Derain et Jean-François Neplaz, Martine Derain, Sara Millot (en leur présence)",
+      "description": "de Martine Derain et Jean-François Neplaz, Martine Derain, Sara Millot (en leur présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Capture-decran-2024-01-11-a-15.46.29-2048x1546-1-768x580.png",
+      "url": "https://laclefrevival.org/project/25-ans-de-cinema-hors-capitale-2-prolonge-dun-rien/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-18",
+      "hour": 21,
+      "minute": 0,
+      "title": "25 ans de cinéma hors capital(e) #3 : VIAGGI IN ITALIA",
+      "director": "Marta Anatra, Claudia Mollese (en leur présence)",
+      "description": "de Marta Anatra, Claudia Mollese (en leur présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/202002619_1_RWD_1668-768x535.jpg",
+      "url": "https://laclefrevival.org/project/25-ans-de-cinema-hors-capitale-3-viaggi-in-italia/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-19",
+      "hour": 14,
+      "minute": 0,
+      "title": "25 ans de cinéma hors capital(e) #4 : LA SUBTILE MÉMOIRE DES HUMAINS DU RIVAGE",
+      "director": "",
+      "description": "des Ateliers Cinématographiques Film Flamme",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Paniercinejournal_1@Filmflamme-768x560.jpg",
+      "url": "https://laclefrevival.org/project/25-ans-de-cinema-hors-capitale-4-la-subtile-memoire-des-humains-du-rivage/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-19",
+      "hour": 17,
+      "minute": 0,
+      "title": "25 ans de cinéma hors capital(e) #5 : « LES PLANS SONT BOULEVERSÉS »",
+      "director": "Ouahib Mortada, Jean-François Neplaz, Gee-Jung Jun",
+      "description": "d'Ouahib Mortada, Jean-François Neplaz, Gee-Jung Jun",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/France2007©GeeJungJun-768x585.jpg",
+      "url": "https://laclefrevival.org/project/25-ans-de-cinema-hors-capitale-5-les-plans-sont-bouleverses/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-19",
+      "hour": 20,
+      "minute": 30,
+      "title": "25 ans de cinéma hors capital(e) #6 : FLACKY ET CAMARADES",
+      "director": "Aaron N. Sievers (en sa présence)",
+      "description": "d'Aaron N. Sievers (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Flacky2©Sievers-768x555.jpg",
+      "url": "https://laclefrevival.org/project/25-ans-de-cinema-hors-capitale-6-flacky-et-camarades/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-20",
+      "hour": 14,
+      "minute": 30,
+      "title": "25 ans de cinéma hors capital(e) #7 : LA PRUNELLE ROUGE",
+      "director": "Pierre Louapre (en sa présence)",
+      "description": "de Pierre Louapre (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/la-prunelle-rouge-2560x-q85.webp",
+      "url": "https://laclefrevival.org/project/25-ans-de-cinema-hors-capitale-7-la-prunelle-rouge/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-20",
+      "hour": 17,
+      "minute": 0,
+      "title": "25 ans de cinéma hors capital(e) #8 : LA MOUNINE",
+      "director": "Aline Horisberger (en sa présence)",
+      "description": "d'Aline Horisberger (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/La_Mounine_mod_LaClef-768x576.jpg",
+      "url": "https://laclefrevival.org/project/25-ans-de-cinema-hors-capitale-8-la-mounine/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-20",
+      "hour": 20,
+      "minute": 30,
+      "title": "25 ans de cinéma hors capital(e) #9 : MDR",
+      "director": "Rémi Luc (en sa présence)",
+      "description": "de Rémi Luc (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Captura-de-pantalla-2026-07-13-a-les-14.58.14-768x466.jpg",
+      "url": "https://laclefrevival.org/project/25-ans-de-cinema-hors-capitale-9-mdr/"
     }
   ]
 }
