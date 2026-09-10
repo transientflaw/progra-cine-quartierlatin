@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-09-09T07:34:09",
+  "generated_at": "2026-09-10T07:30:13",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-09",
-      "hour": 20,
-      "minute": 0,
-      "title": "Wolobougou",
-      "director": "Camille Varenne (en sa présence)",
-      "description": "de Camille Varenne (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Sequence-27.00_48_23_13.Still015-768x415.jpg",
-      "url": "https://laclefrevival.org/project/wolobougou/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-09-10",
