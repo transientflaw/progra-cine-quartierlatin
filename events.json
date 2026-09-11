@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-09-10T07:30:13",
+  "generated_at": "2026-09-11T07:27:02",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-10",
-      "hour": 20,
-      "minute": 0,
-      "title": "Pourquoi le boycott culturel en soutien à la Palestine ?",
-      "director": "",
-      "description": "Rencontre avec Monira Moon du FRACBI et Nadine Naous de La Palestine sauvera le cinéma",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/D51E28DB13E64D7F91069E0B882BC6EC.jpg",
-      "url": "https://laclefrevival.org/project/pourquoi-le-boycott-culturel-en-soutien-a-la-palestine/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-09-11",
