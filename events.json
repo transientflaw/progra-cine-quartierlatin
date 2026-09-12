@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-09-11T07:27:02",
+  "generated_at": "2026-09-12T07:18:45",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-11",
-      "hour": 20,
-      "minute": 0,
-      "title": "Evening Land",
-      "director": "Peter Watkins",
-      "description": "de Peter Watkins",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/fdp_LaClef.jpg",
-      "url": "https://laclefrevival.org/project/evening-land/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-09-12",
