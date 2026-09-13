@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-09-12T07:18:45",
+  "generated_at": "2026-09-13T07:36:09",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-12",
-      "hour": 17,
-      "minute": 30,
-      "title": "3 court-métrages de Barbara Hammer en 16mm",
-      "director": "Barbara Hammer",
-      "description": "de Barbara Hammer",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/Double-Strength-barbara-hammer.jpeg",
-      "url": "https://laclefrevival.org/project/3-court-metrages-de-barbara-hammer-en-16mm/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-12",
-      "hour": 20,
-      "minute": 0,
-      "title": "Amour Amour Liberté",
-      "director": "Tahin Demiral (en sa présence)",
-      "description": "de Tahin Demiral (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/Capture-decran-2026-07-14-a-17.47.181-768x439.jpg",
-      "url": "https://laclefrevival.org/project/amour-amour-liberte/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-09-13",
