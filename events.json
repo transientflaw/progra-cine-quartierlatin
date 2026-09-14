@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-09-13T07:36:09",
+  "generated_at": "2026-09-14T08:01:57",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-13",
-      "hour": 19,
-      "minute": 0,
-      "title": "Diciembre",
-      "director": "Lucas Gallo",
-      "description": "de Lucas Gallo",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/07/DICIEMBRE-STILL-2-768x321.jpg",
-      "url": "https://laclefrevival.org/project/diciembre/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-09-16",
