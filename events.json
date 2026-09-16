@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T08:02:22",
+  "generated_at": "2026-09-16T07:53:53",
   "source": "Sites officiels des cinémas",
   "events": [
     {
@@ -111,6 +111,83 @@
       "description": "de Rémi Luc (en sa présence)",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Captura-de-pantalla-2026-07-13-a-les-14.58.14-768x466.jpg",
       "url": "https://laclefrevival.org/project/25-ans-de-cinema-hors-capitale-9-mdr/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-23",
+      "hour": 20,
+      "minute": 0,
+      "title": "We are making a film about Mark Fisher",
+      "director": "",
+      "description": "",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/MF-7-4k-768x432.png",
+      "url": "https://laclefrevival.org/project/we-are-making-a-film-about-mark-fisher/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-24",
+      "hour": 20,
+      "minute": 0,
+      "title": "Le Pirate Noir en 16mm",
+      "director": "Douglas Fairbanks",
+      "description": "de Douglas Fairbanks",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/Capture-decran-2026-07-17-a-15.26.17-768x573.png",
+      "url": "https://laclefrevival.org/project/le-pirate-noir-en-16mm/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-25",
+      "hour": 20,
+      "minute": 0,
+      "title": "Archives Dissidentes (La huella + La memoria de las mariposas)",
+      "director": "Tatiana Fuentes Sadowski",
+      "description": "de Tatiana Fuentes Sadowski",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/Mariposas_Still_6-1-768x432.jpg",
+      "url": "https://laclefrevival.org/project/archives-dissidentes-la-huella-la-memoria-de-las-mariposas/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-26",
+      "hour": 16,
+      "minute": 0,
+      "title": "Lettres sonores : atelier",
+      "director": "l'association Ré/créations",
+      "description": "de l'association Ré/créations",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-14-at-10.46.05-768x497.jpeg",
+      "url": "https://laclefrevival.org/project/lettres-sonores-atelier/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-26",
+      "hour": 18,
+      "minute": 0,
+      "title": "Archives Dissidentes : Bosque arriba en la montaña",
+      "director": "Sofía Bordenave",
+      "description": "de Sofía Bordenave",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/BOSQUE_arriba_07-768x432.jpg",
+      "url": "https://laclefrevival.org/project/archives-dissidentes-bosque-arriba-en-la-montana/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-26",
+      "hour": 20,
+      "minute": 0,
+      "title": "Archives Dissidentes : La vida que vendrá",
+      "director": "Karin Cuyul",
+      "description": "de Karin Cuyul",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/LVQV_1mod-768x576.jpg",
+      "url": "https://laclefrevival.org/project/archives-dissidentes-la-vida-que-vendra/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-27",
+      "hour": 19,
+      "minute": 0,
+      "title": "Les amarrés / Ta vie nouvelle",
+      "director": "Lilian Fanara, Juliana Brousse (en leur présence)",
+      "description": "de Lilian Fanara, Juliana Brousse (en leur présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/Capture-decran-2026-07-09-a-15.50.04-768x430.png",
+      "url": "https://laclefrevival.org/project/les-amarres-ta-vie-nouvelle/"
     }
   ]
 }
