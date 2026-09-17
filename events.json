@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-09-16T07:53:53",
+  "generated_at": "2026-09-17T07:55:25",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-16",
-      "hour": 19,
-      "minute": 0,
-      "title": "10 ans du Zoot Collectif : focus Palestine",
-      "director": "Asia Zughaiar, Zachary Barr et Nick Rosen (puis la musique du Marsa Trio, Maydan Ensemble)",
-      "description": "de Asia Zughaiar, Zachary Barr et Nick Rosen (puis la musique du Marsa Trio, Maydan Ensemble)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/full_I_hope_this_email_finds_you_well.-Clean-16x9-02-768x432.png",
-      "url": "https://laclefrevival.org/project/10-ans-du-zoot-collectif-focus-palestine/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-09-17",
