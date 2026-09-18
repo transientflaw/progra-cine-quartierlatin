@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-09-17T07:55:25",
+  "generated_at": "2026-09-18T07:34:54",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-17",
-      "hour": 20,
-      "minute": 0,
-      "title": "25 ans de cinéma hors capital(e) #1 : ÉMIGRATION",
-      "director": "Ahmed Hamou-Zerrouki",
-      "description": "d'Ahmed Hamou-Zerrouki",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Emigration1©Zerrouki-768x488.jpg",
-      "url": "https://laclefrevival.org/project/25-ans-de-cinema-hors-capitale-1-emigration/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-09-18",
