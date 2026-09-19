@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-09-18T07:34:54",
+  "generated_at": "2026-09-19T07:30:26",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-18",
-      "hour": 18,
-      "minute": 0,
-      "title": "25 ans de cinéma hors capital(e) #2 : PROLONGÉ D’UN RIEN",
-      "director": "Martine Derain et Jean-François Neplaz, Martine Derain, Sara Millot (en leur présence)",
-      "description": "de Martine Derain et Jean-François Neplaz, Martine Derain, Sara Millot (en leur présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Capture-decran-2024-01-11-a-15.46.29-2048x1546-1-768x580.png",
-      "url": "https://laclefrevival.org/project/25-ans-de-cinema-hors-capitale-2-prolonge-dun-rien/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-18",
-      "hour": 21,
-      "minute": 0,
-      "title": "25 ans de cinéma hors capital(e) #3 : VIAGGI IN ITALIA",
-      "director": "Marta Anatra, Claudia Mollese (en leur présence)",
-      "description": "de Marta Anatra, Claudia Mollese (en leur présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/202002619_1_RWD_1668-768x535.jpg",
-      "url": "https://laclefrevival.org/project/25-ans-de-cinema-hors-capitale-3-viaggi-in-italia/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-09-19",
