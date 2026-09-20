@@ -1,40 +1,7 @@
 {
-  "generated_at": "2026-09-19T07:30:26",
+  "generated_at": "2026-09-20T07:54:22",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-19",
-      "hour": 14,
-      "minute": 0,
-      "title": "25 ans de cinéma hors capital(e) #4 : LA SUBTILE MÉMOIRE DES HUMAINS DU RIVAGE",
-      "director": "",
-      "description": "des Ateliers Cinématographiques Film Flamme",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Paniercinejournal_1@Filmflamme-768x560.jpg",
-      "url": "https://laclefrevival.org/project/25-ans-de-cinema-hors-capitale-4-la-subtile-memoire-des-humains-du-rivage/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-19",
-      "hour": 17,
-      "minute": 0,
-      "title": "25 ans de cinéma hors capital(e) #5 : « LES PLANS SONT BOULEVERSÉS »",
-      "director": "Ouahib Mortada, Jean-François Neplaz, Gee-Jung Jun",
-      "description": "d'Ouahib Mortada, Jean-François Neplaz, Gee-Jung Jun",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/France2007©GeeJungJun-768x585.jpg",
-      "url": "https://laclefrevival.org/project/25-ans-de-cinema-hors-capitale-5-les-plans-sont-bouleverses/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-19",
-      "hour": 20,
-      "minute": 30,
-      "title": "25 ans de cinéma hors capital(e) #6 : FLACKY ET CAMARADES",
-      "director": "Aaron N. Sievers (en sa présence)",
-      "description": "d'Aaron N. Sievers (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Flacky2©Sievers-768x555.jpg",
-      "url": "https://laclefrevival.org/project/25-ans-de-cinema-hors-capitale-6-flacky-et-camarades/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-09-20",
