@@ -1,40 +1,7 @@
 {
-  "generated_at": "2026-09-20T07:54:22",
+  "generated_at": "2026-09-21T08:07:34",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-20",
-      "hour": 14,
-      "minute": 30,
-      "title": "25 ans de cinéma hors capital(e) #7 : LA PRUNELLE ROUGE",
-      "director": "Pierre Louapre (en sa présence)",
-      "description": "de Pierre Louapre (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/la-prunelle-rouge-2560x-q85.webp",
-      "url": "https://laclefrevival.org/project/25-ans-de-cinema-hors-capitale-7-la-prunelle-rouge/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-20",
-      "hour": 17,
-      "minute": 0,
-      "title": "25 ans de cinéma hors capital(e) #8 : LA MOUNINE",
-      "director": "Aline Horisberger (en sa présence)",
-      "description": "d'Aline Horisberger (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/La_Mounine_mod_LaClef-768x576.jpg",
-      "url": "https://laclefrevival.org/project/25-ans-de-cinema-hors-capitale-8-la-mounine/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-20",
-      "hour": 20,
-      "minute": 30,
-      "title": "25 ans de cinéma hors capital(e) #9 : MDR",
-      "director": "Rémi Luc (en sa présence)",
-      "description": "de Rémi Luc (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/08/Captura-de-pantalla-2026-07-13-a-les-14.58.14-768x466.jpg",
-      "url": "https://laclefrevival.org/project/25-ans-de-cinema-hors-capitale-9-mdr/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-09-23",
