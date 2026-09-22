@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T08:07:34",
+  "generated_at": "2026-09-22T07:55:45",
   "source": "Sites officiels des cinémas",
   "events": [
     {
@@ -78,6 +78,94 @@
       "description": "de Lilian Fanara, Juliana Brousse (en leur présence)",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/Capture-decran-2026-07-09-a-15.50.04-768x430.png",
       "url": "https://laclefrevival.org/project/les-amarres-ta-vie-nouvelle/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-09-30",
+      "hour": 19,
+      "minute": 30,
+      "title": "Les Vagues dans les yeux – trilogie haïtienne de Samuel Suffren",
+      "director": "",
+      "description": "En présence du cinéaste Samuel Suffren et de Guy Regis Junior, comédien et auteur haïtien",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/Coeur_Bleu_01-768x638.jpg",
+      "url": "https://laclefrevival.org/project/les-vagues-dans-les-yeux-trilogie-haitienne-de-samuel-suffren/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-01",
+      "hour": 19,
+      "minute": 0,
+      "title": "Ghost in the Machine",
+      "director": "Valerie Veatch",
+      "description": "de Valerie Veatch",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/Screenshot-2026-09-15-at-12.49.53-PM-768x355.png",
+      "url": "https://laclefrevival.org/project/ghost-in-the-machine/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-02",
+      "hour": 20,
+      "minute": 0,
+      "title": "IA conversationnelle",
+      "director": "",
+      "description": "The Oasis I desserve - Friendship's death",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/6790cdc3a49aec11b129020d-768x463.jpeg",
+      "url": "https://laclefrevival.org/project/ia-conversationnelle/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-03",
+      "hour": 16,
+      "minute": 0,
+      "title": "Les Images propres – film performatif",
+      "director": "Alice Lenay",
+      "description": "d'Alice Lenay",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/LesImagespropres_visuel-768x568.jpg",
+      "url": "https://laclefrevival.org/project/les-images-propres-film-performatif/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-03",
+      "hour": 19,
+      "minute": 0,
+      "title": "Impérialismes : lancement du 1er numéro de La Revue des Livres et des Idées",
+      "director": "",
+      "description": "",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/couv-crop-LRDLI.jpg",
+      "url": "https://laclefrevival.org/project/imperialismes-lancement-du-1er-numero-de-la-revue-des-livres-et-des-idees/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-03",
+      "hour": 20,
+      "minute": 30,
+      "title": "Ici et ailleurs",
+      "director": "Jean-Luc Godard et Anne-Marie Miéville",
+      "description": "de Jean-Luc Godard et Anne-Marie Miéville",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/hc-ici-et-ailleurs-1-jean-luc-godard-anne-marie-mieville-1244x700-1-768x432.jpg",
+      "url": "https://laclefrevival.org/project/ici-et-ailleurs-2/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-04",
+      "hour": 16,
+      "minute": 0,
+      "title": "DYKE TV: Les années 93-94",
+      "director": "",
+      "description": "",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/DYKE-TV_5mod.jpg",
+      "url": "https://laclefrevival.org/project/dyke-tv-les-annees-93-94/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-04",
+      "hour": 19,
+      "minute": 30,
+      "title": "Emitaï",
+      "director": "Ousmane Sembène",
+      "description": "d'Ousmane Sembène",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-16-at-09.51.51-768x463.jpeg",
+      "url": "https://laclefrevival.org/project/emitai/"
     }
   ]
 }
