@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T07:55:45",
+  "generated_at": "2026-09-23T07:58:07",
   "source": "Sites officiels des cinémas",
   "events": [
     {
@@ -100,17 +100,6 @@
       "description": "de Valerie Veatch",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/Screenshot-2026-09-15-at-12.49.53-PM-768x355.png",
       "url": "https://laclefrevival.org/project/ghost-in-the-machine/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-02",
-      "hour": 20,
-      "minute": 0,
-      "title": "IA conversationnelle",
-      "director": "",
-      "description": "The Oasis I desserve - Friendship's death",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/6790cdc3a49aec11b129020d-768x463.jpeg",
-      "url": "https://laclefrevival.org/project/ia-conversationnelle/"
     },
     {
       "cinema_id": "laClef",
