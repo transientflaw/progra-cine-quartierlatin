@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-09-23T07:58:07",
+  "generated_at": "2026-09-24T07:47:09",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-23",
-      "hour": 20,
-      "minute": 0,
-      "title": "We are making a film about Mark Fisher",
-      "director": "",
-      "description": "",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/MF-7-4k-768x432.png",
-      "url": "https://laclefrevival.org/project/we-are-making-a-film-about-mark-fisher/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-09-24",
