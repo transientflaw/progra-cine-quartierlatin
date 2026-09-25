@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-09-24T07:47:09",
+  "generated_at": "2026-09-25T08:05:21",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-24",
-      "hour": 20,
-      "minute": 0,
-      "title": "Le Pirate Noir en 16mm",
-      "director": "Douglas Fairbanks",
-      "description": "de Douglas Fairbanks",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/Capture-decran-2026-07-17-a-15.26.17-768x573.png",
-      "url": "https://laclefrevival.org/project/le-pirate-noir-en-16mm/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-09-25",
