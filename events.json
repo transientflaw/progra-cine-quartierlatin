@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-09-27T08:28:00",
+  "generated_at": "2026-09-28T08:52:19",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-27",
-      "hour": 19,
-      "minute": 0,
-      "title": "Les amarrés / Ta vie nouvelle",
-      "director": "Lilian Fanara, Juliana Brousse (en leur présence)",
-      "description": "de Lilian Fanara, Juliana Brousse (en leur présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/Capture-decran-2026-07-09-a-15.50.04-768x430.png",
-      "url": "https://laclefrevival.org/project/les-amarres-ta-vie-nouvelle/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-09-30",
