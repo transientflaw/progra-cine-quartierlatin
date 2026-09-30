@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T08:52:04",
+  "generated_at": "2026-09-30T08:52:00",
   "source": "Sites officiels des cinémas",
   "events": [
     {
@@ -78,6 +78,105 @@
       "description": "d'Ousmane Sembène",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-16-at-09.51.51-768x463.jpeg",
       "url": "https://laclefrevival.org/project/emitai/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-07",
+      "hour": 20,
+      "minute": 0,
+      "title": "Joyland",
+      "director": "Saim Sadiq",
+      "description": "de Saim Sadiq",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/Joyland_06_©Condor-Distribution-768x599.jpg",
+      "url": "https://laclefrevival.org/project/joyland/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-08",
+      "hour": 20,
+      "minute": 0,
+      "title": "Numériser, restaurer, restituer le travail de Jocelyne Saab à Beyrouth",
+      "director": "Heloise Abbosh et Noemi Sabbourin, Jocelyne Saab, Jérôme Ricardou",
+      "description": "d'Heloise Abbosh et Noemi Sabbourin, Jocelyne Saab, Jérôme Ricardou",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/Lettre_de_Beyrouth-3-1-768x576.jpg",
+      "url": "https://laclefrevival.org/project/carte-blanche-a-lassociation-jocelyne-saab/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-09",
+      "hour": 18,
+      "minute": 30,
+      "title": "Corps transfugé.es #1",
+      "director": "Meme Cabello et Antonia Martínez Valls, Dafne Vásquez (en sa présence), Kim Torres",
+      "description": "de Meme Cabello et Antonia Martínez Valls, Dafne Vásquez (en sa présence), Kim Torres",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/NIRVANA_FRC_2_1.1.4-768x432.jpg",
+      "url": "https://laclefrevival.org/project/corps-transfuges/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-09",
+      "hour": 21,
+      "minute": 0,
+      "title": "Corps transfugé.es #2",
+      "director": "Balam Toscano, Rodrigo Rodriguez, Miguel J Crespo",
+      "description": "de Balam Toscano, Rodrigo Rodriguez, Miguel J Crespo",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/Still_HLF_05-mod-768x558.jpg",
+      "url": "https://laclefrevival.org/project/corps-transfuge-es-2/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-10",
+      "hour": 16,
+      "minute": 0,
+      "title": "Voyage en Syrie",
+      "director": "Houssam Hamo (en sa présence, en visio)",
+      "description": "de Houssam Hamo (en sa présence, en visio)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/void-Capture-decran-2026-09-24-a-11.47.05-768x328.png",
+      "url": "https://laclefrevival.org/project/voyage-en-syrie/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-10",
+      "hour": 20,
+      "minute": 0,
+      "title": "The Silent Majority Speaks",
+      "director": "Bani Khoshnoudi (en sa présence)",
+      "description": "de Bani Khoshnoudi (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/poster_girl-768x432.jpg",
+      "url": "https://laclefrevival.org/project/the-silent-majority-speaks/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-11",
+      "hour": 16,
+      "minute": 30,
+      "title": "Les Cahiers Adjani",
+      "director": "Cyril Brody (en sa présence ainsi que du monteur Mario Valero)",
+      "description": "de Cyril Brody (en sa présence ainsi que du monteur Mario Valero)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/les-cahiers-adjani-768x432.jpg",
+      "url": "https://laclefrevival.org/project/les-cahiers-adjani/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-11",
+      "hour": 19,
+      "minute": 30,
+      "title": "L’Histoire d’Adèle H",
+      "director": "François Truffaut",
+      "description": "de François Truffaut",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/681d6b9_upload-1-zs6xi9qevibh-histoired27adc388leh-28l2729-preview-2300.avif",
+      "url": "https://laclefrevival.org/project/lhistoire-dadele-h/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-11",
+      "hour": 20,
+      "minute": 0,
+      "title": "The Blair Witch Project",
+      "director": "Daniel Myrick & Eduardo Sánchez",
+      "description": "de Daniel Myrick & Eduardo Sánchez",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/TheBlairWitchProject-768x514.jpg",
+      "url": "https://laclefrevival.org/project/the-blair-witch-project/"
     }
   ]
 }
