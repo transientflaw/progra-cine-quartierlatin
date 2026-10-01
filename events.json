@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-09-30T08:52:00",
+  "generated_at": "2026-10-01T09:13:08",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-09-30",
-      "hour": 19,
-      "minute": 30,
-      "title": "Les Vagues dans les yeux – trilogie haïtienne de Samuel Suffren",
-      "director": "",
-      "description": "En présence du cinéaste Samuel Suffren et de Guy Regis Junior, comédien et auteur haïtien",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/Coeur_Bleu_01-768x638.jpg",
-      "url": "https://laclefrevival.org/project/les-vagues-dans-les-yeux-trilogie-haitienne-de-samuel-suffren/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-10-01",
