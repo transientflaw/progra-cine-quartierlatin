@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-01T09:13:08",
+  "generated_at": "2026-10-02T08:46:54",
   "source": "Sites officiels des cinémas",
   "events": [
     {
       "cinema_id": "laClef",
-      "date": "2026-10-01",
-      "hour": 19,
+      "date": "2026-10-02",
+      "hour": 20,
       "minute": 0,
-      "title": "Ghost in the Machine",
-      "director": "Valerie Veatch",
-      "description": "de Valerie Veatch",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/Screenshot-2026-09-15-at-12.49.53-PM-768x355.png",
-      "url": "https://laclefrevival.org/project/ghost-in-the-machine/"
+      "title": "Soigne ta droite",
+      "director": "Jean-Luc Godard",
+      "description": "de Jean-Luc Godard",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/Soigne-ta-droite-006-768x553.jpg",
+      "url": "https://laclefrevival.org/project/soigne-ta-droite/"
     },
     {
       "cinema_id": "laClef",
