@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-10-02T08:46:54",
+  "generated_at": "2026-10-03T08:25:52",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-02",
-      "hour": 20,
-      "minute": 0,
-      "title": "Soigne ta droite",
-      "director": "Jean-Luc Godard",
-      "description": "de Jean-Luc Godard",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/Soigne-ta-droite-006-768x553.jpg",
-      "url": "https://laclefrevival.org/project/soigne-ta-droite/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-10-03",
