@@ -1,40 +1,7 @@
 {
-  "generated_at": "2026-10-03T08:25:52",
+  "generated_at": "2026-10-04T08:41:49",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-03",
-      "hour": 16,
-      "minute": 0,
-      "title": "Les Images propres – film performatif",
-      "director": "Alice Lenay",
-      "description": "d'Alice Lenay",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/LesImagespropres_visuel-768x568.jpg",
-      "url": "https://laclefrevival.org/project/les-images-propres-film-performatif/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-03",
-      "hour": 19,
-      "minute": 0,
-      "title": "Impérialismes : lancement du 1er numéro de La Revue des Livres et des Idées",
-      "director": "",
-      "description": "",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/couv-crop-LRDLI.jpg",
-      "url": "https://laclefrevival.org/project/imperialismes-lancement-du-1er-numero-de-la-revue-des-livres-et-des-idees/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-03",
-      "hour": 20,
-      "minute": 30,
-      "title": "Ici et ailleurs",
-      "director": "Jean-Luc Godard et Anne-Marie Miéville",
-      "description": "de Jean-Luc Godard et Anne-Marie Miéville",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/hc-ici-et-ailleurs-1-jean-luc-godard-anne-marie-mieville-1244x700-1-768x432.jpg",
-      "url": "https://laclefrevival.org/project/ici-et-ailleurs-2/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-10-04",
