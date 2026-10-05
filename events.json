@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-10-04T08:41:49",
+  "generated_at": "2026-10-05T09:19:52",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-04",
-      "hour": 16,
-      "minute": 0,
-      "title": "DYKE TV: Les années 93-94",
-      "director": "",
-      "description": "",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/DYKE-TV_5mod.jpg",
-      "url": "https://laclefrevival.org/project/dyke-tv-les-annees-93-94/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-04",
-      "hour": 19,
-      "minute": 30,
-      "title": "Emitaï",
-      "director": "Ousmane Sembène",
-      "description": "d'Ousmane Sembène",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-16-at-09.51.51-768x463.jpeg",
-      "url": "https://laclefrevival.org/project/emitai/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-10-07",
