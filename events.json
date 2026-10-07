@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T09:15:35",
+  "generated_at": "2026-10-07T09:03:19",
   "source": "Sites officiels des cinémas",
   "events": [
     {
@@ -100,6 +100,61 @@
       "description": "de Daniel Myrick & Eduardo Sánchez",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/TheBlairWitchProject-768x514.jpg",
       "url": "https://laclefrevival.org/project/the-blair-witch-project/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-14",
+      "hour": 20,
+      "minute": 0,
+      "title": "Hommage à Patricio Guzman",
+      "director": "",
+      "description": "\"Nostalgie de la lumière\" en présence d'Anna Dodier, chercheuse",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/dsc008414-768x576.jpg",
+      "url": "https://laclefrevival.org/project/hommage-a-patricio-guzman-nostalgie-de-la-lumiere/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-15",
+      "hour": 20,
+      "minute": 0,
+      "title": "Le goût du vin de palme",
+      "director": "Jean-Pierre Bekolo",
+      "description": "de Jean-Pierre Bekolo",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/vin-de-palme-1280x665-1-768x399.jpg",
+      "url": "https://laclefrevival.org/project/le-gout-du-vin-de-palme/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-16",
+      "hour": 20,
+      "minute": 0,
+      "title": "Du Côté des Tennis",
+      "director": "Madeleine Hartmann-Clausset",
+      "description": "de Madeleine Hartmann-Clausset",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/vlcsnap-2026-09-28-13h22m56s145-mod-768x475.jpg",
+      "url": "https://laclefrevival.org/project/du-cote-des-tennis/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-17",
+      "hour": 19,
+      "minute": 30,
+      "title": "FLiMM x Zapper Bolloré",
+      "director": "Riki Kalbe, Helke Sander",
+      "description": "de Riki Kalbe, Helke Sander",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/Hexenschuss-768x561.png",
+      "url": "https://laclefrevival.org/project/flimm-x-zapper-bollore/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-18",
+      "hour": 16,
+      "minute": 0,
+      "title": "Yõg ãtak : Mon père, Kaiowá",
+      "director": "Sueli Maxakali (en sa présence)",
+      "description": "de Sueli Maxakali (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/yogatak01-768x576.jpg",
+      "url": "https://laclefrevival.org/project/yog-atak-mon-pere-kaiowa/"
     }
   ]
 }
