@@ -1,26 +1,15 @@
 {
-  "generated_at": "2026-10-07T09:03:19",
+  "generated_at": "2026-10-08T09:17:19",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-07",
-      "hour": 20,
-      "minute": 0,
-      "title": "Joyland",
-      "director": "Saim Sadiq",
-      "description": "de Saim Sadiq",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/Joyland_06_©Condor-Distribution-768x599.jpg",
-      "url": "https://laclefrevival.org/project/joyland/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-10-08",
       "hour": 20,
       "minute": 0,
       "title": "Numériser, restaurer, restituer le travail de Jocelyne Saab à Beyrouth",
-      "director": "Heloise Abbosh et Noemi Sabbourin, Jocelyne Saab, Jérôme Ricardou",
-      "description": "d'Heloise Abbosh et Noemi Sabbourin, Jocelyne Saab, Jérôme Ricardou",
+      "director": "Heloise Abbosh et Noéma Sabourin, Jocelyne Saab, Jérôme Ricardou",
+      "description": "d'Heloise Abbosh et Noéma Sabourin, Jocelyne Saab, Jérôme Ricardou",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/Lettre_de_Beyrouth-3-1-768x576.jpg",
       "url": "https://laclefrevival.org/project/carte-blanche-a-lassociation-jocelyne-saab/"
     },
