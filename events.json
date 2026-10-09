@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-10-08T09:17:19",
+  "generated_at": "2026-10-09T09:25:41",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-08",
-      "hour": 20,
-      "minute": 0,
-      "title": "Numériser, restaurer, restituer le travail de Jocelyne Saab à Beyrouth",
-      "director": "Heloise Abbosh et Noéma Sabourin, Jocelyne Saab, Jérôme Ricardou",
-      "description": "d'Heloise Abbosh et Noéma Sabourin, Jocelyne Saab, Jérôme Ricardou",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/Lettre_de_Beyrouth-3-1-768x576.jpg",
-      "url": "https://laclefrevival.org/project/carte-blanche-a-lassociation-jocelyne-saab/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-10-09",
@@ -144,6 +133,17 @@
       "description": "de Sueli Maxakali (en sa présence)",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/yogatak01-768x576.jpg",
       "url": "https://laclefrevival.org/project/yog-atak-mon-pere-kaiowa/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-18",
+      "hour": 19,
+      "minute": 0,
+      "title": "Stop",
+      "director": "Jeff Preiss (en sa présence)",
+      "description": "de Jeff Preiss (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/STOP-768x576.png",
+      "url": "https://laclefrevival.org/project/stop/"
     }
   ]
 }
