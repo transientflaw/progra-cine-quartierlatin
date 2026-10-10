@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-10-09T09:25:41",
+  "generated_at": "2026-10-10T08:46:56",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-09",
-      "hour": 18,
-      "minute": 30,
-      "title": "Corps transfugé.es #1",
-      "director": "Meme Cabello et Antonia Martínez Valls, Dafne Vásquez (en sa présence), Kim Torres",
-      "description": "de Meme Cabello et Antonia Martínez Valls, Dafne Vásquez (en sa présence), Kim Torres",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/NIRVANA_FRC_2_1.1.4-768x432.jpg",
-      "url": "https://laclefrevival.org/project/corps-transfuges/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-09",
-      "hour": 21,
-      "minute": 0,
-      "title": "Corps transfugé.es #2",
-      "director": "Balam Toscano, Rodrigo Rodriguez, Miguel J Crespo",
-      "description": "de Balam Toscano, Rodrigo Rodriguez, Miguel J Crespo",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/Still_HLF_05-mod-768x558.jpg",
-      "url": "https://laclefrevival.org/project/corps-transfuge-es-2/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-10-10",
