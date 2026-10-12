@@ -1,40 +1,7 @@
 {
-  "generated_at": "2026-10-11T09:11:04",
+  "generated_at": "2026-10-12T09:32:48",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-11",
-      "hour": 16,
-      "minute": 30,
-      "title": "Les Cahiers Adjani",
-      "director": "Cyril Brody (en sa présence ainsi que du monteur Mario Valero)",
-      "description": "de Cyril Brody (en sa présence ainsi que du monteur Mario Valero)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/les-cahiers-adjani-768x432.jpg",
-      "url": "https://laclefrevival.org/project/les-cahiers-adjani/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-11",
-      "hour": 19,
-      "minute": 30,
-      "title": "L’Histoire d’Adèle H",
-      "director": "François Truffaut",
-      "description": "de François Truffaut",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/681d6b9_upload-1-zs6xi9qevibh-histoired27adc388leh-28l2729-preview-2300.avif",
-      "url": "https://laclefrevival.org/project/lhistoire-dadele-h/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-11",
-      "hour": 20,
-      "minute": 0,
-      "title": "The Blair Witch Project",
-      "director": "Daniel Myrick & Eduardo Sánchez",
-      "description": "de Daniel Myrick & Eduardo Sánchez",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/09/TheBlairWitchProject-768x514.jpg",
-      "url": "https://laclefrevival.org/project/the-blair-witch-project/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-10-14",
@@ -100,6 +67,61 @@
       "description": "de Jeff Preiss (en sa présence)",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/STOP-768x576.png",
       "url": "https://laclefrevival.org/project/stop/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-21",
+      "hour": 20,
+      "minute": 0,
+      "title": "Les Saignantes",
+      "director": "Jean-Pierre Bekolo",
+      "description": "de Jean-Pierre Bekolo",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/59641f850c15ffba90eac2b29d3fcdf77300668a7193ceebdbb049ca8a888d39._SX1080_FMjpg_-768x432.jpg",
+      "url": "https://laclefrevival.org/project/les-saignantes/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-23",
+      "hour": 20,
+      "minute": 0,
+      "title": "Le Sommet des Dieux",
+      "director": "Patrick Imbert",
+      "description": "de Patrick Imbert",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/SDD_FX_SQ049_PL300_crop-768x415.jpg",
+      "url": "https://laclefrevival.org/project/le-sommet-des-dieux/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-24",
+      "hour": 19,
+      "minute": 30,
+      "title": "Casa Susanna",
+      "director": "Sébastien Lifshitz (en sa présence)",
+      "description": "de Sébastien Lifshitz (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/Casa-Susanna_00008-768x415.jpg",
+      "url": "https://laclefrevival.org/project/casa-susanna/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-24",
+      "hour": 20,
+      "minute": 0,
+      "title": "Carte blanche à WongKarWaifu #2",
+      "director": "",
+      "description": "\"Chroniques Chinoises\" de Lou Ye",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/MAIN-VISUAL-768x432.jpg",
+      "url": "https://laclefrevival.org/project/carte-blanche-a-wongkarwaifu-2/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-25",
+      "hour": 15,
+      "minute": 0,
+      "title": "Haloween des Pitchounes",
+      "director": "Virginie Costa, Camille Müller, Jadwiga Kowalska, Pierre-Luc Granjon",
+      "description": "de Virginie Costa, Camille Müller, Jadwiga Kowalska, Pierre-Luc Granjon",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/Bottes-de-la-nuit_Granjon_V4-768x599.jpg",
+      "url": "https://laclefrevival.org/project/haloween-des-pitchounes/"
     }
   ]
 }
