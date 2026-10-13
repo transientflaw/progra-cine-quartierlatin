@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T09:32:48",
+  "generated_at": "2026-10-13T09:42:45",
   "source": "Sites officiels des cinémas",
   "events": [
     {
@@ -9,7 +9,7 @@
       "minute": 0,
       "title": "Hommage à Patricio Guzman",
       "director": "",
-      "description": "\"Nostalgie de la lumière\" en présence d'Anna Dodier, chercheuse",
+      "description": "\"Nostalgie de la lumière\" en présence d'Anna Dodier, chercheuse en études cinématographies",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/dsc008414-768x576.jpg",
       "url": "https://laclefrevival.org/project/hommage-a-patricio-guzman-nostalgie-de-la-lumiere/"
     },
@@ -23,6 +23,17 @@
       "description": "de Jean-Pierre Bekolo",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/vin-de-palme-1280x665-1-768x399.jpg",
       "url": "https://laclefrevival.org/project/le-gout-du-vin-de-palme/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-15",
+      "hour": 20,
+      "minute": 0,
+      "title": "Discussion avec le militant Fabrice Olivet",
+      "director": "",
+      "description": "La guerre à la drogue : histoire et racialisation",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/IMG_0078.jpeg",
+      "url": "https://laclefrevival.org/project/discussion-avec-le-militant-fabrice-olivet/"
     },
     {
       "cinema_id": "laClef",
