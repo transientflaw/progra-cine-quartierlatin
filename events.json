@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-10-15T07:40:50",
+  "generated_at": "2026-10-16T07:25:46",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-15",
-      "hour": 20,
-      "minute": 0,
-      "title": "Le goût du vin de palme",
-      "director": "Jean-Pierre Bekolo",
-      "description": "de Jean-Pierre Bekolo",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/vin-de-palme-1280x665-1-768x399.jpg",
-      "url": "https://laclefrevival.org/project/le-gout-du-vin-de-palme/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-15",
-      "hour": 20,
-      "minute": 0,
-      "title": "Discussion avec le militant Fabrice Olivet",
-      "director": "",
-      "description": "La guerre à la drogue : histoire et racialisation",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/IMG_0078.jpeg",
-      "url": "https://laclefrevival.org/project/discussion-avec-le-militant-fabrice-olivet/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-10-16",
