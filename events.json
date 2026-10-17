@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-10-16T07:25:46",
+  "generated_at": "2026-10-17T07:08:00",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-16",
-      "hour": 20,
-      "minute": 0,
-      "title": "Du Côté des Tennis",
-      "director": "Madeleine Hartmann-Clausset",
-      "description": "de Madeleine Hartmann-Clausset",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/vlcsnap-2026-09-28-13h22m56s145-mod-768x475.jpg",
-      "url": "https://laclefrevival.org/project/du-cote-des-tennis/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-10-17",
@@ -59,6 +48,17 @@
     },
     {
       "cinema_id": "laClef",
+      "date": "2026-10-22",
+      "hour": 20,
+      "minute": 30,
+      "title": "Concert de Jacob Mafuleni",
+      "director": "",
+      "description": "Soirée aux couleurs des musiques traditionnelles du Zimbabwé",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/maxresdefault-mod-768x432.jpg",
+      "url": "https://laclefrevival.org/project/concert-de-jacob-mafuleni/"
+    },
+    {
+      "cinema_id": "laClef",
       "date": "2026-10-23",
       "hour": 20,
       "minute": 0,
@@ -67,6 +67,17 @@
       "description": "de Patrick Imbert",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/SDD_FX_SQ049_PL300_crop-768x415.jpg",
       "url": "https://laclefrevival.org/project/le-sommet-des-dieux/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-24",
+      "hour": 17,
+      "minute": 0,
+      "title": "Paris 3 en ciné-lutte",
+      "director": "",
+      "description": "\"Un pays qui se tient sage\" de David Dufresne",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/3_BOUT-PORTANTc-Le-Bureau-Jour2fete-2020-768x432.jpg",
+      "url": "https://laclefrevival.org/project/paris-3-en-cine-lutte/"
     },
     {
       "cinema_id": "laClef",
@@ -100,6 +111,72 @@
       "description": "de Virginie Costa, Camille Müller, Jadwiga Kowalska, Pierre-Luc Granjon",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/Bottes-de-la-nuit_Granjon_V4-768x599.jpg",
       "url": "https://laclefrevival.org/project/haloween-des-pitchounes/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-25",
+      "hour": 20,
+      "minute": 0,
+      "title": "Génération panasiatique : séance d’Halloween",
+      "director": "",
+      "description": "\"Tenement\" de Inrasothythep Neth et Sokyou Chea",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/TENEMENT-OFFICIAL-SELECTION-OUT-OF-COMPETITION-©Kongchak-Pictures-Ltd-4-1024x512-1-768x384.png",
+      "url": "https://laclefrevival.org/project/generation-panasiatique-seance-dhalloween/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-28",
+      "hour": 20,
+      "minute": 0,
+      "title": "Kaïro",
+      "director": "Kiyoshi Kurosawa",
+      "description": "de Kiyoshi Kurosawa",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/kairo-768x412.png",
+      "url": "https://laclefrevival.org/project/kairo/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-29",
+      "hour": 20,
+      "minute": 0,
+      "title": "La Bataille du Chili, première partie (l’insurrection bourgeoise)",
+      "director": "Patricio Guzmán",
+      "description": "de Patricio Guzmán",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/photo-la-bataille-du-chili-i.png",
+      "url": "https://laclefrevival.org/project/la-bataille-du-chili-premiere-partie-linsurrection-bourgeoise/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-30",
+      "hour": 20,
+      "minute": 0,
+      "title": "A fidai film",
+      "director": "Kamal Aljafari (en sa présence)",
+      "description": "de Kamal Aljafari (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/a-fidai-film-2560x-q85-mod-768x537.jpg",
+      "url": "https://laclefrevival.org/project/a-fidai-film/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-31",
+      "hour": 16,
+      "minute": 0,
+      "title": "Queer au temps du muet",
+      "director": "Louis Feuillade, Jan van Dommelen, Charles Decroix, Jean Durand, Roméo Bosetti",
+      "description": "de Louis Feuillade, Jan van Dommelen, Charles Decroix, Jean Durand, Roméo Bosetti",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/Patouillard-a-une-femme-jalouse-FR-Romeo-Bosetti-1912-still-3-mod-768x576.jpg",
+      "url": "https://laclefrevival.org/project/queer-au-temps-du-muet/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-01",
+      "hour": 16,
+      "minute": 0,
+      "title": "Le coding queer dans le cinéma néerlandais",
+      "director": "",
+      "description": "\"Tempted\" d'Anne Marie Borsboom, une présentation et une bande annonce collectif",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/International-Gay-and-Lesbian-filmfestival-1991-trailer-still-2-768x462.jpg",
+      "url": "https://laclefrevival.org/project/le-coding-queer-dans-le-cinema-neerlandais/"
     }
   ]
 }
