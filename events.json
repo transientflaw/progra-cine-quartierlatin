@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-10-17T07:08:00",
+  "generated_at": "2026-10-18T07:22:45",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-17",
-      "hour": 19,
-      "minute": 30,
-      "title": "FLiMM x Zapper Bolloré",
-      "director": "Riki Kalbe, Helke Sander",
-      "description": "de Riki Kalbe, Helke Sander",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/Hexenschuss-768x561.png",
-      "url": "https://laclefrevival.org/project/flimm-x-zapper-bollore/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-10-18",
