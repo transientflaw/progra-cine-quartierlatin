@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-10-18T07:22:45",
+  "generated_at": "2026-10-19T08:00:09",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-18",
-      "hour": 16,
-      "minute": 0,
-      "title": "Yõg ãtak : Mon père, Kaiowá",
-      "director": "Sueli Maxakali (en sa présence)",
-      "description": "de Sueli Maxakali (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/yogatak01-768x576.jpg",
-      "url": "https://laclefrevival.org/project/yog-atak-mon-pere-kaiowa/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-18",
-      "hour": 19,
-      "minute": 0,
-      "title": "Stop",
-      "director": "Jeff Preiss (en sa présence)",
-      "description": "de Jeff Preiss (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/STOP-768x576.png",
-      "url": "https://laclefrevival.org/project/stop/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-10-21",
