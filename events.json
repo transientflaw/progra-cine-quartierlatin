@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-21T07:57:14",
+  "generated_at": "2026-10-22T07:52:20",
   "source": "Sites officiels des cinémas",
   "events": [
     {
       "cinema_id": "laClef",
-      "date": "2026-10-21",
-      "hour": 20,
-      "minute": 0,
-      "title": "Les Saignantes",
-      "director": "Jean-Pierre Bekolo",
-      "description": "de Jean-Pierre Bekolo",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/59641f850c15ffba90eac2b29d3fcdf77300668a7193ceebdbb049ca8a888d39._SX1080_FMjpg_-768x432.jpg",
-      "url": "https://laclefrevival.org/project/les-saignantes/"
+      "date": "2026-10-22",
+      "hour": 19,
+      "minute": 30,
+      "title": "Un pays qui se tient sage",
+      "director": "David Dufresne",
+      "description": "de David Dufresne",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/3_BOUT-PORTANTc-Le-Bureau-Jour2fete-2020-768x432.jpg",
+      "url": "https://laclefrevival.org/project/paris-3-en-cine-lutte/"
     },
     {
       "cinema_id": "laClef",
@@ -34,17 +34,6 @@
       "description": "de Patrick Imbert",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/SDD_FX_SQ049_PL300_crop-768x415.jpg",
       "url": "https://laclefrevival.org/project/le-sommet-des-dieux/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-24",
-      "hour": 17,
-      "minute": 0,
-      "title": "Paris 3 en ciné-lutte",
-      "director": "",
-      "description": "\"Un pays qui se tient sage\" de David Dufresne",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/3_BOUT-PORTANTc-Le-Bureau-Jour2fete-2020-768x432.jpg",
-      "url": "https://laclefrevival.org/project/paris-3-en-cine-lutte/"
     },
     {
       "cinema_id": "laClef",
@@ -133,6 +122,28 @@
       "description": "de Louis Feuillade, Jan van Dommelen, Charles Decroix, Jean Durand, Roméo Bosetti",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/Patouillard-a-une-femme-jalouse-FR-Romeo-Bosetti-1912-still-3-mod-768x576.jpg",
       "url": "https://laclefrevival.org/project/queer-au-temps-du-muet/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-31",
+      "hour": 20,
+      "minute": 0,
+      "title": "[•REC]",
+      "director": "Paco Plaza & Jaume Balagueró",
+      "description": "de Paco Plaza & Jaume Balagueró",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/REC_63-768x432.png",
+      "url": "https://laclefrevival.org/project/rec/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-10-31",
+      "hour": 20,
+      "minute": 0,
+      "title": "Wallace et Gromit : Le Mystère du lapin-garou",
+      "director": "Steve Box et Nick Park",
+      "description": "de Steve Box et Nick Park",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/wallace-et-gromit-le-mystere-du-lapin-garou-photo-1018472-768x512.png",
+      "url": "https://laclefrevival.org/project/wallace-et-gromit-le-mystere-du-lapin-garou/"
     },
     {
       "cinema_id": "laClef",
