@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-10-22T07:52:20",
+  "generated_at": "2026-10-23T07:51:02",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-22",
-      "hour": 19,
-      "minute": 30,
-      "title": "Un pays qui se tient sage",
-      "director": "David Dufresne",
-      "description": "de David Dufresne",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/3_BOUT-PORTANTc-Le-Bureau-Jour2fete-2020-768x432.jpg",
-      "url": "https://laclefrevival.org/project/paris-3-en-cine-lutte/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-22",
-      "hour": 20,
-      "minute": 30,
-      "title": "Concert de Jacob Mafuleni",
-      "director": "",
-      "description": "Soirée aux couleurs des musiques traditionnelles du Zimbabwé",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/maxresdefault-mod-768x432.jpg",
-      "url": "https://laclefrevival.org/project/concert-de-jacob-mafuleni/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-10-23",
@@ -128,7 +106,7 @@
       "date": "2026-10-31",
       "hour": 20,
       "minute": 0,
-      "title": "[•REC]",
+      "title": "[·REC]",
       "director": "Paco Plaza & Jaume Balagueró",
       "description": "de Paco Plaza & Jaume Balagueró",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/REC_63-768x432.png",
@@ -152,7 +130,7 @@
       "minute": 0,
       "title": "Le coding queer dans le cinéma néerlandais",
       "director": "",
-      "description": "\"Tempted\" d'Anne Marie Borsboom, une présentation et une bande annonce collectif",
+      "description": "",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/International-Gay-and-Lesbian-filmfestival-1991-trailer-still-2-768x462.jpg",
       "url": "https://laclefrevival.org/project/le-coding-queer-dans-le-cinema-neerlandais/"
     }
