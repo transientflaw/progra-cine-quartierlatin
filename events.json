@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-10-23T07:51:02",
+  "generated_at": "2026-10-24T07:32:42",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-23",
-      "hour": 20,
-      "minute": 0,
-      "title": "Le Sommet des Dieux",
-      "director": "Patrick Imbert",
-      "description": "de Patrick Imbert",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/SDD_FX_SQ049_PL300_crop-768x415.jpg",
-      "url": "https://laclefrevival.org/project/le-sommet-des-dieux/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-10-24",
