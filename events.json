@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-10-24T07:32:42",
+  "generated_at": "2026-10-25T07:46:52",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-24",
-      "hour": 19,
-      "minute": 30,
-      "title": "Casa Susanna",
-      "director": "Sébastien Lifshitz (en sa présence)",
-      "description": "de Sébastien Lifshitz (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/Casa-Susanna_00008-768x415.jpg",
-      "url": "https://laclefrevival.org/project/casa-susanna/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-24",
-      "hour": 20,
-      "minute": 0,
-      "title": "Carte blanche à WongKarWaifu #2",
-      "director": "",
-      "description": "\"Chroniques Chinoises\" de Lou Ye",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/MAIN-VISUAL-768x432.jpg",
-      "url": "https://laclefrevival.org/project/carte-blanche-a-wongkarwaifu-2/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-10-25",
