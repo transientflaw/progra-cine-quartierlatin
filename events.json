@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-10-25T07:46:52",
+  "generated_at": "2026-10-26T08:00:11",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-25",
-      "hour": 15,
-      "minute": 0,
-      "title": "Haloween des Pitchounes",
-      "director": "Virginie Costa, Camille Müller, Jadwiga Kowalska, Pierre-Luc Granjon",
-      "description": "de Virginie Costa, Camille Müller, Jadwiga Kowalska, Pierre-Luc Granjon",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/Bottes-de-la-nuit_Granjon_V4-768x599.jpg",
-      "url": "https://laclefrevival.org/project/haloween-des-pitchounes/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-25",
-      "hour": 20,
-      "minute": 0,
-      "title": "Génération panasiatique : séance d’Halloween",
-      "director": "",
-      "description": "\"Tenement\" de Inrasothythep Neth et Sokyou Chea",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/TENEMENT-OFFICIAL-SELECTION-OUT-OF-COMPETITION-©Kongchak-Pictures-Ltd-4-1024x512-1-768x384.png",
-      "url": "https://laclefrevival.org/project/generation-panasiatique-seance-dhalloween/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-10-28",
@@ -100,6 +78,61 @@
       "description": "",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/International-Gay-and-Lesbian-filmfestival-1991-trailer-still-2-768x462.jpg",
       "url": "https://laclefrevival.org/project/le-coding-queer-dans-le-cinema-neerlandais/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-04",
+      "hour": 19,
+      "minute": 30,
+      "title": "Cinéma, culture, décolonisation",
+      "director": "Mario Handler, Santiago Álvarez",
+      "description": "de Mario Handler, Santiago Álvarez",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/santiago_alvarez_a06a0d295d-768x497.jpg",
+      "url": "https://laclefrevival.org/project/cinema-culture-decolonisation/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-05",
+      "hour": 19,
+      "minute": 30,
+      "title": "A voix basse",
+      "director": "Leyla Bouzid (en sa présence)",
+      "description": "de Leyla Bouzid (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/AVoixBasse2-768x432.jpeg",
+      "url": "https://laclefrevival.org/project/a-voix-basse/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-05",
+      "hour": 20,
+      "minute": 0,
+      "title": "Si seulement… #3 : Demain…",
+      "director": "",
+      "description": "des Yeux de l'Ouïe",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/Photo_Demain-768x432.jpg",
+      "url": "https://laclefrevival.org/project/si-seulement-3-demain/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-06",
+      "hour": 20,
+      "minute": 0,
+      "title": "Afterlives",
+      "director": "Kevin B. Lee",
+      "description": "de Kevin B. Lee",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/AfterLivesStill2025-07-25142444_1.1.2-768x432.webp",
+      "url": "https://laclefrevival.org/project/afterlives/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-07",
+      "hour": 19,
+      "minute": 0,
+      "title": "Punku",
+      "director": "Juan Daniel Fernández Molero (en sa présence)",
+      "description": "de Juan Daniel Fernández Molero (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/PUNKU-STILL-09-768x349.jpg",
+      "url": "https://laclefrevival.org/project/punku/"
     }
   ]
 }
