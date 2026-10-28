@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T08:11:08",
+  "generated_at": "2026-10-28T08:51:02",
   "source": "Sites officiels des cinémas",
   "events": [
     {
@@ -81,8 +81,30 @@
     },
     {
       "cinema_id": "laClef",
+      "date": "2026-11-01",
+      "hour": 19,
+      "minute": 0,
+      "title": "Aimer Perdre",
+      "director": "Lenny et Harpo Guit (en leur présence)",
+      "description": "de Lenny et Harpo Guit (en leur présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/aimer_perdre_4-768x512.jpg",
+      "url": "https://laclefrevival.org/project/aimer-perdre/"
+    },
+    {
+      "cinema_id": "laClef",
       "date": "2026-11-04",
       "hour": 19,
+      "minute": 30,
+      "title": "Rencontre « Cinéma, culture, décolonisation »",
+      "director": "",
+      "description": "Rencontre littéraire autour de la traduction inédite des textes des cinéastes-guerrieros argentins",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/lheure-des-brasiers-e1790081717244-1024x536-1-768x402.jpg",
+      "url": "https://laclefrevival.org/project/rencontre-cinema-culture-decolonisation/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-04",
+      "hour": 20,
       "minute": 30,
       "title": "Cinéma, culture, décolonisation",
       "director": "Mario Handler, Santiago Álvarez",
@@ -115,6 +137,17 @@
     {
       "cinema_id": "laClef",
       "date": "2026-11-06",
+      "hour": 19,
+      "minute": 30,
+      "title": "Nos histoires exilées",
+      "director": "Tom Fontenille, Maylis Dartigue (en leur présence)",
+      "description": "de Tom Fontenille, Maylis Dartigue (en leur présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/nos-histoires-exilees-mod-768x466.jpeg",
+      "url": "https://laclefrevival.org/project/nos-histoires-exilees/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-06",
       "hour": 20,
       "minute": 0,
       "title": "Afterlives",
@@ -133,6 +166,28 @@
       "description": "de Juan Daniel Fernández Molero (en sa présence)",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/PUNKU-STILL-09-768x349.jpg",
       "url": "https://laclefrevival.org/project/punku/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-08",
+      "hour": 18,
+      "minute": 0,
+      "title": "Nocturama",
+      "director": "Angèle Dumont et Léa Lerma (autrices, en leur présence), Vincent Pouplard (réalisateur)",
+      "description": "d'Angèle Dumont et Léa Lerma (autrices, en leur présence), Vincent Pouplard (réalisateur)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/Seance-Norcturama-Loups-mod_LaClef.jpg",
+      "url": "https://laclefrevival.org/project/nocturama/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-08",
+      "hour": 19,
+      "minute": 30,
+      "title": "Fiume o morte !",
+      "director": "Igor Bezinović",
+      "description": "d'Igor Bezinović",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/FOM_still_01_2-768x503.png",
+      "url": "https://laclefrevival.org/project/fiume-o-morte/"
     }
   ]
 }
