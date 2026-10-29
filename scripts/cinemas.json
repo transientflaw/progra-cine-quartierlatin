@@ -228,5 +228,135 @@
     "lng": 2.3496,
     "address": "170 boulevard de Magenta, 75010",
     "slug": "le-louxor-5697"
+  },
+  {
+    "id": "epeeDeBois",
+    "name": "L'Épée de Bois",
+    "short": "Épée de Bois",
+    "color": "#5b6e8c",
+    "lat": 48.8399,
+    "lng": 2.3497,
+    "address": "100 rue Mouffetard, 75005",
+    "slug": "lepee-de-bois-2179"
+  },
+  {
+    "id": "stMichel",
+    "name": "Espace Saint-Michel",
+    "short": "St-Michel",
+    "color": "#a0522d",
+    "lat": 48.8533,
+    "lng": 2.344,
+    "address": "7 place Saint-Michel, 75005",
+    "slug": "espace-saint-michel-2285"
+  },
+  {
+    "id": "majesticBastille",
+    "name": "Majestic Bastille",
+    "short": "Maj. Bastille",
+    "color": "#8c3b5e",
+    "lat": 48.8547,
+    "lng": 2.3704,
+    "address": "4 boulevard Richard-Lenoir, 75011",
+    "slug": "majestic-bastille-2710"
+  },
+  {
+    "id": "majesticPassy",
+    "name": "Majestic Passy",
+    "short": "Maj. Passy",
+    "color": "#4f6d7a",
+    "lat": 48.8574,
+    "lng": 2.2836,
+    "address": "18 rue de Passy, 75016",
+    "slug": "majestic-passy-2711"
+  },
+  {
+    "id": "brady",
+    "name": "Le Brady",
+    "short": "Brady",
+    "color": "#b4532a",
+    "lat": 48.8712,
+    "lng": 2.3547,
+    "address": "39 boulevard de Strasbourg, 75010",
+    "slug": "le-brady-1580"
+  },
+  {
+    "id": "archipel",
+    "name": "L'Archipel",
+    "short": "Archipel",
+    "color": "#2f6f5e",
+    "lat": 48.8698,
+    "lng": 2.3538,
+    "address": "17 boulevard de Strasbourg, 75010",
+    "slug": "larchipel-1429"
+  },
+  {
+    "id": "entrepot",
+    "name": "L'Entrepôt",
+    "short": "Entrepôt",
+    "color": "#7d6a3a",
+    "lat": 48.834,
+    "lng": 2.3174,
+    "address": "7 rue Francis-de-Pressensé, 75014",
+    "slug": "lentrepot-2176"
+  },
+  {
+    "id": "chaplinDenfert",
+    "name": "Le Chaplin Denfert",
+    "short": "Chaplin Denf.",
+    "color": "#6a4c93",
+    "lat": 48.8337,
+    "lng": 2.3327,
+    "address": "24 place Denfert-Rochereau, 75014",
+    "slug": "le-denfert-1989"
+  },
+  {
+    "id": "chaplinLambert",
+    "name": "Le Chaplin Saint-Lambert",
+    "short": "Chaplin St-L.",
+    "color": "#93614c",
+    "lat": 48.8411,
+    "lng": 2.2991,
+    "address": "6 rue Péclet, 75015",
+    "slug": "le-chaplin-3113"
+  },
+  {
+    "id": "macMahon",
+    "name": "Le Mac-Mahon",
+    "short": "Mac-Mahon",
+    "color": "#3b5f8a",
+    "lat": 48.8759,
+    "lng": 2.2941,
+    "address": "5 avenue Mac-Mahon, 75017",
+    "slug": "mac-mahon-2631"
+  },
+  {
+    "id": "cineastes",
+    "name": "Cinéma des Cinéastes",
+    "short": "Cinéastes",
+    "color": "#a23b3b",
+    "lat": 48.8841,
+    "lng": 2.3278,
+    "address": "7 avenue de Clichy, 75017",
+    "slug": "cinema-des-cineastes-1825"
+  },
+  {
+    "id": "batignolles",
+    "name": "Les 7 Batignolles",
+    "short": "Batignolles",
+    "color": "#4c7a3d",
+    "lat": 48.8907,
+    "lng": 2.3158,
+    "address": "25 allée Colette Heilbronner, 75017",
+    "slug": "les-7-batignolles-6756"
+  },
+  {
+    "id": "studio28",
+    "name": "Studio 28",
+    "short": "Studio 28",
+    "color": "#8a2c6b",
+    "lat": 48.8857,
+    "lng": 2.3362,
+    "address": "10 rue Tholozé, 75018",
+    "slug": "studio-28-3203"
   }
 ]
