@@ -435,6 +435,50 @@
     text-anchor: middle; dominant-baseline: central;
   }
   .arr-pin.active .arr-pin-num { fill: var(--ink); }
+
+  /* Carte groupée par film : liste des cinémas qui le passent à cette heure */
+  .screening.grouped { padding-bottom: 10px; }
+  .screening .cinema-list {
+    margin-top: 10px; border-top: 1px dashed var(--line); padding-top: 8px;
+    display: flex; flex-direction: column; gap: 2px;
+  }
+  .screening .cinema-line {
+    display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    padding: 6px 8px; margin: 0 -8px; border-radius: 2px;
+    cursor: pointer; transition: background 0.15s;
+  }
+  .screening .cinema-line:hover { background: rgba(26, 20, 16, 0.04); }
+  .screening .cinema-line:active { background: rgba(26, 20, 16, 0.08); }
+  .screening .cinema-line .c-left {
+    display: flex; align-items: center; gap: 8px; min-width: 0; flex: 1;
+  }
+  .screening .cinema-line .c-dot {
+    width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0;
+    background: var(--cinema-color, var(--accent));
+  }
+  .screening .cinema-line .c-name {
+    font-family: 'JetBrains Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.1em;
+    color: var(--ink); font-weight: 500;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .screening .cinema-line .c-right {
+    display: flex; align-items: center; gap: 8px; flex-shrink: 0;
+    font-family: 'JetBrains Mono', monospace; font-size: 10px;
+  }
+  .screening .cinema-line .c-dist {
+    color: var(--gold); font-size: 9px; letter-spacing: 0.04em;
+    font-variant-numeric: tabular-nums;
+  }
+  .screening .cinema-line .c-lang {
+    background: var(--ink); color: var(--paper);
+    padding: 1px 5px; border-radius: 1px; letter-spacing: 0.1em;
+    font-size: 8px;
+  }
+  .screening .cinema-line .c-time {
+    color: var(--accent); font-weight: 500;
+    font-variant-numeric: tabular-nums;
+  }
 </style>
 </head>
 <body>
@@ -829,31 +873,105 @@ function renderTimeline(screenings) {
       </div>
       <div class="screenings"></div>`;
     const sc = block.querySelector('.screenings');
+    // Regrouper les séances de cette heure par titre+année de film
+    const filmGroups = {};
     byHour[hour].forEach(s => {
-      const cinema = cinemaMap[s.cinema_id];
+      const key = (s.title || '').trim().toLowerCase() + '|' + (s.year || '');
+      if (!filmGroups[key]) filmGroups[key] = { sample: s, screenings: [] };
+      filmGroups[key].screenings.push(s);
+    });
+    // Pour l'ordre d'affichage, garder la 1re apparition dans byHour[hour]
+    const groupOrder = [];
+    byHour[hour].forEach(s => {
+      const key = (s.title || '').trim().toLowerCase() + '|' + (s.year || '');
+      if (!groupOrder.includes(key)) groupOrder.push(key);
+    });
+    groupOrder.forEach(key => {
+      const grp = filmGroups[key];
+      const s = grp.sample;
+      // Trier les séances du groupe : par proximité si géoloc, sinon par minute
+      if (state.proximityMode && state.userLoc) {
+        grp.screenings.sort((a, b) => (a._dist ?? 0) - (b._dist ?? 0));
+      } else {
+        grp.screenings.sort((a, b) => a.minute - b.minute);
+      }
+      const firstCinema = cinemaMap[grp.screenings[0].cinema_id];
       const screening = document.createElement('div');
-      screening.className = 'screening';
-      screening.style.setProperty('--cinema-color', cinema.color);
-      const distStr = (state.proximityMode && s._dist != null)
-        ? `<span class="sep">·</span><span class="dist">${s._dist < 1 ? Math.round(s._dist*1000) + ' m' : s._dist.toFixed(1) + ' km'}</span>`
-        : '';
-      const durStr = s.duration ? `<span class="sep">·</span><span>${s.duration}</span>` : '';
-      const langStr = s.lang ? `<span class="sep">·</span><span class="lang">${s.lang}</span>` : '';
+      screening.className = 'screening grouped';
+      screening.style.setProperty('--cinema-color', firstCinema.color);
       const credits = [s.director, s.year].filter(Boolean).join(', ');
       const creditsStr = credits ? `<div class="credits">${escapeHtml(credits)}</div>` : '';
+      // Badge heure : si une seule séance, l'heure exacte ; sinon on affiche "+N"
+      const timeBadge = grp.screenings.length === 1
+        ? `${String(s.hour).padStart(2,'0')}:${String(grp.screenings[0].minute).padStart(2,'0')}`
+        : `${grp.screenings.length} salles`;
+      const durStr = s.duration ? `<span class="sep">·</span><span>${s.duration}</span>` : '';
+      const langTopStr = (grp.screenings.length === 1 && s.lang)
+        ? `<span class="sep">·</span><span class="lang">${s.lang}</span>` : '';
+      // Si une seule séance, pas besoin de liste détaillée en bas
+      let listHtml = '';
+      if (grp.screenings.length === 1) {
+        const distStr = (state.proximityMode && grp.screenings[0]._dist != null)
+          ? `<span class="sep">·</span><span class="dist">${grp.screenings[0]._dist < 1 ? Math.round(grp.screenings[0]._dist*1000) + ' m' : grp.screenings[0]._dist.toFixed(1) + ' km'}</span>`
+          : '';
+        listHtml = `
+          <div class="meta-row">
+            <span class="cinema">${firstCinema.short}</span>
+            ${langTopStr}
+            ${s.genre ? `<span class="sep">·</span><span>${s.genre}</span>` : ''}
+            ${durStr}
+            ${distStr}
+          </div>`;
+      } else {
+        // Liste détaillée : une ligne par cinéma avec son heure précise
+        const linesHtml = grp.screenings.map(ss => {
+          const cin = cinemaMap[ss.cinema_id];
+          const distHtml = (state.proximityMode && ss._dist != null)
+            ? `<span class="c-dist">${ss._dist < 1 ? Math.round(ss._dist*1000) + ' m' : ss._dist.toFixed(1) + ' km'}</span>`
+            : '';
+          const langHtml = ss.lang ? `<span class="c-lang">${ss.lang}</span>` : '';
+          return `<div class="cinema-line" data-cid="${ss.cinema_id}" data-h="${ss.hour}" data-m="${ss.minute}">
+            <div class="c-left">
+              <span class="c-dot" style="background:${cin.color}"></span>
+              <span class="c-name">${escapeHtml(cin.short)}</span>
+            </div>
+            <div class="c-right">
+              ${distHtml}
+              ${langHtml}
+              <span class="c-time">${String(ss.hour).padStart(2,'0')}:${String(ss.minute).padStart(2,'0')}</span>
+            </div>
+          </div>`;
+        }).join('');
+        listHtml = `
+          <div class="meta-row">
+            ${s.genre ? `<span>${s.genre}</span>` : ''}
+            ${durStr}
+          </div>
+          <div class="cinema-list">${linesHtml}</div>`;
+      }
       screening.innerHTML = `
         <div class="head">
           <div class="title">${escapeHtml(s.title)}${creditsStr}</div>
-          <div class="time-badge">${String(s.hour).padStart(2,'0')}:${String(s.minute).padStart(2,'0')}</div>
+          <div class="time-badge">${timeBadge}</div>
         </div>
-        <div class="meta-row">
-          <span class="cinema">${cinema.short}</span>
-          ${langStr}
-          ${s.genre ? `<span class="sep">·</span><span>${s.genre}</span>` : ''}
-          ${durStr}
-          ${distStr}
-        </div>`;
-      screening.onclick = () => openModal(s, cinema);
+        ${listHtml}`;
+      // Clic sur la carte : si une seule séance, ouvrir sa modale ;
+      // sinon le clic sur le titre ouvre celle du premier cinéma.
+      if (grp.screenings.length === 1) {
+        screening.onclick = () => openModal(s, firstCinema);
+      } else {
+        screening.querySelector('.head').onclick = () =>
+          openModal(grp.screenings[0], firstCinema);
+        // Chaque ligne cinéma ouvre sa propre modale
+        screening.querySelectorAll('.cinema-line').forEach(el => {
+          el.onclick = (e) => {
+            e.stopPropagation();
+            const cid = el.dataset.cid;
+            const target = grp.screenings.find(x => x.cinema_id === cid);
+            if (target) openModal(target, cinemaMap[cid]);
+          };
+        });
+      }
       sc.appendChild(screening);
     });
     timeline.appendChild(block);
