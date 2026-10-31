@@ -7,7 +7,8 @@
     "lat": 48.8505,
     "lng": 2.3441,
     "address": "51 rue des Écoles, 75005",
-    "slug": "champo-1755"
+    "slug": "champo-1755",
+    "group": "indes"
   },
   {
     "id": "filmotheque",
@@ -17,7 +18,8 @@
     "lat": 48.8501,
     "lng": 2.3437,
     "address": "9 rue Champollion, 75005",
-    "slug": "filmotheque-quartier-latin-2323"
+    "slug": "filmotheque-quartier-latin-2323",
+    "group": "indes"
   },
   {
     "id": "reflet",
@@ -27,7 +29,8 @@
     "lat": 48.8497,
     "lng": 2.3434,
     "address": "3 rue Champollion, 75005",
-    "slug": "reflet-medicis-3059"
+    "slug": "reflet-medicis-3059",
+    "group": "indes"
   },
   {
     "id": "troisLux",
@@ -37,7 +40,8 @@
     "lat": 48.8489,
     "lng": 2.3393,
     "address": "67 rue Monsieur-le-Prince, 75006",
-    "slug": "3-luxembourg-3308"
+    "slug": "3-luxembourg-3308",
+    "group": "indes"
   },
   {
     "id": "grandAction",
@@ -47,7 +51,8 @@
     "lat": 48.8484,
     "lng": 2.3525,
     "address": "5 rue des Écoles, 75005",
-    "slug": "grand-action-2403"
+    "slug": "grand-action-2403",
+    "group": "indes"
   },
   {
     "id": "galande",
@@ -57,7 +62,8 @@
     "lat": 48.8523,
     "lng": 2.347,
     "address": "42 rue Galande, 75005",
-    "slug": "studio-galande-3211"
+    "slug": "studio-galande-3211",
+    "group": "indes"
   },
   {
     "id": "laClef",
@@ -67,7 +73,8 @@
     "lat": 48.8413,
     "lng": 2.3528,
     "address": "34 rue Daubenton, 75005",
-    "slug": "la-clef-2495"
+    "slug": "la-clef-2495",
+    "group": "indes"
   },
   {
     "id": "nouvelOdeon",
@@ -77,7 +84,8 @@
     "lat": 48.8513,
     "lng": 2.3401,
     "address": "6 rue de l'École de Médecine, 75006",
-    "slug": "nouvel-odeon-3051"
+    "slug": "nouvel-odeon-3051",
+    "group": "indes"
   },
   {
     "id": "ecoles",
@@ -87,7 +95,8 @@
     "lat": 48.8486,
     "lng": 2.352,
     "address": "23 rue des Écoles, 75005",
-    "slug": "ecoles-cinema-club-1362"
+    "slug": "ecoles-cinema-club-1362",
+    "group": "indes"
   },
   {
     "id": "pantheon",
@@ -97,7 +106,8 @@
     "lat": 48.8463,
     "lng": 2.3434,
     "address": "13 rue Victor-Cousin, 75005",
-    "slug": "cinema-du-pantheon-1829"
+    "slug": "cinema-du-pantheon-1829",
+    "group": "indes"
   },
   {
     "id": "christine",
@@ -107,7 +117,8 @@
     "lat": 48.8541,
     "lng": 2.3401,
     "address": "4 rue Christine, 75006",
-    "slug": "christine-cinema-club-1361"
+    "slug": "christine-cinema-club-1361",
+    "group": "indes"
   },
   {
     "id": "standre",
@@ -117,7 +128,8 @@
     "lat": 48.8531,
     "lng": 2.3413,
     "address": "30 rue Saint-André des Arts, 75006",
-    "slug": "saint-andre-des-arts-3105"
+    "slug": "saint-andre-des-arts-3105",
+    "group": "indes"
   },
   {
     "id": "luminor",
@@ -127,7 +139,8 @@
     "lat": 48.8575,
     "lng": 2.3536,
     "address": "20 rue du Temple, 75004",
-    "slug": "nouveau-latina-2584"
+    "slug": "nouveau-latina-2584",
+    "group": "indes"
   },
   {
     "id": "ursulines",
@@ -137,7 +150,8 @@
     "lat": 48.84278,
     "lng": 2.34194,
     "address": "10 rue des Ursulines, 75005",
-    "slug": "studio-des-ursulines-3210"
+    "slug": "studio-des-ursulines-3210",
+    "group": "indes"
   },
   {
     "id": "arlequin",
@@ -147,7 +161,8 @@
     "lat": 48.8489,
     "lng": 2.3286,
     "address": "76 rue de Rennes, 75006",
-    "slug": "arlequin-1438"
+    "slug": "arlequin-1438",
+    "group": "indes"
   },
   {
     "id": "balzac",
@@ -157,7 +172,8 @@
     "lat": 48.8728,
     "lng": 2.2998,
     "address": "1 rue Balzac, 75008",
-    "slug": "balzac-1515"
+    "slug": "balzac-1515",
+    "group": "indes"
   },
   {
     "id": "publicis",
@@ -167,7 +183,8 @@
     "lat": 48.8721,
     "lng": 2.3001,
     "address": "129 avenue des Champs-Élysées, 75008",
-    "slug": "publicis-cinemas-3038"
+    "slug": "publicis-cinemas-3038",
+    "group": "indes"
   },
   {
     "id": "lincoln",
@@ -177,7 +194,8 @@
     "lat": 48.8703,
     "lng": 2.3022,
     "address": "14 rue Lincoln, 75008",
-    "slug": "lincoln-2605"
+    "slug": "lincoln-2605",
+    "group": "indes"
   },
   {
     "id": "maxLinder",
@@ -187,7 +205,8 @@
     "lat": 48.8714,
     "lng": 2.3463,
     "address": "24 boulevard Poissonnière, 75009",
-    "slug": "max-linder-panorama-2754"
+    "slug": "max-linder-panorama-2754",
+    "group": "indes"
   },
   {
     "id": "caumartin",
@@ -197,7 +216,8 @@
     "lat": 48.8755,
     "lng": 2.327,
     "address": "101 rue Saint-Lazare, 75009",
-    "slug": "5-caumartin-1843"
+    "slug": "5-caumartin-1843",
+    "group": "indes"
   },
   {
     "id": "escurial",
@@ -207,7 +227,8 @@
     "lat": 48.8382,
     "lng": 2.3517,
     "address": "11 boulevard de Port-Royal, 75013",
-    "slug": "escurial-panorama-2187"
+    "slug": "escurial-panorama-2187",
+    "group": "indes"
   },
   {
     "id": "parnassiens",
@@ -217,7 +238,8 @@
     "lat": 48.8423,
     "lng": 2.327,
     "address": "98 boulevard du Montparnasse, 75014",
-    "slug": "sept-parnassiens-3178"
+    "slug": "sept-parnassiens-3178",
+    "group": "indes"
   },
   {
     "id": "louxor",
@@ -227,7 +249,8 @@
     "lat": 48.8836,
     "lng": 2.3496,
     "address": "170 boulevard de Magenta, 75010",
-    "slug": "le-louxor-5697"
+    "slug": "le-louxor-5697",
+    "group": "indes"
   },
   {
     "id": "epeeDeBois",
@@ -237,7 +260,8 @@
     "lat": 48.8399,
     "lng": 2.3497,
     "address": "100 rue Mouffetard, 75005",
-    "slug": "lepee-de-bois-2179"
+    "slug": "lepee-de-bois-2179",
+    "group": "indes"
   },
   {
     "id": "stMichel",
@@ -247,7 +271,8 @@
     "lat": 48.8533,
     "lng": 2.344,
     "address": "7 place Saint-Michel, 75005",
-    "slug": "espace-saint-michel-2285"
+    "slug": "espace-saint-michel-2285",
+    "group": "indes"
   },
   {
     "id": "majesticBastille",
@@ -257,7 +282,8 @@
     "lat": 48.8547,
     "lng": 2.3704,
     "address": "4 boulevard Richard-Lenoir, 75011",
-    "slug": "majestic-bastille-2710"
+    "slug": "majestic-bastille-2710",
+    "group": "indes"
   },
   {
     "id": "majesticPassy",
@@ -267,7 +293,8 @@
     "lat": 48.8574,
     "lng": 2.2836,
     "address": "18 rue de Passy, 75016",
-    "slug": "majestic-passy-2711"
+    "slug": "majestic-passy-2711",
+    "group": "indes"
   },
   {
     "id": "brady",
@@ -277,7 +304,8 @@
     "lat": 48.8712,
     "lng": 2.3547,
     "address": "39 boulevard de Strasbourg, 75010",
-    "slug": "le-brady-1580"
+    "slug": "le-brady-1580",
+    "group": "indes"
   },
   {
     "id": "archipel",
@@ -287,7 +315,8 @@
     "lat": 48.8698,
     "lng": 2.3538,
     "address": "17 boulevard de Strasbourg, 75010",
-    "slug": "larchipel-1429"
+    "slug": "larchipel-1429",
+    "group": "indes"
   },
   {
     "id": "entrepot",
@@ -297,7 +326,8 @@
     "lat": 48.834,
     "lng": 2.3174,
     "address": "7 rue Francis-de-Pressensé, 75014",
-    "slug": "lentrepot-2176"
+    "slug": "lentrepot-2176",
+    "group": "indes"
   },
   {
     "id": "chaplinDenfert",
@@ -307,7 +337,8 @@
     "lat": 48.8337,
     "lng": 2.3327,
     "address": "24 place Denfert-Rochereau, 75014",
-    "slug": "le-denfert-1989"
+    "slug": "le-denfert-1989",
+    "group": "indes"
   },
   {
     "id": "chaplinLambert",
@@ -317,7 +348,8 @@
     "lat": 48.8411,
     "lng": 2.2991,
     "address": "6 rue Péclet, 75015",
-    "slug": "le-chaplin-3113"
+    "slug": "le-chaplin-3113",
+    "group": "indes"
   },
   {
     "id": "macMahon",
@@ -327,7 +359,8 @@
     "lat": 48.8759,
     "lng": 2.2941,
     "address": "5 avenue Mac-Mahon, 75017",
-    "slug": "mac-mahon-2631"
+    "slug": "mac-mahon-2631",
+    "group": "indes"
   },
   {
     "id": "cineastes",
@@ -337,7 +370,8 @@
     "lat": 48.8841,
     "lng": 2.3278,
     "address": "7 avenue de Clichy, 75017",
-    "slug": "cinema-des-cineastes-1825"
+    "slug": "cinema-des-cineastes-1825",
+    "group": "indes"
   },
   {
     "id": "batignolles",
@@ -347,7 +381,8 @@
     "lat": 48.8907,
     "lng": 2.3158,
     "address": "25 allée Colette Heilbronner, 75017",
-    "slug": "les-7-batignolles-6756"
+    "slug": "les-7-batignolles-6756",
+    "group": "indes"
   },
   {
     "id": "studio28",
@@ -357,6 +392,139 @@
     "lat": 48.8857,
     "lng": 2.3362,
     "address": "10 rue Tholozé, 75018",
-    "slug": "studio-28-3203"
+    "slug": "studio-28-3203",
+    "group": "indes"
+  },
+  {
+    "id": "mk2BastilleB",
+    "name": "MK2 Bastille (Beaumarchais)",
+    "short": "MK2 Bastille B.",
+    "color": "#2b2b2b",
+    "lat": 48.8541,
+    "lng": 2.3685,
+    "address": "4 boulevard Beaumarchais, 75011",
+    "slug": "mk2-bastille-2805",
+    "group": "mk2"
+  },
+  {
+    "id": "mk2BastilleF",
+    "name": "MK2 Bastille (Fg St-Antoine)",
+    "short": "MK2 Bastille F.",
+    "color": "#2b2b2b",
+    "lat": 48.853,
+    "lng": 2.3703,
+    "address": "5 rue du Faubourg Saint-Antoine, 75011",
+    "slug": "bastille-1524",
+    "group": "mk2"
+  },
+  {
+    "id": "mk2Beaubourg",
+    "name": "MK2 Beaubourg",
+    "short": "MK2 Beaubourg",
+    "color": "#2b2b2b",
+    "lat": 48.8617,
+    "lng": 2.3524,
+    "address": "50 rue Rambuteau, 75003",
+    "slug": "mk2-beaubourg-2806",
+    "group": "mk2"
+  },
+  {
+    "id": "mk2Bibliotheque",
+    "name": "MK2 Bibliothèque",
+    "short": "MK2 Biblio",
+    "color": "#2b2b2b",
+    "lat": 48.8326,
+    "lng": 2.3762,
+    "address": "128-162 avenue de France, 75013",
+    "slug": "mk2-bibliotheque-2808",
+    "group": "mk2"
+  },
+  {
+    "id": "mk2Gambetta",
+    "name": "MK2 Gambetta",
+    "short": "MK2 Gambetta",
+    "color": "#2b2b2b",
+    "lat": 48.8649,
+    "lng": 2.3982,
+    "address": "6 rue Belgrand, 75020",
+    "slug": "mk2-gambetta-2809",
+    "group": "mk2"
+  },
+  {
+    "id": "mk2GrandPalais",
+    "name": "MK2 Grand Palais",
+    "short": "MK2 Gd Palais",
+    "color": "#2b2b2b",
+    "lat": 48.8661,
+    "lng": 2.3122,
+    "address": "3 avenue du Général Eisenhower, 75008",
+    "slug": "mk2-grand-palais-5532",
+    "group": "mk2"
+  },
+  {
+    "id": "mk2Nation",
+    "name": "MK2 Nation",
+    "short": "MK2 Nation",
+    "color": "#2b2b2b",
+    "lat": 48.8478,
+    "lng": 2.3953,
+    "address": "133 boulevard Diderot, 75012",
+    "slug": "mk2-nation-2811",
+    "group": "mk2"
+  },
+  {
+    "id": "mk2OdeonStG",
+    "name": "MK2 Odéon (côté St-Germain)",
+    "short": "MK2 Odéon StG",
+    "color": "#2b2b2b",
+    "lat": 48.8521,
+    "lng": 2.3392,
+    "address": "113 boulevard Saint-Germain, 75006",
+    "slug": "mk2-odeon-2812",
+    "group": "mk2"
+  },
+  {
+    "id": "mk2OdeonStM",
+    "name": "MK2 Odéon (côté St-Michel)",
+    "short": "MK2 Odéon StM",
+    "color": "#2b2b2b",
+    "lat": 48.8526,
+    "lng": 2.3432,
+    "address": "7 rue Hautefeuille, 75006",
+    "slug": "mk2-hautefeuille-2810",
+    "group": "mk2"
+  },
+  {
+    "id": "mk2Parnasse",
+    "name": "MK2 Parnasse",
+    "short": "MK2 Parnasse",
+    "color": "#2b2b2b",
+    "lat": 48.8424,
+    "lng": 2.329,
+    "address": "11 rue Jules Chaplain, 75006",
+    "slug": "mk2-parnasse-2813",
+    "group": "mk2"
+  },
+  {
+    "id": "mk2QuaiLoire",
+    "name": "MK2 Quai de Loire",
+    "short": "MK2 Q. Loire",
+    "color": "#2b2b2b",
+    "lat": 48.8851,
+    "lng": 2.3705,
+    "address": "7 quai de la Loire, 75019",
+    "slug": "mk2-quai-de-loire-5586",
+    "group": "mk2"
+  },
+  {
+    "id": "mk2QuaiSeine",
+    "name": "MK2 Quai de Seine",
+    "short": "MK2 Q. Seine",
+    "color": "#2b2b2b",
+    "lat": 48.8848,
+    "lng": 2.3707,
+    "address": "14 quai de la Seine, 75019",
+    "slug": "mk2-quai-de-seine-5585",
+    "group": "mk2"
   }
 ]
