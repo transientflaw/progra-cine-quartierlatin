@@ -27,7 +27,8 @@ HEADERS = {
     "Accept-Encoding": "gzip, deflate",
 }
 
-DATE_PATTERN = re.compile(r"(\d{2})/(\d{2})/(\d{4})\s*@\s*(\d{1,2}):(\d{2})")
+# Accepte « 08/11/2026 @ 19:30 » (ancien format) et « 08/11/2026 à 19:30 » (nouveau)
+DATE_PATTERN = re.compile(r"(\d{2})/(\d{2})/(\d{4})\s*(?:@|à)\s*(\d{1,2})\s*[:hH]\s*(\d{2})")
 
 
 def fetch(url, retries=3):
