@@ -132,6 +132,39 @@
     width: 100%; font-family: 'JetBrains Mono', monospace; font-size: 9px;
     text-transform: uppercase; letter-spacing: 0.15em; color: var(--ink-soft); margin-top: 6px;
   }
+  .film-search {
+    width: 100%; padding: 10px 14px; margin-bottom: 12px; border: 1.5px solid var(--ink);
+    background: var(--paper); font-family: 'JetBrains Mono', monospace; font-size: 13px;
+    border-radius: 0; color: var(--ink); -webkit-appearance: none;
+  }
+  .film-list { border-top: 2px solid var(--ink); }
+  .film-row {
+    width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 12px;
+    background: none; border: none; border-bottom: 1px solid var(--line); padding: 12px 0;
+    text-align: left; cursor: pointer; color: var(--ink);
+  }
+  .film-row:active { background: var(--bg-deep); }
+  .fr-main { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .fr-title { font-family: 'Fraunces', serif; font-size: 17px; font-weight: 600; line-height: 1.2; }
+  .fr-credits { font-family: 'Fraunces', serif; font-style: italic; font-size: 13px; color: var(--ink-soft); }
+  .fr-count {
+    font-family: 'JetBrains Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--ink-soft); text-align: right; flex-shrink: 0;
+  }
+  .film-focus {
+    margin: -6px 20px 16px; padding: 10px 12px; background: var(--ink); color: var(--paper);
+    display: flex; align-items: center; gap: 10px; position: relative; z-index: 2;
+  }
+  .ff-label {
+    font-family: 'JetBrains Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.15em; color: var(--accent-soft);
+  }
+  .ff-title { flex: 1; font-family: 'Fraunces', serif; font-weight: 600; font-size: 16px; min-width: 0; }
+  .film-focus button {
+    background: none; border: 1px solid var(--paper); color: var(--paper); padding: 5px 9px;
+    font-family: 'JetBrains Mono', monospace; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.1em; cursor: pointer; border-radius: 999px; white-space: nowrap;
+  }
   .past-note {
     margin: -8px 20px 14px; font-family: 'JetBrains Mono', monospace; font-size: 9px;
     text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); text-align: center;
@@ -555,8 +588,12 @@
       <span class="qf-label">Horaire</span>
       <div class="qf-chips" id="slotChips"></div>
     </div>
+    <div class="qf-row">
+      <span class="qf-label">Vue</span>
+      <div class="qf-chips" id="viewChips"></div>
+    </div>
     <button class="more-toggle" id="moreToggle" aria-expanded="false">
-      <span id="moreLabel">Cinémas &amp; quartiers</span><span class="chev" id="moreChev">+</span>
+      <span id="moreLabel">Afficher la carte</span><span class="chev" id="moreChev">+</span>
     </button>
   </div>
 
@@ -574,6 +611,9 @@
   <div class="stamp">Programme du jour</div>
 
   <div class="past-note" id="pastNote" style="display:none"></div>
+
+  <!-- Bandeau du film sélectionné -->
+  <div class="film-focus" id="filmFocus" style="display:none"></div>
 
   <main class="timeline-wrap" id="timeline"></main>
 
@@ -621,7 +661,9 @@ const state = {
   activeGroups: new Set(['indes', 'mk2']), // réseaux affichés
   activeSlots: new Set(),                   // tranches horaires (vide = toutes)
   showPast: false,                          // aujourd'hui : afficher les séances déjà commencées ?
-  panelOpen: false,                         // panneau « Cinémas & quartiers » ouvert ?
+  panelOpen: false,                         // carte + cinémas affichés ?
+  view: 'horaires',                         // 'horaires' (timeline) ou 'films' (liste des titres)
+  selectedFilm: null,                       // clé du film choisi (null = tous les films)
 };
 
 // ── Réseaux de cinémas ──
@@ -647,6 +689,7 @@ function savePrefs() {
       groups: [...state.activeGroups],
       slots: [...state.activeSlots],
       panelOpen: state.panelOpen,
+      view: state.view,
     }));
   } catch (e) { /* stockage indisponible : on ignore */ }
 }
@@ -658,6 +701,7 @@ function loadPrefs() {
     if (validG && validG.length) state.activeGroups = new Set(validG);
     if (p.slots) state.activeSlots = new Set(p.slots.filter(s => SLOTS.some(x => x.id === s)));
     state.panelOpen = !!p.panelOpen;
+    if (p.view === 'films' || p.view === 'horaires') state.view = p.view;
   } catch (e) { /* ignore */ }
 }
 
@@ -915,7 +959,25 @@ function renderQuickFilters() {
   document.getElementById('moreChev').textContent = state.panelOpen ? '−' : '+';
   const nFilters = state.soloCinema ? 1 : state.activeArr.size;
   document.getElementById('moreLabel').innerHTML =
-    'Cinémas &amp; quartiers' + (nFilters ? `<span class="badge">${nFilters}</span>` : '');
+    (state.panelOpen ? 'Masquer la carte' : 'Afficher la carte') +
+    (nFilters ? `<span class="badge">${nFilters}</span>` : '');
+
+  // Vue : Horaires (timeline) ou Films (liste des titres)
+  const vWrap = document.getElementById('viewChips');
+  vWrap.innerHTML = '';
+  [['horaires', 'Horaires'], ['films', 'Films']].forEach(([id, label]) => {
+    const btn = document.createElement('button');
+    btn.className = 'filter-chip' + (state.view === id && !state.selectedFilm ? ' active' : '');
+    btn.textContent = label;
+    btn.onclick = () => {
+      state.view = id;
+      state.selectedFilm = null;
+      savePrefs();
+      render();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+    vWrap.appendChild(btn);
+  });
 }
 
 // La séance passe-t-elle les filtres horaires ?
@@ -939,7 +1001,10 @@ function renderDays() {
   for (let i = 0; i < 14; i++) {
     const d = getDate(i);
     const dateStr = fmtDate(d);
-    const hasData = datesAvecData.includes(dateStr);
+    const hasData = state.selectedFilm
+      ? DATA.screenings.some(s => s.date === dateStr && filmKey(s) === state.selectedFilm &&
+                                  state.activeCinemas.has(s.cinema_id))
+      : datesAvecData.includes(dateStr);
     const btn = document.createElement('button');
     btn.className = 'day-chip' + (i === state.dayOffset ? ' active' : '') + (hasData ? ' has-data' : '');
     const label = i === 0 ? 'AUJ' : i === 1 ? 'DEM' : DAYS_FR[d.getDay()];
@@ -1313,7 +1378,8 @@ function render() {
   const d = getDate(state.dayOffset);
   const dateStr = fmtDate(d);
   const ofDay = DATA.screenings.filter(s =>
-    s.date === dateStr && state.activeCinemas.has(s.cinema_id) && passesTime(s)
+    s.date === dateStr && state.activeCinemas.has(s.cinema_id) && passesTime(s) &&
+    (!state.selectedFilm || filmKey(s) === state.selectedFilm)
   );
   // Aujourd'hui : on masque par défaut les séances déjà commencées
   const nPast = ofDay.filter(isPast).length;
@@ -1321,7 +1387,91 @@ function render() {
   state._allPast = !state.showPast && nPast > 0 && filtered.length === 0;
   renderPastNote(nPast);
   renderHeader(filtered);
-  renderTimeline(filtered);
+  renderFilmFocus();
+  if (state.view === 'films' && !state.selectedFilm) renderFilmList(filtered);
+  else renderTimeline(filtered);
+}
+
+// ── Vue « Films » ──
+// Clé d'un film : titre simplifié (sans accents, ponctuation ni majuscules)
+function filmKey(s) {
+  return (s.title || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+}
+
+function selectFilm(key) {
+  state.selectedFilm = key;
+  render();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// Liste alphabétique des films du jour, avec recherche
+function renderFilmList(screenings) {
+  const timeline = document.getElementById('timeline');
+  timeline.innerHTML = '';
+  const films = {};
+  screenings.forEach(s => {
+    const k = filmKey(s);
+    if (!films[k]) films[k] = { key: k, sample: s, n: 0, cinemas: new Set() };
+    films[k].n++;
+    films[k].cinemas.add(s.cinema_id);
+  });
+  const list = Object.values(films).sort((a, b) => a.key.localeCompare(b.key, 'fr'));
+  if (list.length === 0) {
+    timeline.innerHTML = `<div class="empty">Aucun film ${state.activeSlots.size ? 'sur ce créneau' : 'ce jour-là'}.<br>
+      <small>Essaie un autre jour, un autre horaire ou un autre réseau.</small></div>`;
+    return;
+  }
+  const search = document.createElement('input');
+  search.type = 'search';
+  search.className = 'film-search';
+  search.placeholder = `Rechercher parmi ${list.length} films…`;
+  timeline.appendChild(search);
+
+  const ul = document.createElement('div');
+  ul.className = 'film-list';
+  list.forEach(f => {
+    const s = f.sample;
+    const credits = [s.director, s.year].filter(Boolean).join(', ');
+    const nc = f.cinemas.size;
+    const row = document.createElement('button');
+    row.className = 'film-row';
+    row.dataset.k = f.key + ' ' + filmKey({ title: s.director || '' });
+    row.innerHTML = `
+      <span class="fr-main">
+        <span class="fr-title">${escapeHtml(s.title)}</span>
+        ${credits ? `<span class="fr-credits">${escapeHtml(credits)}</span>` : ''}
+      </span>
+      <span class="fr-count">${f.n} séance${f.n > 1 ? 's' : ''}<br>${nc} salle${nc > 1 ? 's' : ''}</span>`;
+    row.onclick = () => selectFilm(f.key);
+    ul.appendChild(row);
+  });
+  timeline.appendChild(ul);
+
+  // Recherche : on masque les lignes sans re-dessiner (le clavier reste ouvert)
+  search.oninput = () => {
+    const q = filmKey({ title: search.value });
+    ul.querySelectorAll('.film-row').forEach(r => {
+      r.style.display = !q || r.dataset.k.includes(q) ? '' : 'none';
+    });
+  };
+}
+
+// Bandeau « film sélectionné » avec bouton pour revenir à la liste
+function renderFilmFocus() {
+  const el = document.getElementById('filmFocus');
+  if (!state.selectedFilm || currentTab !== 'seances') { el.style.display = 'none'; return; }
+  const s = DATA.screenings.find(x => filmKey(x) === state.selectedFilm);
+  el.style.display = 'flex';
+  el.innerHTML = `
+    <span class="ff-label">Film</span>
+    <span class="ff-title">${escapeHtml(s ? s.title : state.selectedFilm)}</span>
+    <button id="ffClose" aria-label="Revenir à la liste des films">✕ Tous les films</button>`;
+  document.getElementById('ffClose').onclick = () => {
+    state.selectedFilm = null;
+    state.view = 'films';
+    render();
+  };
 }
 
 function renderPastNote(nPast) {
@@ -1366,6 +1516,7 @@ function switchTab(tab) {
     if (stamp) stamp.style.display = 'none';
     if (pending) pending.style.display = 'none';
     if (pastNote) pastNote.style.display = 'none';
+    document.getElementById('filmFocus').style.display = 'none';
     if (geoBtn) geoBtn.style.display = 'none';
     renderEvents();
   } else {
