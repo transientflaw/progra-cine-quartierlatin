@@ -5,6 +5,8 @@ on:
     # 04:00 Europe/Paris = 03:00 UTC en hiver, 02:00 UTC en été.
     # On lance à 02:30 UTC pour couvrir les deux cas.
     - cron: '30 2 * * *'
+    # Mardi 13:30 UTC (14h30 Paris en hiver) : récupérer le nouveau programme de la semaine
+    - cron: '30 13 * * 2'
   workflow_dispatch:  # permet de lancer manuellement depuis l'onglet Actions
 
 # Permissions explicites pour que l'Action puisse commit
