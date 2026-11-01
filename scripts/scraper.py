@@ -26,8 +26,8 @@ from bs4 import BeautifulSoup
 
 # ─── Config ──────────────────────────────────────────────────────────
 ROOT = Path(__file__).resolve().parent.parent
-CINEMAS_FILE = ROOT / "scripts" / "cinemas.json"
-OUTPUT_FILE = ROOT / "data.json"
+CINEMAS_FILE = ROOT / "scripts" / (sys.argv[1] if len(sys.argv) > 1 else "cinemas.json")
+OUTPUT_FILE = ROOT / (sys.argv[2] if len(sys.argv) > 2 else "data.json")
 
 HEADERS = {
     "User-Agent": (
@@ -143,23 +143,24 @@ def parse_section(section, day_date: date, cinema_id: str) -> list[dict]:
         genre = genre_match.group(1).title() if genre_match else ""
         duration_match = DURATION_PATTERN.search(blob)
         duration = duration_match.group(1) if duration_match else ""
-        lang_match = LANG_PATTERN.search(blob)
-        lang = "VO" if lang_match and "VO" in lang_match.group(1) else (
-            "VF" if lang_match and lang_match.group(1) == "VF" else "")
-        times = TIME_PATTERN.findall(blob)
-        # Filter invalid hours, dedupe
+        # Langue par horaire : chaque heure prend la dernière mention VO/VF lue avant elle
+        current_lang = ""
         seen = set()
         valid_times = []
-        for t in times:
-            h, mn = t.split(":")
-            if 0 <= int(h) <= 23 and 0 <= int(mn) <= 59 and t not in seen:
-                seen.add(t)
-                valid_times.append(t)
+        for chunk in fiche.stripped_strings:
+            m = LANG_PATTERN.search(chunk)
+            if m:
+                current_lang = "VO" if "VO" in m.group(1) else "VF"
+            for t in TIME_PATTERN.findall(chunk):
+                h, mn = t.split(":")
+                if 0 <= int(h) <= 23 and 0 <= int(mn) <= 59 and t not in seen:
+                    seen.add(t)
+                    valid_times.append((t, current_lang))
 
         # Récupérer les détails enrichis (mis en cache par URL)
         info = fetch_film_details(film_url, title)
 
-        for t in valid_times:
+        for t, lang in valid_times:
             h, mn = t.split(":")
             screenings.append({
                 "cinema_id": cinema_id,

@@ -1,0 +1,20 @@
+[
+  {"id": "ugcHalles", "name": "UGC Ciné Cité Les Halles", "short": "UGC Halles", "color": "#c8102e", "lat": 48.8622, "lng": 2.3466, "address": "Forum des Halles, 75001", "slug": "ugc-cine-cite-les-halles-3322", "group": "ugc"},
+  {"id": "ugcDanton", "name": "UGC Danton", "short": "UGC Danton", "color": "#c8102e", "lat": 48.8524, "lng": 2.3411, "address": "99 boulevard Saint-Germain, 75006", "slug": "ugc-danton-3325", "group": "ugc"},
+  {"id": "ugcOdeon", "name": "UGC Odéon", "short": "UGC Odéon", "color": "#c8102e", "lat": 48.8528, "lng": 2.3398, "address": "124 boulevard Saint-Germain, 75006", "slug": "ugc-odeon-3334", "group": "ugc"},
+  {"id": "ugcRotonde", "name": "UGC Rotonde", "short": "UGC Rotonde", "color": "#c8102e", "lat": 48.8423, "lng": 2.3291, "address": "103 boulevard du Montparnasse, 75006", "slug": "ugc-rotonde-3337", "group": "ugc"},
+  {"id": "ugcMontparnasse", "name": "UGC Montparnasse", "short": "UGC Montp.", "color": "#c8102e", "lat": 48.8434, "lng": 2.3268, "address": "83 boulevard du Montparnasse, 75006", "slug": "ugc-montparnasse-3332", "group": "ugc"},
+  {"id": "ugcOpera", "name": "UGC Opéra", "short": "UGC Opéra", "color": "#c8102e", "lat": 48.8714, "lng": 2.3369, "address": "32 boulevard des Italiens, 75009", "slug": "ugc-opera-3335", "group": "ugc"},
+  {"id": "ugcBercy", "name": "UGC Ciné Cité Bercy", "short": "UGC Bercy", "color": "#c8102e", "lat": 48.8329, "lng": 2.3866, "address": "2 cour Saint-Émilion, 75012", "slug": "ugc-cine-cite-bercy-3320", "group": "ugc"},
+  {"id": "ugcGobelins", "name": "UGC Gobelins", "short": "UGC Gobelins", "color": "#c8102e", "lat": 48.8337, "lng": 2.3527, "address": "66 bis avenue des Gobelins, 75013", "slug": "ugc-gobelins-3327", "group": "ugc"},
+  {"id": "ugcMaillot", "name": "UGC Ciné Cité Maillot", "short": "UGC Maillot", "color": "#c8102e", "lat": 48.8790, "lng": 2.2832, "address": "2 place de la Porte Maillot, 75017", "slug": "ugc-maillot-3331", "group": "ugc"},
+  {"id": "ugcParis19", "name": "UGC Ciné Cité Paris 19", "short": "UGC Paris 19", "color": "#c8102e", "lat": 48.8984, "lng": 2.3713, "address": "166 boulevard Macdonald, 75019", "slug": "ugc-cine-cite-paris-19-5823", "group": "ugc"},
+  {"id": "patheBnp", "name": "Pathé BNP Paribas", "short": "Pathé BNP", "color": "#d9a400", "lat": 48.8703, "lng": 2.3332, "address": "32 rue Louis-le-Grand, 75002", "slug": "gaumont-opera-cote-premier-5580", "group": "pathe"},
+  {"id": "pathePalace", "name": "Pathé Palace", "short": "Pathé Palace", "color": "#d9a400", "lat": 48.8706, "lng": 2.3329, "address": "2 boulevard des Capucines, 75009", "slug": "pathe-palace-5579", "group": "pathe"},
+  {"id": "patheFauvettes", "name": "Pathé Les Fauvettes", "short": "Fauvettes", "color": "#d9a400", "lat": 48.8343, "lng": 2.3524, "address": "58 avenue des Gobelins, 75013", "slug": "gaumont-gobelins-2380", "group": "pathe"},
+  {"id": "patheAlesia", "name": "Pathé Alésia", "short": "Pathé Alésia", "color": "#d9a400", "lat": 48.8282, "lng": 2.3264, "address": "73 avenue du Général Leclerc, 75014", "slug": "gaumont-alesia-2373", "group": "pathe"},
+  {"id": "patheParnasse", "name": "Pathé Parnasse", "short": "Pathé Parnasse", "color": "#d9a400", "lat": 48.8423, "lng": 2.3238, "address": "3 rue d'Odessa, 75014", "slug": "gaumont-parnasse-2382", "group": "pathe"},
+  {"id": "patheBeaugrenelle", "name": "Pathé Beaugrenelle", "short": "Beaugrenelle", "color": "#d9a400", "lat": 48.8484, "lng": 2.2826, "address": "7 rue Linois, 75015", "slug": "pathe-beaugrenelle-5832", "group": "pathe"},
+  {"id": "patheWepler", "name": "Pathé Wepler", "short": "Pathé Wepler", "color": "#d9a400", "lat": 48.8838, "lng": 2.3275, "address": "140 boulevard de Clichy, 75018", "slug": "pathe-wepler-2964", "group": "pathe"},
+  {"id": "patheVillette", "name": "Pathé La Villette", "short": "Pathé Villette", "color": "#d9a400", "lat": 48.8946, "lng": 2.3878, "address": "30 avenue Corentin Cariou, 75019", "slug": "pathe-la-villette-6477", "group": "pathe"}
+]
