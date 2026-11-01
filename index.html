@@ -561,6 +561,11 @@
     font-variant-numeric: tabular-nums;
   }
 </style>
+<style>
+.page-switch{display:flex;gap:6px;padding:8px 16px 0}
+.page-switch a{flex:1;text-align:center;padding:6px 8px;border:1px solid currentColor;border-radius:999px;font-size:13px;text-decoration:none;color:inherit;opacity:.5}
+.page-switch a.active{opacity:1;font-weight:600}
+</style>
 </head>
 <body>
 
@@ -574,6 +579,11 @@
     <span id="countLabel">chargement…</span>
   </div>
 </header>
+
+<nav class="page-switch">
+  <a href="./" id="swIndes">Indés · MK2</a>
+  <a href="./?reseaux" id="swReseaux">UGC · Pathé</a>
+</nav>
 
 <div class="source-line" id="sourceLine">Chargement des séances…</div>
 
@@ -681,6 +691,8 @@ const state = {
 const GROUPS = [
   { id: 'indes', label: 'Indés' },
   { id: 'mk2',   label: 'MK2' },
+  { id: 'ugc',   label: 'UGC' },
+  { id: 'pathe', label: 'Pathé' },
 ];
 function groupOf(c) { return c.group || 'indes'; }
 
@@ -693,7 +705,10 @@ const SLOTS = [
 ];
 
 // ── Mémoriser les filtres sur le téléphone (localStorage) ──
-const PREFS_KEY = 'cineq-filtres-v1';
+const MODE_RESEAUX = new URLSearchParams(location.search).has('reseaux');
+const PREFS_KEY = MODE_RESEAUX ? 'cineq-filtres-reseaux-v1' : 'cineq-filtres-v1';
+document.getElementById(MODE_RESEAUX ? 'swReseaux' : 'swIndes').classList.add('active');
+if (MODE_RESEAUX) document.querySelector('.edition').innerHTML = 'Édition réseaux<br>UGC · Pathé · Paris';
 function savePrefs() {
   try {
     localStorage.setItem(PREFS_KEY, JSON.stringify({
@@ -724,7 +739,7 @@ async function loadData() {
   try {
     // Cache busting via timestamp ; sur GitHub Pages le JSON est servi
     // avec un Cache-Control assez court mais ce paramètre garantit la fraîcheur.
-    const resp = await fetch(`./data.json?t=${Date.now()}`);
+    const resp = await fetch(`./${MODE_RESEAUX ? 'data-reseaux.json' : 'data.json'}?t=${Date.now()}`);
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     DATA = await resp.json();
     cinemaMap = Object.fromEntries(DATA.cinemas.map(c => [c.id, c]));
