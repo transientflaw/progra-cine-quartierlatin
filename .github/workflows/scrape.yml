@@ -35,14 +35,19 @@ jobs:
       - name: Run events scraper
         run: python scripts/scraper_events.py
 
+      - name: Run UGC/Pathé scraper
+        continue-on-error: true
+        run: python scripts/scraper.py cinemas-reseaux.json data-reseaux.json
+
       - name: Commit and push if data changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet data.json events.json; then
+          git add data.json events.json
+          git add data-reseaux.json || true
+          if git diff --cached --quiet; then
             echo "Aucun changement, rien à committer."
           else
-            git add data.json events.json
             git commit -m "chore(data): scrape $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi
