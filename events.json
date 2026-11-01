@@ -1,40 +1,7 @@
 {
-  "generated_at": "2026-10-31T23:41:04",
+  "generated_at": "2026-11-01T09:32:47",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-31",
-      "hour": 16,
-      "minute": 0,
-      "title": "Queer au temps du muet",
-      "director": "Louis Feuillade, Jan van Dommelen, Charles Decroix, Jean Durand, Roméo Bosetti",
-      "description": "de Louis Feuillade, Jan van Dommelen, Charles Decroix, Jean Durand, Roméo Bosetti",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/Patouillard-a-une-femme-jalouse-FR-Romeo-Bosetti-1912-still-3-mod-768x576.jpg",
-      "url": "https://laclefrevival.org/project/queer-au-temps-du-muet/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-31",
-      "hour": 20,
-      "minute": 0,
-      "title": "[·REC]",
-      "director": "Paco Plaza & Jaume Balagueró",
-      "description": "de Paco Plaza & Jaume Balagueró",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/REC_63-768x432.png",
-      "url": "https://laclefrevival.org/project/rec/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-10-31",
-      "hour": 20,
-      "minute": 0,
-      "title": "Wallace et Gromit : Le Mystère du lapin-garou",
-      "director": "Steve Box et Nick Park",
-      "description": "de Steve Box et Nick Park",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/wallace-et-gromit-le-mystere-du-lapin-garou-photo-1018472-768x512.png",
-      "url": "https://laclefrevival.org/project/wallace-et-gromit-le-mystere-du-lapin-garou/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-11-01",
