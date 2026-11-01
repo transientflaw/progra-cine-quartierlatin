@@ -285,16 +285,27 @@
   }
   .modal-backdrop {
     position: fixed; inset: 0; background: rgba(26, 20, 16, 0.55);
-    z-index: 20; display: none; align-items: flex-end; justify-content: center;
+    z-index: 20; display: none; align-items: center; justify-content: center;
+    padding: 16px;
   }
   .modal-backdrop.visible { display: flex; }
   .modal {
     background: var(--paper); width: 100%; max-width: 480px;
-    max-height: 80vh; overflow-y: auto; padding: 24px 22px 30px;
-    border-radius: 8px 8px 0 0; position: relative;
-    animation: slideUp 0.25s ease-out;
+    max-height: 85vh; max-height: 85dvh; overflow-y: auto; padding: 24px 22px 26px;
+    border-radius: 8px; position: relative;
+    animation: popIn 0.2s ease-out;
   }
-  @keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+  @keyframes popIn { from { opacity: 0; transform: scale(0.96); } to { opacity: 1; transform: scale(1); } }
+  .modal-row a.maps-link {
+    color: var(--ink); text-align: right; text-decoration: underline;
+    text-decoration-color: var(--accent); text-underline-offset: 3px;
+  }
+  .modal-cta {
+    display: block; width: 100%; margin-top: 16px; padding: 12px;
+    background: var(--ink); color: var(--paper); border: none; cursor: pointer;
+    font-family: 'JetBrains Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; border-radius: 999px;
+  }
   .modal .close {
     position: absolute; top: 14px; right: 14px;
     background: none; border: none; font-size: 22px;
@@ -395,7 +406,7 @@
     width: 100%;
     max-width: 180px;
     border-radius: 4px;
-    margin-bottom: 16px;
+    margin: 0 auto 16px;
     display: block;
   }
 
@@ -407,7 +418,7 @@
     text-align: center; padding: 16px;
     font-family: 'Fraunces', serif; font-style: italic;
     font-size: 16px; line-height: 1.3;
-    border-radius: 4px;
+    border-radius: 4px; margin: 0 auto 16px;
   }
 
   .tabs {
@@ -1084,7 +1095,8 @@ function renderHeader(filteredScreenings) {
   const d = getDate(state.dayOffset);
   document.getElementById('todayLabel').textContent =
     `${DAYS_LONG[d.getDay()].toUpperCase()} ${d.getDate()} ${MONTHS_FR[d.getMonth()].toUpperCase()}`;
-  document.getElementById('countLabel').textContent = `${filteredScreenings.length} séances`;
+  document.getElementById('countLabel').textContent =
+    `${filteredScreenings.length} séance${filteredScreenings.length > 1 ? 's' : ''}`;
 }
 
 function renderPending() {
@@ -1319,11 +1331,23 @@ function openModal(s, cinema) {
     ${s.director ? `<div class="modal-row"><span>Réalisateur</span><span>${escapeHtml(s.director)}</span></div>` : ''}
     ${s.year ? `<div class="modal-row"><span>Année</span><span>${escapeHtml(s.year)}</span></div>` : ''}
     <div class="modal-row"><span>Salle</span><span>${cinema.name}</span></div>
-    <div class="modal-row"><span>Adresse</span><span style="text-align:right">${cinema.address}</span></div>
+    <div class="modal-row"><span>Adresse</span><a class="maps-link" target="_blank" rel="noopener"
+      href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(cinema.name + ', ' + cinema.address + ' Paris')}">${cinema.address} ↗</a></div>
     <div class="modal-row"><span>Séance</span><span>${String(s.hour).padStart(2,'0')}:${String(s.minute).padStart(2,'0')}</span></div>
     ${s.lang ? `<div class="modal-row"><span>Version</span><span>${s.lang}</span></div>` : ''}
     ${s._dist != null ? `<div class="modal-row"><span>Distance</span><span>${s._dist < 1 ? Math.round(s._dist*1000) + ' m' : s._dist.toFixed(2) + ' km'}</span></div>` : ''}
-    <div class="modal-row"><span>Source</span><span>offi.fr</span></div>`;
+    <div class="modal-row"><span>Source</span><span>offi.fr</span></div>
+    ${state.selectedFilm ? '' : `<button class="modal-cta" id="modalAllShows">
+      Voir toutes les séances de ce film ${isRealToday() ? "aujourd'hui" : 'ce jour-là'}</button>`}`;
+  const cta = document.getElementById('modalAllShows');
+  if (cta) cta.onclick = () => {
+    document.getElementById('modalBackdrop').classList.remove('visible');
+    // On montre toutes les salles : on retire le filtre cinéma / quartier
+    state.soloCinema = null;
+    state.activeArr.clear();
+    syncCinemasFromArr();
+    selectFilm(filmKey(s));
+  };
   document.getElementById('modalBackdrop').classList.add('visible');
 }
 document.getElementById('modalClose').onclick = () =>
