@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-11-01T22:33:02",
+  "generated_at": "2026-11-02T09:47:09",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-01",
-      "hour": 16,
-      "minute": 0,
-      "title": "Le coding queer dans le cinéma néerlandais",
-      "director": "",
-      "description": "",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/International-Gay-and-Lesbian-filmfestival-1991-trailer-still-2-768x462.jpg",
-      "url": "https://laclefrevival.org/project/le-coding-queer-dans-le-cinema-neerlandais/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-01",
-      "hour": 19,
-      "minute": 0,
-      "title": "Aimer Perdre",
-      "director": "Lenny et Harpo Guit (en leur présence)",
-      "description": "de Lenny et Harpo Guit (en leur présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/aimer_perdre_4-768x512.jpg",
-      "url": "https://laclefrevival.org/project/aimer-perdre/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-11-04",
