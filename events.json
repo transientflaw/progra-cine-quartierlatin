@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T09:47:09",
+  "generated_at": "2026-11-03T09:55:25",
   "source": "Sites officiels des cinémas",
   "events": [
     {
@@ -34,17 +34,6 @@
       "description": "de Leyla Bouzid (en sa présence)",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/AVoixBasse2-768x432.jpeg",
       "url": "https://laclefrevival.org/project/a-voix-basse/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-05",
-      "hour": 20,
-      "minute": 0,
-      "title": "Si seulement… #3 : Demain…",
-      "director": "",
-      "description": "des Yeux de l'Ouïe",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/Photo_Demain-768x432.jpg",
-      "url": "https://laclefrevival.org/project/si-seulement-3-demain/"
     },
     {
       "cinema_id": "laClef",
@@ -100,6 +89,61 @@
       "description": "d'Igor Bezinović",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/FOM_still_01_2-768x503.png",
       "url": "https://laclefrevival.org/project/fiume-o-morte/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-11",
+      "hour": 20,
+      "minute": 0,
+      "title": "Ouverture de la carte blanche à Marie-Claude Treilhou",
+      "director": "Pascale Bodet (en sa présence), Céline Sciamma (en sa présence), Emmanuel Marre",
+      "description": "de Pascale Bodet (en sa présence), Céline Sciamma (en sa présence), Emmanuel Marre",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/images_1.jpg",
+      "url": "https://laclefrevival.org/project/ouverture-de-la-carte-blanche-a-marie-claude-treilhou/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-13",
+      "hour": 20,
+      "minute": 0,
+      "title": "Marie-Claude Treilhou invite Gaël Lépingle",
+      "director": "",
+      "description": "\"Retour avant 15h\" de Gaël Lépingle",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/retour-avant-15-heures-768x432.jpg",
+      "url": "https://laclefrevival.org/project/marie-claude-treilhou-invite-gael-lepingle/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-14",
+      "hour": 16,
+      "minute": 0,
+      "title": "Marie-Claude Treilhou invite Anna Roussillon",
+      "director": "",
+      "description": "\"Je suis le peuple\" d'Anna Roussillon",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/1423-768x381.jpg",
+      "url": "https://laclefrevival.org/project/marie-claude-treilhou-invite-anna-roussillon/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-14",
+      "hour": 19,
+      "minute": 30,
+      "title": "Clôture de la carte blanche à Marie-Claude Treilhou",
+      "director": "",
+      "description": "\"Simone Barbès ou la vertu\" de Marie-Claude Treilhou",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/simoe-ba-768x431.png",
+      "url": "https://laclefrevival.org/project/cloture-de-la-carte-blanche-a-marie-claude-treilhou/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-19",
+      "hour": 20,
+      "minute": 0,
+      "title": "Si seulement… #3 : Demain…",
+      "director": "",
+      "description": "des Yeux de l'Ouïe",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/Photo_Demain-768x432.jpg",
+      "url": "https://laclefrevival.org/project/si-seulement-3-demain/"
     }
   ]
 }
