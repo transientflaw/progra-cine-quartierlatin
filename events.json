@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T09:55:25",
+  "generated_at": "2026-11-03T20:22:35",
   "source": "Sites officiels des cinémas",
   "events": [
     {
@@ -104,6 +104,17 @@
     {
       "cinema_id": "laClef",
       "date": "2026-11-13",
+      "hour": 19,
+      "minute": 0,
+      "title": "Adolescentes – Une séance de courts-métrages",
+      "director": "Lily Belbèze, Mahaut Guillon (en leur présence)",
+      "description": "de Lily Belbèze, Mahaut Guillon (en leur présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/MIL-Photogramme-n5-mod-768x321.jpg",
+      "url": "https://laclefrevival.org/project/adolescentes-une-seance-de-courts-metrages/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-13",
       "hour": 20,
       "minute": 0,
       "title": "Marie-Claude Treilhou invite Gaël Lépingle",
@@ -128,11 +139,55 @@
       "date": "2026-11-14",
       "hour": 19,
       "minute": 30,
+      "title": "Concert Soupirail présente",
+      "director": "",
+      "description": "3 groupes de musique",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/Soupirail-concert-768x505.jpg",
+      "url": "https://laclefrevival.org/project/concert-soupirail-presente/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-14",
+      "hour": 19,
+      "minute": 30,
       "title": "Clôture de la carte blanche à Marie-Claude Treilhou",
       "director": "",
       "description": "\"Simone Barbès ou la vertu\" de Marie-Claude Treilhou",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/simoe-ba-768x431.png",
       "url": "https://laclefrevival.org/project/cloture-de-la-carte-blanche-a-marie-claude-treilhou/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-14",
+      "hour": 20,
+      "minute": 0,
+      "title": "Rodrigo D: No Futuro",
+      "director": "Victor Gaviria",
+      "description": "de Victor Gaviria",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/rodrigo_d.-_still-768x240.jpg",
+      "url": "https://laclefrevival.org/project/rodrigo-d-no-futuro/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-15",
+      "hour": 16,
+      "minute": 0,
+      "title": "Les Ambassadeurs",
+      "director": "Naceur Ktari (en sa présence)",
+      "description": "de Naceur Ktari (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/ambassadeurs1-768x403.jpg",
+      "url": "https://laclefrevival.org/project/les-ambassadeurs/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-15",
+      "hour": 20,
+      "minute": 0,
+      "title": "Dedans/Dehors : Courts métrages réalisés en milieu carcéral",
+      "director": "",
+      "description": "\"Lucarne\" et \"La ville qui passe les murs\" (en présence des réalisateurs)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/image001-768x384.png",
+      "url": "https://laclefrevival.org/project/dedans-dehors-courts-metrages-realises-en-milieu-carceral/"
     },
     {
       "cinema_id": "laClef",
