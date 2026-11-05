@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-11-03T20:22:35",
+  "generated_at": "2026-11-05T09:48:31",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-04",
-      "hour": 19,
-      "minute": 30,
-      "title": "Rencontre « Cinéma, culture, décolonisation »",
-      "director": "",
-      "description": "Rencontre littéraire autour de la traduction inédite des textes des cinéastes-guerrieros argentins",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/lheure-des-brasiers-e1790081717244-1024x536-1-768x402.jpg",
-      "url": "https://laclefrevival.org/project/rencontre-cinema-culture-decolonisation/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-04",
-      "hour": 20,
-      "minute": 30,
-      "title": "Cinéma, culture, décolonisation",
-      "director": "Mario Handler, Santiago Álvarez",
-      "description": "de Mario Handler, Santiago Álvarez",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/santiago_alvarez_a06a0d295d-768x497.jpg",
-      "url": "https://laclefrevival.org/project/cinema-culture-decolonisation/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-11-05",
