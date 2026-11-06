@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-11-05T09:48:31",
+  "generated_at": "2026-11-06T09:40:54",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-05",
-      "hour": 19,
-      "minute": 30,
-      "title": "A voix basse",
-      "director": "Leyla Bouzid (en sa présence)",
-      "description": "de Leyla Bouzid (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/AVoixBasse2-768x432.jpeg",
-      "url": "https://laclefrevival.org/project/a-voix-basse/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-11-06",
