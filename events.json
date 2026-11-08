@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-11-07T09:08:04",
+  "generated_at": "2026-11-08T09:23:43",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-07",
-      "hour": 19,
-      "minute": 0,
-      "title": "Punku",
-      "director": "Juan Daniel Fernández Molero (en sa présence)",
-      "description": "de Juan Daniel Fernández Molero (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/PUNKU-STILL-09-768x349.jpg",
-      "url": "https://laclefrevival.org/project/punku/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-11-08",
