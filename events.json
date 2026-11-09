@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-11-08T09:23:43",
+  "generated_at": "2026-11-09T10:04:50",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-08",
-      "hour": 18,
-      "minute": 0,
-      "title": "Nocturama",
-      "director": "Angèle Dumont et Léa Lerma (autrices, en leur présence), Vincent Pouplard (réalisateur)",
-      "description": "d'Angèle Dumont et Léa Lerma (autrices, en leur présence), Vincent Pouplard (réalisateur)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/Seance-Norcturama-Loups-mod_LaClef.jpg",
-      "url": "https://laclefrevival.org/project/nocturama/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-08",
-      "hour": 19,
-      "minute": 30,
-      "title": "Fiume o morte !",
-      "director": "Igor Bezinović",
-      "description": "d'Igor Bezinović",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/FOM_still_01_2-768x503.png",
-      "url": "https://laclefrevival.org/project/fiume-o-morte/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-11-11",
@@ -125,6 +103,28 @@
     },
     {
       "cinema_id": "laClef",
+      "date": "2026-11-18",
+      "hour": 20,
+      "minute": 0,
+      "title": "In Memoriam : GTA avant GTA VI",
+      "director": "Phil Solomon",
+      "description": "de Phil Solomon",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/48852_rehearsal.jpg-768x478.webp",
+      "url": "https://laclefrevival.org/project/in-memoriam-gta-avant-gta-vi/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-19",
+      "hour": 19,
+      "minute": 0,
+      "title": "Saule Pleureur",
+      "director": "",
+      "description": "",
+      "poster": "",
+      "url": "https://laclefrevival.org/project/saule-pleureur/"
+    },
+    {
+      "cinema_id": "laClef",
       "date": "2026-11-19",
       "hour": 20,
       "minute": 0,
@@ -133,6 +133,72 @@
       "description": "des Yeux de l'Ouïe",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/Photo_Demain-768x432.jpg",
       "url": "https://laclefrevival.org/project/si-seulement-3-demain/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-20",
+      "hour": 20,
+      "minute": 0,
+      "title": "Films à crédit 1 : Les rois de la dette",
+      "director": "David Wark Griffith, Eva Barto",
+      "description": "de David Wark Griffith, Eva Barto",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/The-Making-of-the-lure-1-768x433.jpg",
+      "url": "https://laclefrevival.org/project/films-a-credit-1-les-rois-de-la-dette/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-21",
+      "hour": 16,
+      "minute": 0,
+      "title": "Nos urbanités (séance de courts métrages – première partie)",
+      "director": "Souleymane Sylla, Elisa Budin & Nassim Boudraa (en leur présence), Johanna Makabi",
+      "description": "de Souleymane Sylla, Elisa Budin & Nassim Boudraa (en leur présence), Johanna Makabi",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/Flamant-Rose-3-768x325.jpg",
+      "url": "https://laclefrevival.org/project/nos-urbanites-seance-de-courts-metrages-premiere-partie/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-21",
+      "hour": 20,
+      "minute": 0,
+      "title": "Nos urbanités (séance de courts métrages – deuxième partie)",
+      "director": "Brinda Mahatsanga, Victoria Neto, Sirandou Soukouna (en leur présence)",
+      "description": "de Brinda Mahatsanga, Victoria Neto, Sirandou Soukouna (en leur présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/Sodade-1-768x576.webp",
+      "url": "https://laclefrevival.org/project/nos-urbanites-seance-de-courts-metrages-deuxieme-partie/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-22",
+      "hour": 16,
+      "minute": 0,
+      "title": "Cycle Guillaume Dustan #1",
+      "director": "Guillaume Dustan",
+      "description": "de Guillaume Dustan",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/songsinthekeyofmoi1-768x576.jpg",
+      "url": "https://laclefrevival.org/project/cycle-guillaume-dustan-1/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-22",
+      "hour": 19,
+      "minute": 0,
+      "title": "Diaries",
+      "director": "Ed Pincus",
+      "description": "d'Ed Pincus",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/B4988324AF6A4848B1F07B50CC28484B-768x426.jpeg",
+      "url": "https://laclefrevival.org/project/diaries/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-22",
+      "hour": 19,
+      "minute": 0,
+      "title": "Novembre Experimental : clôture discoïde",
+      "director": "Marcel Duchamp / Rose Sélavy, duo Sculpture, Guido Devadder et Kaitlin McSweeney",
+      "description": "de Marcel Duchamp / Rose Sélavy, duo Sculpture, Guido Devadder et Kaitlin McSweeney",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/Anemic-Cinema_Still1-1-768x415.png",
+      "url": "https://laclefrevival.org/project/novembre-experimental-cloture-discoide/"
     }
   ]
 }
