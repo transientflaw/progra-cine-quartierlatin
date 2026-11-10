@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T10:04:50",
+  "generated_at": "2026-11-10T10:18:03",
   "source": "Sites officiels des cinémas",
   "events": [
     {
@@ -115,12 +115,12 @@
     {
       "cinema_id": "laClef",
       "date": "2026-11-19",
-      "hour": 19,
+      "hour": 20,
       "minute": 0,
       "title": "Saule Pleureur",
-      "director": "",
-      "description": "",
-      "poster": "",
+      "director": "Merlin Dutertre (en sa présence)",
+      "description": "de Merlin Dutertre (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/Saule-pleureur-768x466.jpg",
       "url": "https://laclefrevival.org/project/saule-pleureur/"
     },
     {
@@ -183,7 +183,7 @@
       "date": "2026-11-22",
       "hour": 19,
       "minute": 0,
-      "title": "Diaries",
+      "title": "Diaries 1971-1976",
       "director": "Ed Pincus",
       "description": "d'Ed Pincus",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/B4988324AF6A4848B1F07B50CC28484B-768x426.jpeg",
