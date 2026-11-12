@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-11-11T09:50:40",
+  "generated_at": "2026-11-12T10:16:37",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-11",
-      "hour": 20,
-      "minute": 0,
-      "title": "Ouverture de la carte blanche à Marie-Claude Treilhou",
-      "director": "Pascale Bodet (en sa présence), Emmanuel Marre, Céline Sciamma (en sa présence)",
-      "description": "de Pascale Bodet (en sa présence), Emmanuel Marre, Céline Sciamma (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/images_1.jpg",
-      "url": "https://laclefrevival.org/project/ouverture-de-la-carte-blanche-a-marie-claude-treilhou/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-11-13",
