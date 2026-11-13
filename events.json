@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T10:16:37",
+  "generated_at": "2026-11-13T09:56:41",
   "source": "Sites officiels des cinémas",
   "events": [
     {
@@ -114,17 +114,6 @@
     },
     {
       "cinema_id": "laClef",
-      "date": "2026-11-19",
-      "hour": 20,
-      "minute": 0,
-      "title": "Si seulement… #3 : Demain…",
-      "director": "",
-      "description": "des Yeux de l'Ouïe",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/Photo_Demain-768x432.jpg",
-      "url": "https://laclefrevival.org/project/si-seulement-3-demain/"
-    },
-    {
-      "cinema_id": "laClef",
       "date": "2026-11-20",
       "hour": 20,
       "minute": 0,
@@ -188,6 +177,182 @@
       "description": "de Marcel Duchamp / Rose Sélavy, duo Sculpture, Guido Devadder et Kaitlin McSweeney",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/Anemic-Cinema_Still1-1-768x415.png",
       "url": "https://laclefrevival.org/project/novembre-experimental-cloture-discoide/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-25",
+      "hour": 19,
+      "minute": 0,
+      "title": "Cinémathèque Afrique – carte blanche à Zineb Sedira",
+      "director": "Paulin Soumanou Vieyra, Désiré Écaré",
+      "description": "de Paulin Soumanou Vieyra, Désiré Écaré",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/7eeba86382b032fd701a91ad16a78b50-768x432.jpg",
+      "url": "https://laclefrevival.org/project/cinematheque-afrique-carte-blanche-a-zineb-sedira/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-26",
+      "hour": 20,
+      "minute": 0,
+      "title": "Bogoshorts en Paris",
+      "director": "",
+      "description": "5 courts-métrages",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/Bogoshorts-Malicia-768x574.jpg",
+      "url": "https://laclefrevival.org/project/bogoshorts-en-paris/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-27",
+      "hour": 19,
+      "minute": 0,
+      "title": "Boycott universitaire, solidarités académiques",
+      "director": "",
+      "description": "Rencontre-discussion",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/2025-10-07T133838Z_1138246102_RC217HAIFVAB_RTRMADP_3_ISRAEL-PALESTINIANS-ANNIVERSARY-PROTESTS-BRITAIN-1-scaled-2-768x513.jpg",
+      "url": "https://laclefrevival.org/project/boycott-universitaire-solidarites-academiques/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-27",
+      "hour": 20,
+      "minute": 0,
+      "title": "Autour de Daniel Bensaïd",
+      "director": "",
+      "description": "Conférence-projection avec Olivier Besancenot et Carmen Castillo",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/DBV_page-0001.jpg",
+      "url": "https://laclefrevival.org/project/autour-de-daniel-bensaid/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-28",
+      "hour": 16,
+      "minute": 0,
+      "title": "La Bataille du Chili, 2ème partie (Le coup d’état militaire)",
+      "director": "Patricio Guzmán",
+      "description": "de Patricio Guzmán",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/photo-2-la-bataille-du-chili-ii.jpg",
+      "url": "https://laclefrevival.org/project/la-bataille-du-chili-2eme-partie-le-coup-detat-militaire/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-28",
+      "hour": 20,
+      "minute": 0,
+      "title": "La Bataille du Chili, 3ème partie (Le Pouvoir populaire)",
+      "director": "Patricio Guzmán",
+      "description": "de Patricio Guzmán",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/photo-1-la-bataille-du-chili-i-mod-768x549.jpg",
+      "url": "https://laclefrevival.org/project/la-bataille-du-chili-3eme-partie-le-pouvoir-populaire/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-29",
+      "hour": 16,
+      "minute": 0,
+      "title": "Cycle Guillaume Dustan #2",
+      "director": "Guillaume Dustan",
+      "description": "de Guillaume Dustan",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/nouslovenoend2-768x576.jpg",
+      "url": "https://laclefrevival.org/project/cycle-guillaume-dustan-2/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-11-29",
+      "hour": 20,
+      "minute": 0,
+      "title": "Reprise des Écrans Documentaires",
+      "director": "",
+      "description": "En présence des cinéastes",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/IMG_1891-768x384.jpg",
+      "url": "https://laclefrevival.org/project/reprise-des-ecrans-documentaires/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-12-03",
+      "hour": 20,
+      "minute": 0,
+      "title": "Tripoli / A Tale of Three Cities",
+      "director": "Raed El Rafei (en sa présence virtuelle)",
+      "description": "de Raed El Rafei (en sa présence virtuelle)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/TRIPOLI-1-768x432.jpg",
+      "url": "https://laclefrevival.org/project/tripoli-a-tale-of-three-cities/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-12-03",
+      "hour": 20,
+      "minute": 0,
+      "title": "Si seulement… #3 : Demain…",
+      "director": "",
+      "description": "des Yeux de l'Ouïe",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/Photo_Demain-768x432.jpg",
+      "url": "https://laclefrevival.org/project/si-seulement-3-demain/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-12-04",
+      "hour": 19,
+      "minute": 30,
+      "title": "Focus Nick Deocampo – Revolutions Happen Like Refrains in a Song #1",
+      "director": "Nick Deocampo (en sa présence)",
+      "description": "de Nick Deocampo (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/ND_Private-Wars_1-mod-768x587.jpg",
+      "url": "https://laclefrevival.org/project/focus-nick-deocampo-revolutions-happen-like-refrains-in-a-song-1/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-12-04",
+      "hour": 20,
+      "minute": 0,
+      "title": "Chaos Cassette Club (Krach THF + Decoder + Klaus Maeck + Axel Larsen)",
+      "director": "",
+      "description": "Soirée hommage à Floris Roosen (physicien et pirate des ondes)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/Capture-decran-2026-11-12-171607-768x579.png",
+      "url": "https://laclefrevival.org/project/chaos-cassette-club-krach-thf-decoder-klaus-maeck-axel-larsen/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-12-05",
+      "hour": 18,
+      "minute": 0,
+      "title": "Focus Nick Deocampo – Revolutions Happen Like Refrains in a Song #2",
+      "director": "Nick Deocampo (en sa présence)",
+      "description": "de Nick Deocampo (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/ND_Memories-of-old-Manila_5-mod-768x594.jpeg",
+      "url": "https://laclefrevival.org/project/focus-nick-deocampo-revolutions-happen-like-refrains-in-a-song-2/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-12-05",
+      "hour": 19,
+      "minute": 30,
+      "title": "3 courts-métrages",
+      "director": "Phạm Ngọc Lân",
+      "description": "de Phạm Ngọc Lân",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/Another-city-1-768x432.jpg",
+      "url": "https://laclefrevival.org/project/3-courts-metrages/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-12-05",
+      "hour": 20,
+      "minute": 0,
+      "title": "Focus Nick Deocampo – Revolutions Happen Like Refrains in a Song #3",
+      "director": "Nick Deocampo (en sa présence)",
+      "description": "de Nick Deocampo (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/ND_The-Sex-Warriors-and-the-Samurai_4-mod-768x582.jpg",
+      "url": "https://laclefrevival.org/project/focus-nick-deocampo-revolutions-happen-like-refrains-in-a-song-3/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-12-06",
+      "hour": 20,
+      "minute": 0,
+      "title": "Perfumed With Mint",
+      "director": "Muhammad Hamdy (en sa présence)",
+      "description": "de Muhammad Hamdy (en sa présence)",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/perfumedwithmint.jpg",
+      "url": "https://laclefrevival.org/project/perfumed-with-mint/"
     }
   ]
 }
