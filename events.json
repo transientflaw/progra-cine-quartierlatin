@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-11-13T09:56:41",
+  "generated_at": "2026-11-14T09:16:08",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-13",
-      "hour": 19,
-      "minute": 0,
-      "title": "Adolescentes – Une séance de courts-métrages",
-      "director": "Lily Belbèze, Mahaut Guillon (en leur présence)",
-      "description": "de Lily Belbèze, Mahaut Guillon (en leur présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/MIL-Photogramme-n5-mod-768x321.jpg",
-      "url": "https://laclefrevival.org/project/adolescentes-une-seance-de-courts-metrages/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-13",
-      "hour": 20,
-      "minute": 0,
-      "title": "Marie-Claude Treilhou invite Gaël Lépingle",
-      "director": "",
-      "description": "\"Retour avant 15h\" de Gaël Lépingle",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/retour-avant-15-heures-768x432.jpg",
-      "url": "https://laclefrevival.org/project/marie-claude-treilhou-invite-gael-lepingle/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-11-14",
