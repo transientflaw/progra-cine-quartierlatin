@@ -1,51 +1,7 @@
 {
-  "generated_at": "2026-11-14T09:16:08",
+  "generated_at": "2026-11-15T09:46:12",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-14",
-      "hour": 16,
-      "minute": 0,
-      "title": "Marie-Claude Treilhou invite Anna Roussillon",
-      "director": "",
-      "description": "\"Je suis le peuple\" d'Anna Roussillon",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/1423-768x381.jpg",
-      "url": "https://laclefrevival.org/project/marie-claude-treilhou-invite-anna-roussillon/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-14",
-      "hour": 19,
-      "minute": 30,
-      "title": "Concert Soupirail présente",
-      "director": "",
-      "description": "3 groupes de musique",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/Soupirail-concert-768x505.jpg",
-      "url": "https://laclefrevival.org/project/concert-soupirail-presente/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-14",
-      "hour": 19,
-      "minute": 30,
-      "title": "Clôture de la carte blanche à Marie-Claude Treilhou",
-      "director": "",
-      "description": "\"Simone Barbès ou la vertu\" de Marie-Claude Treilhou",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/10/simoe-ba-768x431.png",
-      "url": "https://laclefrevival.org/project/cloture-de-la-carte-blanche-a-marie-claude-treilhou/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-14",
-      "hour": 20,
-      "minute": 0,
-      "title": "Rodrigo D: No Futuro",
-      "director": "Victor Gaviria",
-      "description": "de Victor Gaviria",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/rodrigo_d.-_still-768x240.jpg",
-      "url": "https://laclefrevival.org/project/rodrigo-d-no-futuro/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-11-15",
@@ -304,9 +260,9 @@
       "date": "2026-12-05",
       "hour": 19,
       "minute": 30,
-      "title": "3 courts-métrages",
-      "director": "Phạm Ngọc Lân",
-      "description": "de Phạm Ngọc Lân",
+      "title": "3 courts-métrages de Phạm Ngọc Lân",
+      "director": "",
+      "description": "Vietnam",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/Another-city-1-768x432.jpg",
       "url": "https://laclefrevival.org/project/3-courts-metrages/"
     },
