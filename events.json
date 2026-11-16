@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-11-15T09:46:12",
+  "generated_at": "2026-11-16T10:03:36",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-15",
-      "hour": 16,
-      "minute": 0,
-      "title": "Les Ambassadeurs",
-      "director": "Naceur Ktari (en sa présence)",
-      "description": "de Naceur Ktari (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/ambassadeurs1-768x403.jpg",
-      "url": "https://laclefrevival.org/project/les-ambassadeurs/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-15",
-      "hour": 20,
-      "minute": 0,
-      "title": "Dedans/Dehors : Courts métrages réalisés en milieu carcéral",
-      "director": "",
-      "description": "\"Lucarne\" et \"La ville qui passe les murs\" (en présence des réalisateurs)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/image001-768x384.png",
-      "url": "https://laclefrevival.org/project/dedans-dehors-courts-metrages-realises-en-milieu-carceral/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-11-18",
