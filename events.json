@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T10:03:36",
+  "generated_at": "2026-11-17T11:04:45",
   "source": "Sites officiels des cinémas",
   "events": [
     {
@@ -254,6 +254,17 @@
       "description": "de Nick Deocampo (en sa présence)",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/ND_The-Sex-Warriors-and-the-Samurai_4-mod-768x582.jpg",
       "url": "https://laclefrevival.org/project/focus-nick-deocampo-revolutions-happen-like-refrains-in-a-song-3/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-12-06",
+      "hour": 16,
+      "minute": 0,
+      "title": "Cycle Guillaume Dustan #3",
+      "director": "Guillaume Dustan",
+      "description": "de Guillaume Dustan",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/autrechose-mod-768x562.jpg",
+      "url": "https://laclefrevival.org/project/cycle-guillaume-dustan-3/"
     },
     {
       "cinema_id": "laClef",
