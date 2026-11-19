@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-11-18T10:35:36",
+  "generated_at": "2026-11-19T10:39:13",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-18",
-      "hour": 20,
-      "minute": 0,
-      "title": "In Memoriam : GTA avant GTA VI",
-      "director": "Phil Solomon",
-      "description": "de Phil Solomon",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/48852_rehearsal.jpg-768x478.webp",
-      "url": "https://laclefrevival.org/project/in-memoriam-gta-avant-gta-vi/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-11-19",
