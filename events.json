@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-11-19T10:39:13",
+  "generated_at": "2026-11-20T10:22:31",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-19",
-      "hour": 20,
-      "minute": 0,
-      "title": "Saule Pleureur",
-      "director": "Merlin Dutertre (en sa présence)",
-      "description": "de Merlin Dutertre (en sa présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/Saule-pleureur-768x466.jpg",
-      "url": "https://laclefrevival.org/project/saule-pleureur/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-11-20",
@@ -169,6 +158,28 @@
     },
     {
       "cinema_id": "laClef",
+      "date": "2026-12-02",
+      "hour": 18,
+      "minute": 0,
+      "title": "Amnistie pour toustes les réprimé.es",
+      "director": "",
+      "description": "Réunion publique",
+      "poster": "",
+      "url": "https://laclefrevival.org/project/amnistie-pour-toustes-les-reprime-es/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-12-02",
+      "hour": 20,
+      "minute": 0,
+      "title": "Juvenile Court",
+      "director": "Frederick Wiseman",
+      "description": "de Frederick Wiseman",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/tmdb-3CbuCeCf07ifBpFHrv9V4m3QgOG-768x432.jpg",
+      "url": "https://laclefrevival.org/project/juvenile-court/"
+    },
+    {
+      "cinema_id": "laClef",
       "date": "2026-12-03",
       "hour": 20,
       "minute": 0,
@@ -254,6 +265,17 @@
       "description": "de Guillaume Dustan",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/autrechose-mod-768x562.jpg",
       "url": "https://laclefrevival.org/project/cycle-guillaume-dustan-3/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-12-06",
+      "hour": 17,
+      "minute": 0,
+      "title": "Fatma 75",
+      "director": "Selma Baccar",
+      "description": "de Selma Baccar",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/tmdb-aoyAB9aW9RyfeIKlYSk8ZbQ73eu-768x432.jpg",
+      "url": "https://laclefrevival.org/project/fatma-75/"
     },
     {
       "cinema_id": "laClef",
