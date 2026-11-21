@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-11-20T10:22:31",
+  "generated_at": "2026-11-21T10:08:54",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-20",
-      "hour": 20,
-      "minute": 0,
-      "title": "Films à crédit 1 : Les rois de la dette",
-      "director": "David Wark Griffith, Eva Barto",
-      "description": "de David Wark Griffith, Eva Barto",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/The-Making-of-the-lure-1-768x433.jpg",
-      "url": "https://laclefrevival.org/project/films-a-credit-1-les-rois-de-la-dette/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-11-21",
