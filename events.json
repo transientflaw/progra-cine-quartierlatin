@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-11-21T10:08:54",
+  "generated_at": "2026-11-22T10:07:48",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-21",
-      "hour": 16,
-      "minute": 0,
-      "title": "Nos urbanités (séance de courts métrages – première partie)",
-      "director": "Souleymane Sylla, Elisa Budin & Nassim Boudraa (en leur présence), Johanna Makabi",
-      "description": "de Souleymane Sylla, Elisa Budin & Nassim Boudraa (en leur présence), Johanna Makabi",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/Flamant-Rose-3-768x325.jpg",
-      "url": "https://laclefrevival.org/project/nos-urbanites-seance-de-courts-metrages-premiere-partie/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-21",
-      "hour": 20,
-      "minute": 0,
-      "title": "Nos urbanités (séance de courts métrages – deuxième partie)",
-      "director": "Brinda Mahatsanga, Victoria Neto, Sirandou Soukouna (en leur présence)",
-      "description": "de Brinda Mahatsanga, Victoria Neto, Sirandou Soukouna (en leur présence)",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/Sodade-1-768x576.webp",
-      "url": "https://laclefrevival.org/project/nos-urbanites-seance-de-courts-metrages-deuxieme-partie/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-11-22",
