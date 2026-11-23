@@ -1,40 +1,7 @@
 {
-  "generated_at": "2026-11-22T10:07:48",
+  "generated_at": "2026-11-23T11:04:42",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-22",
-      "hour": 16,
-      "minute": 0,
-      "title": "Cycle Guillaume Dustan #1",
-      "director": "Guillaume Dustan",
-      "description": "de Guillaume Dustan",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/songsinthekeyofmoi1-768x576.jpg",
-      "url": "https://laclefrevival.org/project/cycle-guillaume-dustan-1/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-22",
-      "hour": 19,
-      "minute": 0,
-      "title": "Diaries 1971-1976",
-      "director": "Ed Pincus",
-      "description": "d'Ed Pincus",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/B4988324AF6A4848B1F07B50CC28484B-768x426.jpeg",
-      "url": "https://laclefrevival.org/project/diaries/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-22",
-      "hour": 19,
-      "minute": 0,
-      "title": "Novembre Experimental : clôture discoïde",
-      "director": "Marcel Duchamp / Rose Sélavy, duo Sculpture, Guido Devadder et Kaitlin McSweeney",
-      "description": "de Marcel Duchamp / Rose Sélavy, duo Sculpture, Guido Devadder et Kaitlin McSweeney",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/Anemic-Cinema_Still1-1-768x415.png",
-      "url": "https://laclefrevival.org/project/novembre-experimental-cloture-discoide/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-11-25",
@@ -243,6 +210,17 @@
       "description": "de Selma Baccar",
       "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/tmdb-aoyAB9aW9RyfeIKlYSk8ZbQ73eu-768x432.jpg",
       "url": "https://laclefrevival.org/project/fatma-75/"
+    },
+    {
+      "cinema_id": "laClef",
+      "date": "2026-12-06",
+      "hour": 19,
+      "minute": 0,
+      "title": "Brésil en Fête",
+      "director": "",
+      "description": "\"No Céu da Pátria Nesse Instante\" de Sandra Kogut",
+      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/no-ceu-da-patria-nesse-instante-768x432.jpg",
+      "url": "https://laclefrevival.org/project/bresil-en-fete/"
     },
     {
       "cinema_id": "laClef",
