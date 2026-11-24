@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T12:58:51",
+  "generated_at": "2026-11-24T23:19:47",
   "source": "L'Officiel des spectacles (offi.fr)",
   "cinemas": [
     {
@@ -18413,7 +18413,7 @@
       "lang": "",
       "director": "Clément Michel",
       "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108665/images/200/f890ac0a003455d970ebbd5e8e4a14ec.jpg"
+      "poster": "https://files.offi.fr/evenement/108665/images/200/2d1cfb576effccd9ad44a38efe795292.jpg"
     },
     {
       "cinema_id": "ugcDanton",
@@ -34039,7 +34039,7 @@
       "lang": "",
       "director": "Clément Michel",
       "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108665/images/200/f890ac0a003455d970ebbd5e8e4a14ec.jpg"
+      "poster": "https://files.offi.fr/evenement/108665/images/200/2d1cfb576effccd9ad44a38efe795292.jpg"
     },
     {
       "cinema_id": "ugcBercy",
@@ -54709,7 +54709,7 @@
       "lang": "",
       "director": "Clément Michel",
       "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108665/images/200/f890ac0a003455d970ebbd5e8e4a14ec.jpg"
+      "poster": "https://files.offi.fr/evenement/108665/images/200/2d1cfb576effccd9ad44a38efe795292.jpg"
     },
     {
       "cinema_id": "ugcParis19",
@@ -59966,32 +59966,6 @@
     {
       "cinema_id": "pathePalace",
       "date": "2026-11-25",
-      "hour": 16,
-      "minute": 0,
-      "title": "Hunger Games : Lever de soleil sur la moisson",
-      "genre": "Action / Aventure",
-      "duration": "2h38",
-      "lang": "VF",
-      "director": "Francis Lawrence",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108492/images/200/724795da411b11a8951920d31e88d489.jpg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-25",
-      "hour": 19,
-      "minute": 15,
-      "title": "Hunger Games : Lever de soleil sur la moisson",
-      "genre": "Action / Aventure",
-      "duration": "2h38",
-      "lang": "VF",
-      "director": "Francis Lawrence",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108492/images/200/724795da411b11a8951920d31e88d489.jpg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-25",
       "hour": 13,
       "minute": 0,
       "title": "Karma",
@@ -60092,45 +60066,6 @@
       "director": "Ti West",
       "year": "2026",
       "poster": "https://files.offi.fr/evenement/108395/images/200/5cd40bdaa0ef28f3cb1f14f2ed93be4f.jpg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-25",
-      "hour": 13,
-      "minute": 15,
-      "title": "Wild Horse Nine",
-      "genre": "Thriller",
-      "duration": "1h58",
-      "lang": "",
-      "director": "Martin McDonagh",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108322/images/200/e6b4599bfd4d2f3ef88abd2865e3e331.jpeg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-25",
-      "hour": 19,
-      "minute": 45,
-      "title": "Wild Horse Nine",
-      "genre": "Thriller",
-      "duration": "1h58",
-      "lang": "",
-      "director": "Martin McDonagh",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108322/images/200/e6b4599bfd4d2f3ef88abd2865e3e331.jpeg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-25",
-      "hour": 22,
-      "minute": 30,
-      "title": "Wild Horse Nine",
-      "genre": "Thriller",
-      "duration": "1h58",
-      "lang": "",
-      "director": "Martin McDonagh",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108322/images/200/e6b4599bfd4d2f3ef88abd2865e3e331.jpeg"
     },
     {
       "cinema_id": "pathePalace",
@@ -60317,19 +60252,6 @@
     {
       "cinema_id": "pathePalace",
       "date": "2026-11-26",
-      "hour": 20,
-      "minute": 30,
-      "title": "Hunger Games : Lever de soleil sur la moisson",
-      "genre": "Action / Aventure",
-      "duration": "2h38",
-      "lang": "VF",
-      "director": "Francis Lawrence",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108492/images/200/724795da411b11a8951920d31e88d489.jpg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-26",
       "hour": 18,
       "minute": 30,
       "title": "Karma",
@@ -60417,45 +60339,6 @@
       "director": "Ti West",
       "year": "2026",
       "poster": "https://files.offi.fr/evenement/108395/images/200/5cd40bdaa0ef28f3cb1f14f2ed93be4f.jpg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-26",
-      "hour": 17,
-      "minute": 45,
-      "title": "Wild Horse Nine",
-      "genre": "Thriller",
-      "duration": "1h58",
-      "lang": "",
-      "director": "Martin McDonagh",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108322/images/200/e6b4599bfd4d2f3ef88abd2865e3e331.jpeg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-26",
-      "hour": 20,
-      "minute": 35,
-      "title": "Wild Horse Nine",
-      "genre": "Thriller",
-      "duration": "1h58",
-      "lang": "",
-      "director": "Martin McDonagh",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108322/images/200/e6b4599bfd4d2f3ef88abd2865e3e331.jpeg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-26",
-      "hour": 22,
-      "minute": 30,
-      "title": "Wild Horse Nine",
-      "genre": "Thriller",
-      "duration": "1h58",
-      "lang": "",
-      "director": "Martin McDonagh",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108322/images/200/e6b4599bfd4d2f3ef88abd2865e3e331.jpeg"
     },
     {
       "cinema_id": "pathePalace",
@@ -60661,45 +60544,6 @@
       "genre": "Action / Aventure",
       "duration": "2h38",
       "lang": "VO",
-      "director": "Francis Lawrence",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108492/images/200/724795da411b11a8951920d31e88d489.jpg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-27",
-      "hour": 15,
-      "minute": 30,
-      "title": "Hunger Games : Lever de soleil sur la moisson",
-      "genre": "Action / Aventure",
-      "duration": "2h38",
-      "lang": "VF",
-      "director": "Francis Lawrence",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108492/images/200/724795da411b11a8951920d31e88d489.jpg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-27",
-      "hour": 16,
-      "minute": 45,
-      "title": "Hunger Games : Lever de soleil sur la moisson",
-      "genre": "Action / Aventure",
-      "duration": "2h38",
-      "lang": "VF",
-      "director": "Francis Lawrence",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108492/images/200/724795da411b11a8951920d31e88d489.jpg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-27",
-      "hour": 19,
-      "minute": 0,
-      "title": "Hunger Games : Lever de soleil sur la moisson",
-      "genre": "Action / Aventure",
-      "duration": "2h38",
-      "lang": "VF",
       "director": "Francis Lawrence",
       "year": "2026",
       "poster": "https://files.offi.fr/evenement/108492/images/200/724795da411b11a8951920d31e88d489.jpg"
@@ -60810,32 +60654,6 @@
     },
     {
       "cinema_id": "pathePalace",
-      "date": "2026-11-27",
-      "hour": 14,
-      "minute": 0,
-      "title": "Wild Horse Nine",
-      "genre": "Thriller",
-      "duration": "1h58",
-      "lang": "",
-      "director": "Martin McDonagh",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108322/images/200/e6b4599bfd4d2f3ef88abd2865e3e331.jpeg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-27",
-      "hour": 20,
-      "minute": 0,
-      "title": "Wild Horse Nine",
-      "genre": "Thriller",
-      "duration": "1h58",
-      "lang": "",
-      "director": "Martin McDonagh",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108322/images/200/e6b4599bfd4d2f3ef88abd2865e3e331.jpeg"
-    },
-    {
-      "cinema_id": "pathePalace",
       "date": "2026-11-28",
       "hour": 10,
       "minute": 0,
@@ -61149,32 +60967,6 @@
     {
       "cinema_id": "pathePalace",
       "date": "2026-11-28",
-      "hour": 15,
-      "minute": 45,
-      "title": "Hunger Games : Lever de soleil sur la moisson",
-      "genre": "Action / Aventure",
-      "duration": "2h38",
-      "lang": "VF",
-      "director": "Francis Lawrence",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108492/images/200/724795da411b11a8951920d31e88d489.jpg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-28",
-      "hour": 19,
-      "minute": 15,
-      "title": "Hunger Games : Lever de soleil sur la moisson",
-      "genre": "Action / Aventure",
-      "duration": "2h38",
-      "lang": "VF",
-      "director": "Francis Lawrence",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108492/images/200/724795da411b11a8951920d31e88d489.jpg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-28",
       "hour": 13,
       "minute": 15,
       "title": "Karma",
@@ -61301,45 +61093,6 @@
       "director": "Ti West",
       "year": "2026",
       "poster": "https://files.offi.fr/evenement/108395/images/200/5cd40bdaa0ef28f3cb1f14f2ed93be4f.jpg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-28",
-      "hour": 13,
-      "minute": 0,
-      "title": "Wild Horse Nine",
-      "genre": "Thriller",
-      "duration": "1h58",
-      "lang": "",
-      "director": "Martin McDonagh",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108322/images/200/e6b4599bfd4d2f3ef88abd2865e3e331.jpeg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-28",
-      "hour": 20,
-      "minute": 15,
-      "title": "Wild Horse Nine",
-      "genre": "Thriller",
-      "duration": "1h58",
-      "lang": "",
-      "director": "Martin McDonagh",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108322/images/200/e6b4599bfd4d2f3ef88abd2865e3e331.jpeg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-28",
-      "hour": 22,
-      "minute": 45,
-      "title": "Wild Horse Nine",
-      "genre": "Thriller",
-      "duration": "1h58",
-      "lang": "",
-      "director": "Martin McDonagh",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108322/images/200/e6b4599bfd4d2f3ef88abd2865e3e331.jpeg"
     },
     {
       "cinema_id": "pathePalace",
@@ -61630,32 +61383,6 @@
     {
       "cinema_id": "pathePalace",
       "date": "2026-11-29",
-      "hour": 15,
-      "minute": 45,
-      "title": "Hunger Games : Lever de soleil sur la moisson",
-      "genre": "Action / Aventure",
-      "duration": "2h38",
-      "lang": "VF",
-      "director": "Francis Lawrence",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108492/images/200/724795da411b11a8951920d31e88d489.jpg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-29",
-      "hour": 19,
-      "minute": 0,
-      "title": "Hunger Games : Lever de soleil sur la moisson",
-      "genre": "Action / Aventure",
-      "duration": "2h38",
-      "lang": "VF",
-      "director": "Francis Lawrence",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108492/images/200/724795da411b11a8951920d31e88d489.jpg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-29",
       "hour": 0,
       "minute": 30,
       "title": "Mon beau-père, ma belle-fille et moi",
@@ -61782,45 +61509,6 @@
       "director": "Peter Jackson",
       "year": "2002",
       "poster": ""
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-29",
-      "hour": 10,
-      "minute": 30,
-      "title": "Wild Horse Nine",
-      "genre": "Thriller",
-      "duration": "1h58",
-      "lang": "",
-      "director": "Martin McDonagh",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108322/images/200/e6b4599bfd4d2f3ef88abd2865e3e331.jpeg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-29",
-      "hour": 13,
-      "minute": 0,
-      "title": "Wild Horse Nine",
-      "genre": "Thriller",
-      "duration": "1h58",
-      "lang": "",
-      "director": "Martin McDonagh",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108322/images/200/e6b4599bfd4d2f3ef88abd2865e3e331.jpeg"
-    },
-    {
-      "cinema_id": "pathePalace",
-      "date": "2026-11-29",
-      "hour": 19,
-      "minute": 45,
-      "title": "Wild Horse Nine",
-      "genre": "Thriller",
-      "duration": "1h58",
-      "lang": "",
-      "director": "Martin McDonagh",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108322/images/200/e6b4599bfd4d2f3ef88abd2865e3e331.jpeg"
     },
     {
       "cinema_id": "pathePalace",
@@ -70548,32 +70236,6 @@
     {
       "cinema_id": "patheParnasse",
       "date": "2026-11-26",
-      "hour": 20,
-      "minute": 20,
-      "title": "Billie à la croisée des mondes",
-      "genre": "Animation",
-      "duration": "1h43",
-      "lang": "VO",
-      "director": "Jason Hand , Josie Trinidad , Fawn Veerasunthorn",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108563/images/200/fb379c6ced38f914bb544df659a44b0b.jpg"
-    },
-    {
-      "cinema_id": "patheParnasse",
-      "date": "2026-11-26",
-      "hour": 22,
-      "minute": 20,
-      "title": "Billie à la croisée des mondes",
-      "genre": "Animation",
-      "duration": "1h43",
-      "lang": "VO",
-      "director": "Jason Hand , Josie Trinidad , Fawn Veerasunthorn",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108563/images/200/fb379c6ced38f914bb544df659a44b0b.jpg"
-    },
-    {
-      "cinema_id": "patheParnasse",
-      "date": "2026-11-26",
       "hour": 23,
       "minute": 35,
       "title": "Clayface",
@@ -71399,32 +71061,6 @@
       "genre": "Animation",
       "duration": "1h43",
       "lang": "VF",
-      "director": "Jason Hand , Josie Trinidad , Fawn Veerasunthorn",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108563/images/200/fb379c6ced38f914bb544df659a44b0b.jpg"
-    },
-    {
-      "cinema_id": "patheParnasse",
-      "date": "2026-11-27",
-      "hour": 20,
-      "minute": 15,
-      "title": "Billie à la croisée des mondes",
-      "genre": "Animation",
-      "duration": "1h43",
-      "lang": "VO",
-      "director": "Jason Hand , Josie Trinidad , Fawn Veerasunthorn",
-      "year": "2026",
-      "poster": "https://files.offi.fr/evenement/108563/images/200/fb379c6ced38f914bb544df659a44b0b.jpg"
-    },
-    {
-      "cinema_id": "patheParnasse",
-      "date": "2026-11-27",
-      "hour": 22,
-      "minute": 30,
-      "title": "Billie à la croisée des mondes",
-      "genre": "Animation",
-      "duration": "1h43",
-      "lang": "VO",
       "director": "Jason Hand , Josie Trinidad , Fawn Veerasunthorn",
       "year": "2026",
       "poster": "https://files.offi.fr/evenement/108563/images/200/fb379c6ced38f914bb544df659a44b0b.jpg"
