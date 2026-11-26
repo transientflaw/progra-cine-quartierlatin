@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-11-25T11:38:10",
+  "generated_at": "2026-11-26T11:21:03",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-25",
-      "hour": 19,
-      "minute": 0,
-      "title": "Cinémathèque Afrique – carte blanche à Zineb Sedira",
-      "director": "Paulin Soumanou Vieyra, Désiré Écaré",
-      "description": "de Paulin Soumanou Vieyra, Désiré Écaré",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/7eeba86382b032fd701a91ad16a78b50-768x432.jpg",
-      "url": "https://laclefrevival.org/project/cinematheque-afrique-carte-blanche-a-zineb-sedira/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-11-26",
