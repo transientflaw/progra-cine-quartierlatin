@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-11-26T11:21:03",
+  "generated_at": "2026-11-27T11:10:01",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-26",
-      "hour": 20,
-      "minute": 0,
-      "title": "Bogoshorts en Paris",
-      "director": "",
-      "description": "5 courts-métrages",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/Bogoshorts-Malicia-768x574.jpg",
-      "url": "https://laclefrevival.org/project/bogoshorts-en-paris/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-11-27",
@@ -38,8 +27,8 @@
     {
       "cinema_id": "laClef",
       "date": "2026-11-28",
-      "hour": 16,
-      "minute": 0,
+      "hour": 17,
+      "minute": 30,
       "title": "La Bataille du Chili, 2ème partie (Le coup d’état militaire)",
       "director": "Patricio Guzmán",
       "description": "de Patricio Guzmán",
@@ -50,7 +39,7 @@
       "cinema_id": "laClef",
       "date": "2026-11-28",
       "hour": 20,
-      "minute": 0,
+      "minute": 30,
       "title": "La Bataille du Chili, 3ème partie (Le Pouvoir populaire)",
       "director": "Patricio Guzmán",
       "description": "de Patricio Guzmán",
