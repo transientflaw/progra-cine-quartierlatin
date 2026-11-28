@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-11-27T11:10:01",
+  "generated_at": "2026-11-28T10:50:31",
   "source": "Sites officiels des cinémas",
   "events": [
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-27",
-      "hour": 19,
-      "minute": 0,
-      "title": "Boycott universitaire, solidarités académiques",
-      "director": "",
-      "description": "Rencontre-discussion",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/2025-10-07T133838Z_1138246102_RC217HAIFVAB_RTRMADP_3_ISRAEL-PALESTINIANS-ANNIVERSARY-PROTESTS-BRITAIN-1-scaled-2-768x513.jpg",
-      "url": "https://laclefrevival.org/project/boycott-universitaire-solidarites-academiques/"
-    },
-    {
-      "cinema_id": "laClef",
-      "date": "2026-11-27",
-      "hour": 20,
-      "minute": 0,
-      "title": "Autour de Daniel Bensaïd",
-      "director": "",
-      "description": "Conférence-projection avec Olivier Besancenot et Carmen Castillo",
-      "poster": "https://laclefrevival.org/wp-content/uploads/2026/11/DBV_page-0001.jpg",
-      "url": "https://laclefrevival.org/project/autour-de-daniel-bensaid/"
-    },
     {
       "cinema_id": "laClef",
       "date": "2026-11-28",
